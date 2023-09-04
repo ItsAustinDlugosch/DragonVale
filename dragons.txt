@@ -1,0 +1,1235 @@
+Air,Primary,A,Fire+Water,2:00:00,100% (33%),0% (?%),0% (?%),0% (?%),
+Blazing,Hybrid,FA,fire+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Fiery Forage
+Snow,Hybrid,CA,cold+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Furious Flurry
+Sonic,Hybrid,LA,lightning+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Green Hill Havoc
+Willow,Hybrid,PA,plant+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Weeping Waterfall
+Fog,Hybrid,WA,water+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Miasma Menace
+Sandstorm,Rare,EA,air+earth,2:00:00,5%,4% (15%),1% (?%),1% (?%),Tectonica Toil
+Chrome,Hybrid,AM,air+metal,5:00:00,*%,10% (20%),1% (?%),1% (?%),Ride Eternal
+Dodo,Rare,EA,earth+air,16:00:00,5%,4% (15%),1% (?%),1% (?%),Fight or Fight
+Pollen,Hybrid,PA,plant+air,7:00:00,*%,10% (20%),1% (?%),1% (?%),Fields of Achoo
+Rain,Hybrid,WA,water+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Torrential Tribulation
+Smoke,Hybrid,FA,fire+air,14:00:00,*%,10% (20%),1% (?%),1% (?%),The Other Side
+Thunder,Hybrid,LA,lightning+air,8:30:00,*%,10% (20%),1% (?%),1% (?%),Plunder Strike
+Hypnotic,Hybrid,AI,light+air,21:30:00,*%,10% (20%),1% (?%),1% (?%),Mesmeric Mausoleum
+Wind,Hybrid,AI,air+light,5:00:00,*%,10% (20%),1% (?%),1% (?%),Zesty Zephyr
+Howl,Hybrid,AD,dark+air,12:30:00,*%,10% (20%),1% (?%),1% (?%),Allengin Pass
+Miasma,Hybrid,AD,air+dark,10:30:00,*%,10% (20%),1% (?%),1% (?%),Smog Bog
+Orchid,Rare,PA,plant+air,9:00:00,5%,3% (15%),1% (?%),1% (?%),Koo Hill Trek
+Halo,Rare,AI,air+light,12:00:00,3%,2% (15%),1% (?%),1% (?%),Paradise Palisade
+Inferno,Rare,FA,air+fire,8:00:00,5%,4% (10%),1% (?%),1% (?%),Dante's Dungeon
+Vortex,Rare,WA,water+air,14:00:00,5%,4% (10%),1% (?%),1% (?%),Spiraling Storm
+Bubble,Rare,WA,air+water,10:00:00,5%,4% (10%),1% (?%),1% (?%),Sudsy Shores
+Smolder,Rare,FA,fire+air,11:00:00,5%,?% (15%),?% (30%),?% (30%),Smoke on the Boulder
+Verdigris,Rare,AM,air+metal,7:30:00,5%,?% (15%),?% (30%),?% (30%),Anti-Gravity Antics
+Iridescent,Rare,AI,light+air,13:00:00,5%,4% (15%),1% (?%),1% (?%),Chroma Chasm
+Cyclone,Rare,LA,lightning+air,18:00:00,5%,4% (15%),1% (30%),1% (30%),Witchitoto Plains
+Jetstream,Rare,CA,cold+air,10:00:00,5%,4% (15%),1% (30%),1% (30%),Conspiracy Bluff
+Blightwing,Rare,FAR,fire+air+rift+[dark trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Timeless Tail
+Air Rift,Primary Rift,AR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Questionable Heights
+Kampos,Rare,WAR,rift+[water trait],0:00:00,3% (1%),0% (0%),0% (0%),1% (15%),Ye Olde Rescue
+Plumewing,Rare,FAR,rift+[air trait],0:00:00,3% (1%),0% (0%),0% (0%),1% (15%),Shiny Start
+Viridian,Rare,PAR,Dodo+Malachite+rift+[dodo fire trait]+[malachite light trait],0:00:00,1%,0% (0%),0% (0%),1% (15%),Ardent Valley
+Dandelion,Rare,PA,air+plant,7:30:00,5%,4% (15%),1% (?%),1% (?%),Breeze Floating
+Chimneypuff,Rare,AD,dark+air,23:00:00,5%,4% (10%),1% (25%),1% (20%),Swift Sweeper
+Derecho,Rare,CA,air+cold,16:00:00,2.5%,4% (15%),1% (30%),1% (30%),Adrenaline Rush
+Daylily,Rare,PFA,air+fire+plant,16:00:00,5%,3.5% (10%),1% (30%),1% (30%),Daily Lily
+Whirlwind,Rare,EA,earth+air,20:00:00,5%,10% (20%),1% (30%),1% (30%),Windy and Whirly
+Khamsin,Rare,EA,air+earth,12:00:00,5%,10% (20%),1% (30%),1% (30%),Dust Storm
+Paper,Rare,PFEC,fire+earth+plant+cold,12:00:00,3%,2% (5%),1% (?%),1% (?%),Backflip Trip
+Cotton,Rare,PFEL,plant+earth+fire+lightning,24:00:00,3%,2% (10%),1% (?%),1% (?%),Textile Test
+Leathery,Rare,FECL,lightning+fire+earth+cold,36:00:00,3%,2% (5%),1% (?%),1% (?%),Hide & Seek
+Garland,Rare,PFEL,fire+plant+earth+lightning,24:00:00,3%,2% (15%),1% (?%),1% (?%),Laurel Lament
+Wyrmwood,Rare,PFEC,earth+fire+plant+cold,18:00:00,3%,2% (10%),1% (?%),1% (?%),The 5th Precipice
+Ironwrought,Rare,EWAM,metal+earth+water+air,12:00:00,3%,2% (10%),1% (?%),1% (?%),Pumpermelon Pull
+Embossed,Rare,ECLM,metal+earth+cold+lightning,36:00:00,0.5%,2% (10%),30% (?%),30% (?%),Alloy Analysis
+Terracotta,Rare,FEWM,earth+water+metal+fire,24:00:00,0.5%,2% (10%),1% (30%),0.1% (30%),A Molded Marker
+Woven,Rare,PEAI,air+plant+earth+light,24:00:00,1.5%,2% (10%),1% (30%),1% (30%),Weaving Through
+Tien,Rare,EAMI,metal+light+earth+air,10:00:00,2.5%,2% (10%),1% (30%),1% (30%),Ten Tins
+Vaul,Rare,EMDR,earth+metal+rift+[dark trait],0:00:00,1%,0% (0%),0% (0%),1% (15%),Claws of Steel
+Apocalypse,Epic,Ap,plant+cold+metal+lightning,20:12:00,3%,1% (5%),?% (?%),?% (?%),Prophetic Pursuit
+Ouroboros,Epic,Ap,Magnetic+water,26:24:00,3%,2% (5%),?% (?%),?% (?%),Infinite Loop
+Zombie,Epic,Ap,Meteor+Pollen,20:00:00,3%,1% (5%),10% (?%),?% (?%),Plaaaaaaaaains
+Ragnarok,Epic,Ap,fire+earth+cold+dark,39:27:00,2%,1% (5%),?% (?%),?% (?%),Serpentine Point
+Omen,Epic,ApMo,Moon+Apocalypse,27:00:00,3%,2% (5%),?% (?%),?% (?%),Trial DCLVI
+Snowpocalypse,Epic,Ap,Winter+Apocalypse,20:00:00,3%,1% (5%),5% (30%),5% (30%),Clouds of Garita
+Misfortune,Epic,ApTr,treasure+apocalypse+[night],46:00:00,1.5% (0.5%),1% (5%),5% (?%),5% (?%),Misadventure Time
+Fury,Epic,Ap,Misfortune+Snowpocalypse,46:00:00,3%,1% (5%),5% (30%),5% (30%),Inception Misconception
+Charlatan,Epic,Ap,Apocalypse+Spirit,16:00:00,0.5% (1%),1.5% (10%),0.75% (30%),0.75% (30%),Composed Conquest
+Scourge,Epic,Ap,Decay+Misfortune,11:30:00,0.5% (1%),1.5% (10%),0.75% (30%),0.75% (30%),Feast or Famine
+Barbarous,Epic,Ap,Oni+Ragnarok,13:45:00,0.5% (1%),1.5% (10%),0.75% (30%),0.75% (30%),Ruins of War
+Macabre,Epic,Ap,Spectre+Zombie,16:39:36,0.5% (1%),1.5% (10%),0.75% (30%),0.75% (30%),Death Defying
+Wendigo,Epic,FECAp,Macabre+Bone,22:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Zombie Juice Diet
+Narcis,Epic,MDAp,Ouroboros+dark+metal,28:00:00,4.5%,10% (20%),1% (30%),1% (30%),Daffadowndilly's Cousin
+Zero,Epic,ApOr,Permafrost+Snowpocalypse,28:00:00,3.9%,1% (15%),5% (30%),5% (30%),Below Zero
+Hyperion,Epic,Ap,Fury+Narcis,70:00:00,2%,1.5% (10%),1% (30%),1% (30%),Powerful Presence
+Kage,Epic,Ap,Eldritch+Wrath,23:00:00,4%,1% (15%),5% (30%),5% (30%),Shadowy Visitor
+Hydnellum,Epic,Ap,Wendigo+apocalypse,24:00:00,4%,1% (15%),5% (30%),5% (30%),A Fungus
+Delight,Epic,Au,plant+fire+cold,36:00:00,3%,1% (5%),?% (?%),?% (?%),Manic Antics
+Ire,Epic,Au,plant+earth+fire,12:00:00,6%,1% (5%),?% (?%),?% (?%),Isle of Indignation
+Melancholy,Epic,Au,plant+earth+cold,24:00:00,5%,1% (5%),?% (?%),?% (?%),Swamps of Sadness
+Serenity,Epic,Au,earth+fire+cold,18:00:00,4%,1% (5%),?% (?%),?% (?%),Cape Calm
+Surprise,Epic,Au,[4 elements],24:00:00,9% (1%),1% (5%),?% (?%),?% (?%),Shock and Aww
+Stoneheart,Epic,Au,Love+Melancholy,24:00:00,3%,5% (15%),5% (?%),5% (?%),Mort's Moratorium
+Honeyglow,Epic,Au,Nectar+Ambrosia,31:00:00,3% (2%),1% (5%),1% (30%),1% (30%),Thousand Acre Woods
+Scorn,Epic,Au,plant+earth+fire,44:00:00,5%,1% (10%),5% (?%),5% (?%),Green-eyed Guide
+Smitten,Epic,Au,plant+fire+cold,29:00:00,3%,1% (10%),5% (?%),5% (?%),Overly Attached
+Sweetheart,Epic,Au,Stoneheart+Love,29:00:00,2%,1.5% (10%),1% (?%),5% (?%),Bemine Spelunking
+Spritely,Epic,AuOl,aura+olympus,35:00:00,7% (4%),1% (10%),1% (?%),5% (?%),Painted Hills
+Daffadowndilly,Epic,Au,fire+earth+water,15:00:00,3%,1% (5%),5% (30%),5% (30%),Trial of Denial
+Petunia,Epic,Au,fire+earth+cold+lightning,16:00:00,3%,1% (5%),5% (30%),5% (30%),Anger Wrangler
+Begonia,Epic,Au,water+fire+metal,17:00:00,2%,1% (5%),5% (30%),5% (30%),Brash Bargaining
+Cyclamen,Epic,Au,earth+fire+dark,18:00:00,3%,1% (5%),5% (30%),5% (30%),Depression Secession
+Amaryllis,Epic,Au,plant+air+light,19:00:00,3%,1% (5%),5% (30%),5% (30%),Archetypal Acceptance
+Grace,Epic,Au,Cuddlewing+water+light,22:00:00,2.5%,4% (15%),1% (30%),1% (30%),Two Beautiful Heads
+Entwined,Epic,Au,Love+Sweetheart,26:00:00,2.5%,4% (15%),1% (30%),1% (30%),Partner In Crime
+Canvas,Epic,Au,Sumi+Iron Blossom,30:00:00,2%,4% (15%),1% (30%),1% (30%),A True Masterpiece
+Masque,Epic,Au,Moonstruck+Spritely,32:00:00,1.5%,4% (15%),1% (30%),1% (30%),Who Is Behind The Masque
+Cupido,Epic,Au,Stoneheart+Sweetheart,26:00:00,4.1%,1% (15%),5% (30%),5% (30%),Lovestruck
+Mesmer,Epic,Au,Masque+Scorn,30:00:00,3%,1% (15%),5% (30%),5% (30%),Snap Back to Reality
+Brutiful,Epic,Au,Thorn+Masque,16:00:00,2.45%,1% (15%),5% (30%),5% (30%),Duality
+Mesmerus,Epic,Au,,30:00:00,0%,0% (20%),0% (30%),0% (30%),Under Your Spell
+Lovonone,Epic,Au,Cupido+Scorn,27:00:00,2.9%,1% (15%),5% (30%),5% (30%),True Unity
+Glassia,Epic,PAIAu,Murano+Rose,34:00:00,2.85%,1.5% (15%),5% (30%),5% (30%),Heart of Roses
+Autumn,Epic,Se,fire+cold+air,24:00:00,4%,3% (5%),?% (?%),?% (?%),The Fall
+Berry,Epic,Se,fire+water+light,16:00:00,3%,2% (5%),?% (?%),?% (?%),Fearsome Fruits
+Gourd,Rare,PFED,Pepper+Root,30:51:56,4%,3% (10%),1% (?%),1% (?%),Pumpkin Patch
+Feast,Rare,PEI,plant+earth+light,24:00:00,5%,2% (10%),1% (?%),1% (?%),The Fattening
+Harvest,Rare,PEW,plant+earth+water,18:00:00,5%,2% (10%),1% (?%),1% (?%),Fruitful Feat
+Harvest Moon,Epic,PEWMo,Harvest+Moon,18:00:00,5%,1% (5%),5% (?%),5% (?%),Marigold Moon
+Bogberry,Epic,PWISe,Bog+Berry,16:00:00,3%,2% (10%),1% (?%),1% (?%),Six-Fingered Lake
+Bounteous,Rare,PFE,earth+plant+fire,14:00:00,5%,2% (10%),1% (?%),1% (?%),Bounding Around
+Teozinte,Rare,PEC,earth+plant+cold,22:00:00,5%,2% (10%),1% (?%),1% (?%),Corn Maze
+Plumpkin,Rare,PFE,plant+fire+earth,19:00:00,5%,2% (10%),1% (?%),1% (?%),Pumpermelon Imposter
+Osteryx,Rare,FEA,air+fire+earth,14:00:00,2%,4% (15%),1% (30%),1% (30%),The Boneyard
+Bonescale,Rare,CM,metal+cold,22:00:00,2%,4% (15%),1% (30%),1% (30%),Calcified Crusade
+Whimsical,Rare,PCI,light+plant+cold,18:00:00,3%,5% (10%),5% (30%),5% (30%),Whimsical Miracle
+Apex,Epic,EIHi,hidden+earth+light,22:00:00,2%,1% (10%),5% (30%),5% (30%),At the Pinnacle
+Atramento,Epic,LDHi,hidden+dark+lightning,23:00:00,2%,1% (10%),5% (30%),5% (30%),Ink-redible Experience
+Coldcoil,Epic,CWHi,hidden+cold+water,19:00:00,3.5%,1% (10%),5% (30%),5% (30%),Chilly Shellebration
+Frons,Epic,PMHi,hidden+plant+metal,21:00:00,2%,1% (10%),5% (30%),5% (30%),Falling for You
+Ignis,Epic,FAHi,hidden+fire+air,20:00:00,3%,1% (10%),5% (30%),5% (30%),Ignite the Sky
+Scout,Epic,Hi,Valor+hidden,24:00:00,2%,1% (10%),5% (30%),5% (30%),Camping Trip
+Zipzap,Rare,LD,Hidden Bolt+Spark,18:00:00,4%,10% (20%),1% (30%),1% (30%),Zippity-zip-zap
+Chimmit,Rare,WLID,water+dark+lightning+light,15:00:00,3%,10% (20%),1% (30%),1% (30%),Experienced Piscator
+Chuck,Rare,FEMD,Combustion+Apex,16:00:00,3.5%,1.5% (15%),5% (30%),5% (30%),Wood Cutter
+Chomp,Rare,PFED,Stygian+plant+earth,24:00:00,3%,1.5% (15%),5% (30%),5% (30%),Systematic Muncher
+Wilderness,Epic,Mo,Nightbloom+Seraph,26:00:00,4.5%,1.5% (15%),5% (30%),5% (30%),Expert of the Wild
+Panlong,Rare,FEWA,water+air+earth+fire,36:00:00,3%,1% (5%),0.5% (?%),0.5% (?%),Year of the Dragon
+Leap Year,Epic,Rb,[4 elements],14:30:00,4% (2%),1% (5%),?% (?%),?% (?%),Intercalary Anarchy
+Firework,Rare,FA,fire+air,6:00:00,4%,2.5% (10%),1% (?%),1% (?%),Explosions in the Sky
+Paper,Rare,PFEC,fire+earth+plant+cold,12:00:00,3%,2% (5%),1% (?%),1% (?%),Backflip Trip
+Century,Rare,ECW,earth+water+cold,10:00:00,3%,1% (5%),0.5% (30%),0.5% (30%),Five Score Frenzy
+Bouquet,Rare,PFW,Flower+water,9:00:00,5%,3% (10%),1% (?%),1% (?%),Floral Flight
+Bearded,Rare,ECM,Mountain+metal,15:00:00,5%,3% (10%),1% (?%),1% (?%),Close Shave
+Liberty,Rare,LAM,Copper+air,29:49:00,5%,3% (10%),1% (?%),1% (?%),Beacons of Freedom
+Cotton,Rare,PFEL,plant+earth+fire+lightning,24:00:00,3%,2% (10%),1% (?%),1% (?%),Textile Test
+Victory,Epic,Ol,air+cold+lightning,36:00:00,3%,1% (5%),?% (?%),?% (?%),Triumph Turlough
+Carnival,Rare,PFE,Pepper+earth,12:00:00,5%,2% (10%),1% (?%),1% (?%),Jubilee Spree
+Leathery,Rare,FECL,lightning+fire+earth+cold,36:00:00,3%,2% (5%),1% (?%),1% (?%),Hide & Seek
+Bicentennial,Rare,FLA,lightning+fire+air,20:00:00,2%,1% (5%),0.5% (?%),0.5% (?%),Ten Score Trench
+Darkling,Rare,LD,dark+lightning,14:00:00,3%,2% (10%),1% (?%),1% (?%),The Bolts of Faridat
+Garland,Rare,PFEL,fire+plant+earth+lightning,24:00:00,3%,2% (15%),1% (?%),1% (?%),Laurel Lament
+Faire,Rare,PCLM,lightning+plant+cold+metal,54:00:00,0.5%,1% (10%),0.25% (?%),0.25% (?%),Fair is Fair
+Feast,Rare,PEI,plant+earth+light,24:00:00,5%,2% (10%),1% (?%),1% (?%),The Fattening
+Neoteric,Rare,PLID,Luminous+Spark,31:00:00,12% (7%),1% (10%),0.5% (?%),0.5% (?%),New Year Flight
+Double Leap Year,Epic,Rb,[4 elements],29:00:00,3% (1%),1% (5%),?% (25%),?% (25%),Twice Leapt Valley
+Shield,Rare,ECWL,Hail+Hydra,13:30:00,4%,1% (10%),0.5% (?%),0.5% (?%),Fury's Foray
+Blazing Gale,Rare,FA,fire+air,22:00:00,4%,1.5% (10%),1% (30%),1% (30%),Pi Roh's Paradise
+Fates,Epic,Ol,plant+fire+water,20:00:00,1.5%,1% (5%),5% (30%),5% (30%),Triad Trench
+Hidden Bolt,Rare,LD,dark+lightning,22:00:00,4%,1.5% (10%),1% (30%),1% (30%),Spark in the Dark
+Icy Torrent,Rare,CW,cold+water,22:00:00,4%,1.5% (10%),1% (30%),1% (30%),Glacial Dig
+Iron Blossom,Rare,PM,plant+metal,22:00:00,4%,1.5% (10%),1% (30%),1% (30%),Riddle Rabble
+Mountain Sun,Rare,EI,earth+light,22:00:00,4%,1.5% (10%),1% (30%),1% (30%),Chiseled Cliffs
+Wyrmwood,Rare,PFEC,earth+fire+plant+cold,18:00:00,3%,2% (10%),1% (?%),1% (?%),The 5th Precipice
+Flurry,Rare,CWA,cold+air+water,18:00:00,4%,1.5% (10%),1% (30%),1% (30%),It Came From the Clouds
+Ribbon,Epic,Or,Regift+fire,19:00:00,4%,1% (5%),5% (30%),5% (30%),Streaming & Gleaming
+Snowbrush,Rare,PCI,cold+plant+light,19:00:00,4%,1.5% (10%),1% (30%),1% (30%),Snowdrift Dive
+Thundersnow,Rare,ECL,cold+earth+lightning,18:00:00,4%,1.5% (10%),1% (30%),1% (30%),Snow Day
+Tinsel,Epic,Or,Holly+cold,27:00:00,3%,1% (5%),5% (30%),5% (30%),Into the Bushes
+Twinkle,Epic,Or,Winter+air,55:00:00,0.5%,1% (5%),5% (25%),5% (25%),Cave of Caroling
+Epoch,Rare,PECL,Bloom+Bearded,31:00:00,12% (7%),1% (5%),5% (?%),5% (?%),The Great Sneeze
+Ironwrought,Rare,EWAM,metal+earth+water+air,12:00:00,3%,2% (10%),1% (?%),1% (?%),Pumpermelon Pull
+Seraph,Rare,FAI,light+air+fire,40:00:00,2%,2% (10%),1% (?%),1% (?%),Soaring Heights
+Party,Epic,Rb,[4 elements],52:00:00,3% (1%),3% (5%),5% (?%),5% (?%),Celebratory Expedition
+Satin,Rare,PFEL,fire+plant+earth+lightning,18:00:00,9% (2%),2% (10%),5% (?%),5% (10%),Drape Escape
+Bilby,Rare,PFLI,Cotton+Plains,14:00:00,2%,0.5% (10%),5% (?%),2% (?%),Hop to It
+Cocoahollow,Rare,PFEC,Soot+Conifer,12:00:00,2%,0.5% (10%),5% (?%),2% (?%),Nib Nursery
+Cumberpatch,Epic,Hi,Cactus+monolith,28:00:00,2%,0.5% (10%),5% (?%),2% (?%),Mammu's Bargain
+Yolkwing,Rare,FDR,rift+[fire trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Eggstraordinary Eggventure
+Fireflight,Rare,FA,air+fire,22:00:00,4%,1.5% (10%),1% (30%),1% (30%),Hot Air Hullabaloo
+Dartwing,Rare,PM,metal+plant,23:00:00,4%,1% (20%),1% (25%),1% (20%),Fleetly Flittering
+Sandscale,Rare,EIR,earth+light+rift+[rift align:light],0:00:00,4%,0% (0%),0% (0%),1% (20%),Dune Diving
+Abraxas,Rare,LDR,lightning+dark+rift+[rift align:lightning],23:00:00,4%,0% (0%),0% (0%),1% (20%),Power Overwhelming
+Quintessence,Rare,PFEWM,metal+plant+fire+earth+water,50:00:00,2%,1.5% (10%),1% (30%),1% (30%),A Guardian's Guide
+Triple Leap Year,Epic,Rb,[4 elements],30:00:00,3% (1%),1% (5%),5% (30%),5% (30%),Third Leap Year
+Combustion,Rare,FAMD,metal+fire+air+dark,60:00:00,2%,1.5% (10%),1% (30%),1% (30%),Come-bust-out Some Moves
+Gryphus,Rare,EAI,air+earth+light,18:00:00,2.5%,4% (15%),1% (30%),1% (30%),Time to Send a Letter
+Soriak,Rare,ELA,lightning+earth+air,15:00:00,2.5%,4% (15%),1% (30%),1% (30%),emiT hguorhT pirT A
+Dargon,Rare,F,[any 2 dragons],14:00:00,4% (1% [0.5%]),3% (10%),1% (30%),1% (30%),Dragon Dragon
+Davinese,Rare,WLA,Cyclone+Vortex,14:50:50,4.5%,10% (20%),1% (30%),1% (30%),Flying The Friendly Skies
+Fluffles,Rare,CAI,air+light+cold,16:00:00,4.5%,10% (20%),1% (30%),1% (30%),Huggie Snuggie
+Undau,Rare,FCID,dark+light+cold+fire,15:00:00,4.5%,10% (20%),1% (30%),1% (30%),A Quest For Food
+Lunk,Rare,CLI,Gamma+Bastion,20:00:00,4%,10% (20%),1% (30%),1% (30%),Pumping Metal
+Brizoni,Rare,PFEI,light+fire+earth+plant,24:00:00,4%,10% (20%),1% (30%),1% (30%),Perfectly Balanced
+Fuefuego,Rare,FEMI,Armament+fire+earth,26:00:00,4.25%,10% (20%),1% (30%),1% (30%),Dare Devil
+Hyperion,Epic,Ap,Fury+Narcis,70:00:00,2%,1.5% (10%),1% (30%),1% (30%),Powerful Presence
+Scryer,Rare,CLID,Neoteric+Lunk,20:00:00,2.5%,10% (20%),1% (30%),1% (30%),A Peek Into the Future
+Smigi,Rare,AID,air+dark+light,16:00:00,3%,10% (20%),1% (30%),1% (30%),Swish Swoosh
+Stage,Rare,FMID,dark+light+fire+metal,14:00:00,3%,10% (20%),1% (30%),1% (30%),Waving Specialist
+PonkiPong,Rare,FAID,Undau+fire+air,15:00:00,3.5%,10% (20%),1% (30%),1% (30%),Bouncy
+Jumpiplop,Rare,PWAD,Riptide+Psyche,24:00:00,3.5%,10% (20%),1% (30%),1% (30%),Splash Zone
+Solary,Rare,FEAI,light+air+earth+fire,20:00:00,3.8%,10% (20%),1% (30%),1% (30%),Bright Sunlight
+Chrysalis,Epic,Ch,Swallowtail+Duskwing,33:20:00,6% (4%),5% (5%),?% (?%),?% (?%),Mega Metamorphosis
+Duskwing,Epic,Ch,Lacewing+Chrysalis,33:20:00,6% (4%),1% (5%),?% (30%),?% (30%),Twilight Flight
+Lacewing,Epic,Ch,Duskwing+Marbletail,41:20:00,3%,1% (5%),?% (30%),?% (30%),Filigree Falls
+Marbletail,Epic,Ch,Lacewing+Swallowtail,50:40:00,1%,1% (5%),?% (30%),?% (30%),Dappled Tale
+Swallowtail,Epic,Ch,Marbletail+Chrysalis,41:20:00,3%,1% (5%),?% (30%),?% (30%),Gulping Gully
+Glowwing,Epic,Ch,Starwing+chrysalis,31:00:00,1%,1% (5%),5% (30%),5% (30%),Everflowering Fields
+Starwing,Epic,Ch,Glowwing+chrysalis,28:00:00,2%,1% (5%),5% (30%),5% (30%),Map to the Stars
+Busby,Epic,Ch,Lacewing+Marbletail,42:00:00,2%,1% (5%),?% (30%),?% (30%),Hive Mind
+Dittoglide,Epic,Ch,Duskwing+Lacewing,15:00:00,2%,1% (5%),?% (30%),?% (30%),Frequent Flier
+Faux,Epic,Ch,Glowwing+Swallowtail,19:05:00,2%,1% (5%),?% (30%),?% (30%),Monster Mimicry
+Gildamane,Epic,Ch,Lacewing+Starwing,15:47:30,2%,1% (5%),?% (30%),?% (30%),The Wise Way
+Rhinotorch,Epic,Ch,Swallowtail+Marbletail,16:00:00,2%,1% (5%),?% (30%),?% (30%),Sharply Appointed
+Violetta,Epic,Ch,Faux+Dittoglide,18:00:00,2%,1% (5%),?% (30%),?% (30%),Vivid Virtue
+Serket,Epic,Ch,Busby+Rhinotorch,33:20:00,2%,?% (5%),?% (30%),?% (30%),Immunity Proclivity
+Morpho,Epic,Ch,Gildamane+Dittoglide,15:00:00,2%,?% (5%),?% (30%),?% (30%),Delightfully Disguised
+Trilobite,Epic,Ch,Rhinotorch+Faux,33:20:00,2%,?% (5%),?% (30%),?% (30%),Extinction Exodus
+Pearlescent,Epic,RCh,Prism+Starwing+rift+[prism light trait]+[starwing dark trait],0:00:00,0.5%,0% (0%),0% (0%),0.25% (10%),Pretty Power
+Cold,Primary,C,,12:00:00,$%,0% (?%),0% (?%),0% (?%),
+Ice,Hybrid,CW,cold+water,8:00:00,*%,10% (20%),1% (?%),1% (?%),Flash Freeze
+Mountain,Hybrid,EC,earth+cold,14:00:00,*%,10% (20%),1% (?%),1% (?%),Solo Summit
+Snow,Hybrid,CA,cold+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Furious Flurry
+Storm,Hybrid,CL,cold+lightning,5:00:00,*%,10% (20%),1% (?%),1% (?%),Squall Shoal
+Blue Fire,Rare,FC,fire+cold,12:00:00,5%,4% (15%),1% (?%),1% (?%),Scorched Ice
+Iceberg,Hybrid,CW,cold+water,8:00:00,*%,10% (20%),1% (?%),1% (?%),Broken Ice Shelf
+Frostfire,Rare,FC,cold+fire,12:00:00,5%,4% (15%),1% (?%),1% (?%),Palagos Islands
+Lichen,Hybrid,PC,plant+cold,6:00:00,*%,10% (20%),1% (?%),1% (?%),Algae Analogy
+Mine,Hybrid,CM,cold+metal,10:00:00,*%,10% (20%),1% (?%),1% (?%),Dramorian Delve
+Steel,Hybrid,CM,cold+metal,14:00:00,*%,10% (20%),1% (?%),1% (?%),Left Turn Lagoon
+Evergreen,Hybrid,PC,plant+cold,10:00:00,*%,10% (20%),1% (?%),1% (?%),Neverblue Woods
+Glacier,Hybrid,EC,earth+cold,10:00:00,*%,10% (20%),1% (?%),1% (?%),Below the Floe
+Hail,Hybrid,CL,cold+lightning,8:00:00,*%,10% (20%),1% (?%),1% (?%),The Barragening
+Blizzard,Hybrid,CA,air+cold,10:00:00,*%,10% (20%),1% (?%),1% (?%),Hall of the Ice Kings
+Glare,Hybrid,CI,light+cold,9:30:00,*%,10% (20%),1% (?%),1% (?%),Caves of Ramora
+Phantom,Hybrid,CI,cold+light,8:30:00,*%,10% (20%),1% (?%),1% (?%),Fear & Figments
+Crypt,Hybrid,CD,dark+cold,17:30:00,*%,10% (20%),1% (?%),1% (?%),Creeper Keeper
+Ruin,Hybrid,CD,cold+dark,6:00:00,*%,10% (20%),1% (?%),1% (?%),Down Falls
+Arctic,Rare,EC,cold+earth,22:00:00,5%,4% (15%),1% (?%),1% (?%),Northern Chills
+Frostbite,Rare,CD,cold+dark,4:00:00,5%,4% (15%),1% (?%),1% (?%),Icebitten
+Tempest,Rare,CL,lightning+cold,8:00:00,5%,4% (10%),1% (?%),1% (?%),Wiggleswand Way
+Candescent,Rare,CI,cold+light,9:00:00,5%,4% (15%),1% (?%),1% (?%),Glowing Descent
+Fluorescent,Rare,CI,light+cold,11:00:00,5%,4% (15%),1% (?%),1% (?%),Debunking Spelunking
+Coldforge,Rare,CM,cold+metal,20:00:00,5%,4% (15%),1% (30%),1% (30%),Wimbledrip's Woe
+Conifer,Rare,PC,cold+plant,18:00:00,5%,4% (10%),1% (30%),1% (30%),Brow Mountain
+Permafrost,Rare,EC,earth+cold,18:00:00,5%,4% (15%),1% (30%),1% (30%),Freezey-Cold Flight
+Frostflower,Rare,PC,plant+cold,10:00:00,5%,4% (15%),1% (30%),1% (30%),Just Right Gauntlet
+Jetstream,Rare,CA,cold+air,10:00:00,5%,4% (15%),1% (30%),1% (30%),Conspiracy Bluff
+Snowsquall,Rare,CWR,cold+water+rift+[cold trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Tentacle Terrace
+Cold Rift,Primary Rift,CR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Freezey Chaos
+Zaffer,Rare,CLR,Blue Fire+Plasma+rift+[blue fire air trait]+[plasma metal trait],0:00:00,4%,0% (0%),0% (0%),1% (15%),Blues Chase
+Frostfluff,Rare,ECR,cold+earth+rift+[rift align:cold],0:00:00,3%,0% (0%),0% (0%),1% (15%),Fluff Bluff
+Bonescale,Rare,CM,metal+cold,22:00:00,2%,4% (15%),1% (30%),1% (30%),Calcified Crusade
+Fever,Rare,FC,cold+fire,9:00:00,3.5%,4% (15%),1% (30%),1% (30%),Cold Sweat
+Derecho,Rare,CA,air+cold,16:00:00,2.5%,4% (15%),1% (30%),1% (30%),Adrenaline Rush
+Shockproof,Rare,CL,cold+lightning,12:00:00,5%,10% (20%),1% (30%),1% (30%),Shocked and Rattled
+Aquacorn,Rare,CW,water+cold,12:00:00,5%,10% (10%),1% (30%),1% (30%),Wet and Magical
+Flickerflame,Rare,FC,fire+cold,14:00:00,5%,10% (10%),1% (30%),1% (30%),Flame and Flicker
+Void,Rare,CD,cold+dark,24:00:00,5%,10% (20%),1% (30%),1% (30%),Creeping In
+Aperture,Rare,CW,cold+water,12:00:00,5%,10% (20%),1% (30%),1% (30%),Port Enthusiast
+Jasper,Gemstone,Cr,Malachite+Hypnotic,35:00:00,3%,3% (6%),5% (7%),5% (7%),Speckled Spelunking
+Tourmaline,Gemstone,Cr,Electrum+Crystal,35:00:00,3%,3% (6%),5% (7%),5% (7%),Libra Lark
+Bismuth,Gemstone,Cr,Glass+Forge,34:30:00,3%,3% (6%),5% (7%),5% (7%),Refraction Extraction
+Sanguinite,Gemstone,Cr,Lodestone+Mountain,36:00:00,3%,3% (6%),5% (7%),5% (7%),Tunnels of Mashe
+Mesolite,Gemstone,Cr,Sulfur+Glass,31:00:00,3%,3% (6%),5% (7%),5% (7%),Mineral Mire
+Pyrite,Gemstone,Cr,Iron+Thunder,36:00:00,3%,3% (6%),5% (7%),5% (7%),Golden Foolery
+Barite,Gemstone,Cr,Hail+Dodo,35:00:00,3%,3% (6%),5% (7%),5% (7%),Colorless Chasm
+Okenite,Gemstone,Cr,Snow+Pollen,31:00:00,3%,3% (6%),5% (7%),5% (7%),Noxious Nuzzles
+Quartz,Gemstone,Cr,Luminous+Lava,30:00:00,3%,3% (6%),5% (7%),5% (7%),Crystal Clear Chasm
+Wavelyte,Gemstone,Cr,Shimmer+Evergreen,36:00:00,3%,3% (6%),5% (7%),5% (7%),Wicked Waves
+Azurite,Gemstone,Cr,Glacier+Meteor,35:00:00,3%,3% (6%),5% (7%),5% (7%),Gerias Gauntlet
+Labradorite,Gemstone,Cr,Chrome+Blue Fire,36:00:00,3%,3% (6%),5% (7%),5% (7%),Retrieve & Retreat
+Cave,Hybrid,ED,dark+earth,11:00:00,*%,10% (20%),1% (?%),1% (?%),Down Underground
+Dark,Primary,D,,13:00:00,$%,0% (?%),0% (?%),0% (?%),
+Dark Rift,Primary Rift,DR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Adrift in the Rift
+Dungeon,Hybrid,FD,dark+fire,15:00:00,*%,10% (20%),1% (?%),1% (?%),Boss Stage
+Fungus,Hybrid,PD,plant+dark,13:00:00,*%,10% (20%),1% (?%),1% (?%),Blight Blockade
+Nightshade,Hybrid,PD,dark+plant,13:30:00,*%,10% (20%),1% (?%),1% (?%),Belladonna's Bastion
+Root,Hybrid,ED,earth+dark,9:00:00,*%,10% (20%),1% (?%),1% (?%),Tuber Trouble
+Watch,Hybrid,FD,fire+dark,8:00:00,*%,10% (20%),1% (?%),1% (?%),Gulf of the Guardian
+Crypt,Hybrid,CD,dark+cold,17:30:00,*%,10% (20%),1% (?%),1% (?%),Creeper Keeper
+Ruin,Hybrid,CD,cold+dark,6:00:00,*%,10% (20%),1% (?%),1% (?%),Down Falls
+Spark,Hybrid,LD,lightning+dark,9:30:00,*%,10% (20%),1% (?%),1% (?%),Shock Rock
+Wraith,Hybrid,LD,dark+lightning,14:00:00,*%,10% (20%),1% (?%),1% (?%),Gaznul Gulch
+Abyss,Hybrid,WD,water+dark,7:30:00,*%,10% (20%),1% (?%),1% (?%),Lantern Deeps
+Howl,Hybrid,AD,dark+air,12:30:00,*%,10% (20%),1% (?%),1% (?%),Allengin Pass
+Miasma,Hybrid,AD,air+dark,10:30:00,*%,10% (20%),1% (?%),1% (?%),Smog Bog
+Ooze,Hybrid,WD,dark+water,18:30:00,*%,10% (20%),1% (?%),1% (?%),Ancient Madness
+Acid,Hybrid,MD,dark+metal,15:30:00,*%,10% (20%),1% (?%),1% (?%),Corrosive Crater
+Promethium,Hybrid,MD,dark+metal,8:00:00,*%,10% (20%),1% (?%),1% (?%),Rift Fire Mire
+Mirage,Rare,ID,dark+light,17:00:00,5%,4% (15%),1% (?%),1% (?%),Phantasm Chasm
+Shadow,Rare,ID,light+dark,18:00:00,5%,4% (15%),1% (?%),1% (?%),The Wall of Shades
+Wisp,Rare,LD,lightning+dark,2:00:00,5%,4% (10%),1% (10%),1% (10%),Brume Bluff
+Frostbite,Rare,CD,cold+dark,4:00:00,5%,4% (15%),1% (?%),1% (?%),Icebitten
+Darkling,Rare,LD,dark+lightning,14:00:00,3%,2% (10%),1% (?%),1% (?%),The Bolts of Faridat
+Bramble,Rare,PD,dark+plant,18:00:00,5%,2% (10%),1% (?%),1% (?%),Razor Ramble
+Trench,Rare,WD,water+dark,7:30:00,5%,4% (10%),1% (?%),1% (?%),Anayrahm Dive
+Nightbloom,Epic,PDMo,plant+dark+moon,27:00:00,3% (1.5%),1% (5%),5% (30%),?% (30%),Night Flight
+Subterranean,Rare,ED,earth+dark,24:00:00,5%,4% (15%),1% (30%),1% (30%),T. Erra's Plea
+Char,Rare,FD,dark+fire,22:00:00,5%,4% (15%),1% (?%),1% (?%),Across the Acrostic Sea
+Fissure,Rare,ED,dark+earth,15:00:00,5%,4% (15%),1% (30%),1% (30%),Laki Chasm
+Voltaic,Rare,LDR,dark+lightning+rift+[dark trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Scaredy Cave
+Snapper,Rare,PD,plant+dark,15:00:00,5%,4% (15%),1% (?%),1% (?%),Slow & Steady
+Antumbra,Rare,IDR,light+dark+rift+[rift align:earth],0:00:00,5%,0% (0%),0% (0%),1% (15%),Pincer Power
+Ghast,Rare,IDR,light+dark+rift+[fire trait],0:00:00,5%,0% (0%),0% (0%),1% (15%),Phantasm Adrift
+Lacuna,Rare,IDR,Mirage+Shadow+rift+[mirage water trait]+[shadow air trait],0:00:00,3%,0% (0%),0% (0%),1% (15%),Lake of the Abyss
+Yolkwing,Rare,FDR,rift+[fire trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Eggstraordinary Eggventure
+Abraxas,Rare,LDR,lightning+dark+rift+[rift align:lightning],23:00:00,4%,0% (0%),0% (0%),1% (20%),Power Overwhelming
+Chimneypuff,Rare,AD,dark+air,23:00:00,5%,4% (10%),1% (25%),1% (20%),Swift Sweeper
+Chitin,Rare,MD,dark+metal,26:00:00,4%,4% (10%),1% (25%),1% (20%),Creepy Crawler
+Silverline,Rare,ID,light+dark,18:00:00,2%,4% (15%),1% (30%),1% (30%),Holistic Hope
+Void,Rare,CD,cold+dark,24:00:00,5%,10% (20%),1% (30%),1% (30%),Creeping In
+Etch,Rare,PD,dark+plant,12:00:00,5%,10% (20%),1% (30%),1% (30%),Heart Of The Swamp
+Dapplethorn,Rare,WD,dark+water,18:00:00,3%,10% (20%),1% (30%),1% (30%),A Thorn in the Side
+Dream,Epic,Dr,light+dark+[4 elements],50:00:00,1%,1% (10%),?% (?%),?% (?%),Island of Illusions
+Daydream,Epic,Dr,Mirage+Hypnotic,29:00:00,2%,1% (10%),?% (?%),?% (?%),Reverie Quarry
+Nightmare,Epic,Dr,Howl+Abyss,36:28:33,4%,2% (5%),?% (?%),?% (?%),Gelndun Gutter
+Elysium,Epic,DrOl,Gold Olympus+Dream,48:00:00,6% (3%),2% (5%),?% (?%),?% (?%),West Wind Warning
+Delirium,Epic,Dr,Hypnotic+Dream,24:00:00,2% (1%),2% (5%),?% (?%),?% (?%),Final Fever
+Muse,Epic,DrOl,Hydra+Daydream,36:00:00,6% (3%),?% (10%),?% (?%),?% (?%),Writer's Block Bluff
+Portent,Epic,Dr,Daydream+Mirage,50:00:00,3% (1.5%),1% (10%),5% (30%),5% (10%),Exceptional Endeavor
+Delicia,Epic,ADr,Glimmerwing+dream,30:00:00,2%,1% (5%),1% (30%),1% (30%),D for Delici(ous)
+Tebori,Epic,IDr,Hakahaka+dream,28:00:00,2.5%,1% (5%),1% (30%),1% (30%),Traditional Patterns
+Alffa,Epic,ADr,dream+air,32:00:00,2%,1% (5%),1% (30%),1% (30%),Alpha in Disguise
+Iden,Epic,PADDr,Charlatan+Nightbloom,24:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Reaching For The Scarlet Moon
+Snooz,Epic,WADr,Dream+Fog,24:00:00,4%,10% (20%),1% (30%),1% (30%),Snooze No More
+Glasswing,Epic,AIDDr,Daydream+light+dark,30:00:00,3.75%,10% (20%),1% (30%),1% (30%),It's Real Glass
+Binky,Epic,DrSu,Nightmare+Tranquil,24:00:00,4.25%,10% (20%),1% (30%),1% (30%),Jungle Juggle
+Lightmare,Epic,DrMo,Moon+Dream,24:00:00,3.5%,1% (15%),5% (30%),5% (30%),Dreamcatcher
+Lullaby,Epic,DrMe,Serenity+dream,26:00:00,4.5%,1.5% (15%),5% (30%),5% (30%),Snoring
+Lumineux,Epic,PFLIDr,Love+dream,24:00:00,3.8%,10% (20%),1% (30%),1% (30%),Group Hug
+Astraline,Epic,Dr,Petunia+air+light,24:00:00,4%,1% (15%),5% (30%),5% (30%),Astral Projection
+Fae,Epic,Dr,Glasswing+Snooz,26:00:00,4%,1% (15%),5% (30%),5% (30%),A Magical Puff
+Crystal,Hybrid,EL,lightning+earth,24:00:00,*%,10% (20%),1% (?%),1% (?%),Fractal Fever
+Earth,Primary,E,,2:00:00,$%,0% (?%),0% (?%),0% (?%),
+Lava,Hybrid,FE,earth+fire,10:00:00,*%,10% (20%),1% (?%),1% (?%),Molten Motive
+Moss,Hybrid,PE,plant+earth,12:00:00,*%,10% (20%),1% (?%),1% (?%),Bryophyte Plight
+Mountain,Hybrid,EC,earth+cold,14:00:00,*%,10% (20%),1% (?%),1% (?%),Solo Summit
+Mud,Hybrid,EW,earth+water,6:00:00,*%,10% (20%),1% (?%),1% (?%),Luck in the Muck
+Quake,Hybrid,EL,earth+lightning,6:00:00,*%,10% (20%),1% (?%),1% (?%),Seismic Trick
+Tree,Hybrid,PE,plant+earth,14:00:00,*%,10% (20%),1% (?%),1% (?%),Rootmoot
+Sandstorm,Rare,EA,air+earth,2:00:00,5%,4% (15%),1% (?%),1% (?%),Tectonica Toil
+Iron,Hybrid,EM,earth+metal,4:00:00,*%,10% (20%),1% (?%),1% (?%),Iron Will
+Dodo,Rare,EA,earth+air,16:00:00,5%,4% (15%),1% (?%),1% (?%),Fight or Fight
+Scoria,Hybrid,EM,earth+metal,22:00:00,*%,10% (20%),1% (?%),1% (?%),Bessemer's Bounty
+Obsidian,Hybrid,FE,earth+fire,8:00:00,*%,10% (20%),1% (?%),1% (?%),The Mark of Wrothmoore
+Glacier,Hybrid,EC,earth+cold,10:00:00,*%,10% (20%),1% (?%),1% (?%),Below the Floe
+River,Hybrid,EW,earth+water,13:00:00,*%,10% (20%),1% (?%),1% (?%),Ami'Lya's Adventure
+Forest,Rare,PE,plant+earth,4:00:00,5%,4% (15%),1% (?%),1% (?%),Copse Consternation
+Glass,Hybrid,EI,light+earth,12:30:00,*%,10% (20%),1% (?%),1% (?%),Silica Valley
+Sand,Hybrid,EI,earth+light,6:30:00,*%,10% (20%),1% (?%),1% (?%),Sandara's Sojourn
+Cave,Hybrid,ED,dark+earth,11:00:00,*%,10% (20%),1% (?%),1% (?%),Down Underground
+Root,Hybrid,ED,earth+dark,9:00:00,*%,10% (20%),1% (?%),1% (?%),Tuber Trouble
+Arctic,Rare,EC,cold+earth,22:00:00,5%,4% (15%),1% (?%),1% (?%),Northern Chills
+Geode,Rare,EW,earth+water,23:00:00,5%,4% (15%),1% (?%),1% (?%),Sediment Impediment
+Plains,Rare,EI,earth+light,12:00:00,5%,4% (10%),1% (?%),1% (?%),Gargantuan Grasslands
+Quicksand,Rare,EW,water+earth,15:00:00,5%,4% (10%),1% (?%),1% (?%),Sandy Canyon
+Soot,Rare,FE,fire+earth,10:00:00,5%,?% (15%),?% (30%),?% (30%),Cauldron Canyon
+Permafrost,Rare,EC,earth+cold,18:00:00,5%,4% (15%),1% (30%),1% (30%),Freezey-Cold Flight
+Subterranean,Rare,ED,earth+dark,24:00:00,5%,4% (15%),1% (30%),1% (30%),T. Erra's Plea
+Fissure,Rare,ED,dark+earth,15:00:00,5%,4% (15%),1% (30%),1% (30%),Laki Chasm
+Alpenglow,Rare,EIR,earth+light+rift+[lightning trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Lighting the Rift
+Earth Rift,Primary Rift,ER,,48:00:00,$%,0% (0%),0% (0%),1% (15%),A Rift Aground
+Arid,Rare,EI,light+earth,12:30:00,5%,4% (15%),1% (?%),?% (?%),Desert Duds
+Thunderbird,Rare,ELR,lightning+earth+rift+[fire trait],0:00:00,3%,0% (0%),0% (0%),1% (15%),Bolt Buffet
+Frostfluff,Rare,ECR,cold+earth+rift+[rift align:cold],0:00:00,3%,0% (0%),0% (0%),1% (15%),Fluff Bluff
+Tumblethorn,Rare,PER,plant+earth+rift+[earth trait],0:00:00,2%,0% (0%),0% (0%),1% (15%),Tumbling Along
+Sandscale,Rare,EIR,earth+light+rift+[rift align:light],0:00:00,4%,0% (0%),0% (0%),1% (20%),Dune Diving
+Auroch,Rare,EM,metal+earth,22:00:00,4%,4% (10%),1% (?%),1% (?%),Bullish Tendencies
+Xanthium,Rare,EM,earth+metal,19:00:00,2.5%,4% (15%),1% (30%),1% (30%),A Prickly Pretense
+Snootroot,Rare,PE,earth+plant,4:30:00,5%,4% (15%),1% (30%),1% (30%),Flaunting Flair
+Fulgurite,Rare,EL,earth+lightning,16:00:00,2.25%,4% (15%),1% (30%),1% (30%),Charged Assumptions
+Bouldershock,Rare,EL,lightning+earth,15:00:00,2.5%,4% (15%),1% (30%),1% (30%),Shocked and Shaken
+Whirlwind,Rare,EA,earth+air,20:00:00,5%,10% (20%),1% (30%),1% (30%),Windy and Whirly
+Burrow,Rare,FE,earth+fire,10:00:00,5%,4% (15%),1% (30%),1% (30%),Curious Explorer
+Khamsin,Rare,EA,air+earth,12:00:00,5%,10% (20%),1% (30%),1% (30%),Dust Storm
+Darcowl,Rare,EMD,dark+earth+metal,23:00:00,1.75%,1.5% (10%),0.75% (30%),0.75% (30%),Covert Galantry
+Outrider,Rare,AMI,light+air+metal,22:30:00,1.75%,1.5% (10%),0.75% (30%),0.75% (30%),Surveil the Vale
+Quantum,Rare,CID,light+cold+dark,26:00:00,1.75%,1.5% (10%),0.75% (30%),0.75% (30%),Formidable Force
+Riptide,Rare,WAD,water+dark+air,24:30:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Amorphous Porpoise
+Armament,Rare,FMI,metal+light+fire,24:00:00,0.5% (2%),1.5% (10%),0.75% (30%),0.75% (30%),Stark Strength
+Dash,Rare,AID,light+air+dark,32:00:00,0.5% (2%),1.5% (10%),0.75% (30%),0.75% (30%),Speedy Sense
+Sparkles,Rare,ELI,lightning+light+earth,33:00:00,0.5% (2%),1.5% (10%),0.75% (30%),0.75% (30%),Odin's Pride
+Vanguard,Rare,EMI,light+earth+metal,16:00:00,0.5% (2%),1.5% (10%),0.75% (30%),0.75% (30%),Gilded Wonder
+Psyche,Rare,PAD,dark+air+plant,28:00:00,0.5% (2%),1.5% (10%),0.75% (30%),0.75% (30%),Mind Over Matter
+Bastion,Rare,CLI,light+lightning+cold,24:00:00,0.5% (2%),1.5% (10%),0.75% (30%),0.75% (30%),One For All
+Monte,Epic,AISuMo,moon+sun+air+light,12:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Juicy Joy
+Sailback,Epic,FWSuMo,moon+sun+water+fire,8:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Aquatic Anathema
+Toco,Epic,PASuMo,moon+sun+air+plant,8:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Big-billed Beats
+Vibe,Epic,PLSuMo,moon+sun+plant+lightning,12:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Scene Maker
+Elegant,Epic,PISuMo,moon+sun+plant+light,12:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Grand Entrance
+Ruckus,Epic,FISuMo,moon+sun+fire+light,10:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Bring It On!
+Dazzle,Epic,LDSuMo,moon+sun+lightning+dark,17:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),A Star is Bred
+Razzle,Epic,ADSuMo,moon+sun+air+dark,14:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Hysterical Hype
+Eldritch,Rare,PFEC,fire+plant+earth+cold,24:00:00,0.2%,1.5% (10%),0.75% (30%),0.75% (30%),Shrouded in Mystery
+Blazing,Hybrid,FA,fire+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Fiery Forage
+Fire,Primary,F,,0:05:00,$%,0% (?%),0% (?%),0% (?%),
+Firefly,Hybrid,FL,lightning+fire,3:00:00,*%,10% (20%),1% (?%),1% (?%),Cold Light Chase
+Flower,Hybrid,PF,fire+plant,1:00:00,*%,10% (20%),1% (?%),1% (?%),Floral Quarrel
+Lava,Hybrid,FE,earth+fire,10:00:00,*%,10% (20%),1% (?%),1% (?%),Molten Motive
+Poison,Hybrid,PF,plant+fire,0:30:00,*%,10% (20%),1% (?%),1% (?%),Toxic Trouble
+Blue Fire,Rare,FC,fire+cold,12:00:00,5%,4% (15%),1% (?%),1% (?%),Scorched Ice
+Scorch,Hybrid,FL,fire+lightning,3:00:00,*%,10% (20%),1% (?%),1% (?%),Scalding Stretch
+Frostfire,Rare,FC,cold+fire,12:00:00,5%,4% (15%),1% (?%),1% (?%),Palagos Islands
+Brass,Hybrid,FM,fire+metal,5:00:00,*%,10% (20%),1% (?%),1% (?%),Doubley Alloyed
+Forge,Hybrid,FM,fire+metal,24:00:00,*%,10% (20%),1% (?%),1% (?%),Smithy Snafu
+Obsidian,Hybrid,FE,earth+fire,8:00:00,*%,10% (20%),1% (?%),1% (?%),The Mark of Wrothmoore
+Smoke,Hybrid,FA,fire+air,14:00:00,*%,10% (20%),1% (?%),1% (?%),The Other Side
+Coral,Hybrid,FW,fire+water,11:30:00,*%,10% (20%),1% (?%),1% (?%),Kelpy Corrale
+Salamander,Hybrid,FW,fire+water,9:30:00,*%,10% (20%),1% (?%),1% (?%),Amphibian Meridian
+Pepper,Rare,PF,fire+plant,6:00:00,5%,4% (15%),1% (?%),1% (?%),Cheelei's Cove
+Ember,Hybrid,FI,fire+light,8:00:00,*%,10% (20%),1% (?%),1% (?%),Conflagration Course
+Heat,Hybrid,FI,light+fire,12:00:00,*%,10% (20%),1% (?%),1% (?%),Thermodynamic Panic
+Dungeon,Hybrid,FD,dark+fire,15:00:00,*%,10% (20%),1% (?%),1% (?%),Boss Stage
+Watch,Hybrid,FD,fire+dark,8:00:00,*%,10% (20%),1% (?%),1% (?%),Gulf of the Guardian
+Sulfur,Rare,FM,fire+metal,15:00:00,5%,4% (15%),1% (?%),1% (?%),Putrid Plunge
+Inferno,Rare,FA,air+fire,8:00:00,5%,4% (10%),1% (?%),1% (?%),Dante's Dungeon
+Molten,Rare,FM,metal+fire,12:00:00,5%,4% (10%),1% (?%),1% (?%),Shi Nee's Saga
+Smolder,Rare,FA,fire+air,11:00:00,5%,?% (15%),?% (30%),?% (30%),Smoke on the Boulder
+Soot,Rare,FE,fire+earth,10:00:00,5%,?% (15%),?% (30%),?% (30%),Cauldron Canyon
+Char,Rare,FD,dark+fire,22:00:00,5%,4% (15%),1% (?%),1% (?%),Across the Acrostic Sea
+Steam,Rare,FW,water+fire,12:00:00,5%,4% (15%),1% (?%),1% (?%),Ephemeral Spire
+Blightwing,Rare,FAR,fire+air+rift+[dark trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Timeless Tail
+Fire Rift,Primary Rift,FR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Chaotic Encounter
+Infrared,Rare,FI,light+fire,10:00:00,5%,4% (15%),1% (30%),1% (30%),Concentrated Fire Magic
+Plumewing,Rare,FAR,rift+[air trait],0:00:00,3% (1%),0% (0%),0% (0%),1% (15%),Shiny Start
+Nimbus,Rare,FWR,fire+water+rift+[light trait],0:00:00,2%,0% (0%),0% (0%),1% (15%),Nimble Narrows
+Yolkwing,Rare,FDR,rift+[fire trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Eggstraordinary Eggventure
+Brilliant,Rare,FL,lightning+fire,15:00:00,3%,4% (15%),1% (30%),1% (30%),Intuitive Innovation
+Fever,Rare,FC,cold+fire,9:00:00,3.5%,4% (15%),1% (30%),1% (30%),Cold Sweat
+Smoulderbrush,Rare,PF,plant+fire,8:00:00,4%,4% (15%),1% (30%),1% (30%),Aroma Therapy
+Ignite,Rare,FL,fire+lightning,16:00:00,2.5%,4% (15%),1% (30%),1% (30%),The Uncertainty Antithesis
+Wick,Rare,FI,fire+light,20:00:00,5%,4% (15%),1% (30%),1% (30%),Wicked Sick
+Daylily,Rare,PFA,air+fire+plant,16:00:00,5%,3.5% (10%),1% (30%),1% (30%),Daily Lily
+Flickerflame,Rare,FC,fire+cold,14:00:00,5%,10% (10%),1% (30%),1% (30%),Flame and Flicker
+Burrow,Rare,FE,earth+fire,10:00:00,5%,4% (15%),1% (30%),1% (30%),Curious Explorer
+Ignaqtus,Rare,FW,fire+water,18:00:00,3%,10% (20%),1% (30%),1% (30%),Firewater
+Antarian,Galaxy,Ga,,16:00:00,$%,5% (20%),0% (0%),0% (0%),Flaming Starscape
+Arcturian,Galaxy,Ga,,6:00:00,$%,10% (20%),0% (0%),0% (0%),Pan Galactic Gargle
+Bizurian,Galaxy,Ga,,8:00:00,$%,5% (20%),0% (0%),0% (0%),Paired Pulsars
+Polarian,Galaxy,Ga,,28:30:00,$%,5% (20%),0% (0%),0% (0%),Polaris Plummet
+Sorarian,Galaxy,Ga,,45:00:00,$%,10% (20%),0% (0%),0% (0%),Celestial Rarity
+Andromedan,Galaxy,Ga,,16:00:00,$%,5% (20%),0% (0%),0% (0%),Celestial Duality
+Procyon,Galaxy,Ga,,16:00:00,$%,5% (20%),0% (0%),0% (0%),Stellar Phenomcyon
+Comet,Galaxy,Ga,,22:00:00,$%,10% (20%),0% (0%),0% (0%),Hypersonic Frolic
+Eridanian,Galaxy,Ga,,18:00:00,$%,5% (20%),0% (0%),0% (0%),Stellar Core
+Celerulean,Galaxy,Ga,,24:00:00,$%,10% (20%),0% (0%),0% (0%),Blue Odyssey
+Nebula,Galaxy,Ga,,18:00:00,$%,10% (20%),0% (0%),0% (0%),Murphy's Ode
+Rayleian,Galaxy,Ga,,22:00:00,$%,10% (20%),0% (0%),0% (0%),Megastellar Mission
+Teidian,Galaxy,Ga,,20:00:00,$%,10% (20%),0% (0%),0% (0%),Year of the Bull
+Nova,Galaxy,Ga,,18:00:00,$%,7.5% (20%),0% (0%),0% (0%),Divine Starshine
+Singularity,Galaxy,Ga,,18:00:00,$%,1% (20%),0% (0%),0% (0%),Event Horizon
+Solarflare,Galaxy,GaSu,galaxy+sun+[social cave],24:00:00,10%,1% (20%),0% (0%),0% (0%),Prowess Immeasurable
+Glimmerwing,Galaxy,Ga,,23:00:00,$%,1% (20%),0% (0%),0% (0%),Glimmering Gorge
+Starlight,Galaxy,Ga,,20:00:00,$%,2% (20%),0% (0%),0% (0%),Star Bright
+Rigel,Galaxy,RGa,galaxy+galaxy+rift+[own all galaxy],16:00:00,0.5%,0% (0%),0% (0%),0% (0%),A Glad Dose of Adventure
+Lunis,Galaxy,GaMo,Moon+galaxy,24:00:00,2%,5% (20%),0% (0%),0% (0%),A Lunar Tick
+Solis,Galaxy,GaSu,Sun+galaxy,24:00:00,2%,5% (20%),0% (0%),0% (0%),Stay Lit
+Gravity,Galaxy,Ga,,20:00:00,$%,10% (20%),0% (0%),0% (0%),Gravity Falls
+Emerald,Gemstone,Ge,Lichen+Crystal,31:00:00,3%,3% (6%),5% (7%),5% (7%),The Sedna Mountains
+Pearl,Gemstone,Ge,Snow+Seaweed,30:00:00,3%,3% (6%),5% (7%),5% (7%),Shimmering Slough
+Ruby,Gemstone,Ge,Chrome+Scorch,31:00:00,3%,3% (6%),5% (7%),5% (7%),Mogok Mania
+Peridot,Gemstone,Ge,Crystal+Cactus,31:00:00,3%,3% (6%),5% (7%),5% (7%),Olivine's Ordeal
+Sapphire,Gemstone,Ge,Rain+Mountain,30:00:00,3%,3% (6%),5% (7%),5% (7%),Yogo Gulch
+Opal,Gemstone,Ge,Lava+Mud,31:00:00,3%,3% (6%),5% (7%),5% (7%),Opalescent Operation
+Topaz,Gemstone,Ge,Cactus+Firefly,30:00:00,3%,3% (6%),5% (7%),5% (7%),Remember November
+Turquoise,Gemstone,Ge,Poison+Swamp,31:00:00,3%,3% (6%),5% (7%),5% (7%),Khorasan Kame
+Garnet,Gemstone,Ge,Smoke+Obsidian,31:00:00,3%,3% (6%),5% (7%),5% (7%),Crimson Canyon
+Amethyst,Gemstone,Ge,Hail+Sonic,28:00:00,3%,3% (6%),5% (7%),5% (7%),Gerias Mines
+Aquamarine,Gemstone,Ge,Iceberg+River,31:00:00,3%,3% (6%),5% (7%),5% (7%),Tour de Cyan
+Diamond,Gemstone,Ge,Ice+Mine,30:00:00,3%,3% (6%),5% (7%),5% (7%),Carbon Craze
+Jade,Gemstone,Ge,Plasma+Salamander,30:26:15,3%,3% (6%),5% (7%),5% (7%),Catacombs of Ulmek
+Amber,Gemstone,Ge,Quake+Evergreen,30:26:15,3%,3% (6%),5% (7%),5% (7%),Fossil Folly
+Jet,Gemstone,Ge,Ash+Frostfire,30:00:00,3%,3% (6%),5% (7%),5% (7%),Lignite Night
+Lapis,Gemstone,Ge,Thunder+Sandstorm,32:00:00,3%,3% (6%),5% (7%),5% (7%),Ultramarine Scene
+Ovalith,Gemstone,Ge,Bloom+Panlong,30:00:00,1%,3% (6%),5% (7%),5% (7%),Shell Scheme
+Opal,Gemstone,Ge,Lava+Mud,31:00:00,3%,3% (6%),5% (7%),5% (7%),Opalescent Operation
+Topaz,Gemstone,Ge,Cactus+Firefly,30:00:00,3%,3% (6%),5% (7%),5% (7%),Remember November
+Turquoise,Gemstone,Ge,Poison+Swamp,31:00:00,3%,3% (6%),5% (7%),5% (7%),Khorasan Kame
+Amber,Gemstone,Ge,Quake+Evergreen,30:26:15,3%,3% (6%),5% (7%),5% (7%),Fossil Folly
+Emerald,Gemstone,Ge,Lichen+Crystal,31:00:00,3%,3% (6%),5% (7%),5% (7%),The Sedna Mountains
+Pearl,Gemstone,Ge,Snow+Seaweed,30:00:00,3%,3% (6%),5% (7%),5% (7%),Shimmering Slough
+Diamond,Gemstone,Ge,Ice+Mine,30:00:00,3%,3% (6%),5% (7%),5% (7%),Carbon Craze
+Lapis,Gemstone,Ge,Thunder+Sandstorm,32:00:00,3%,3% (6%),5% (7%),5% (7%),Ultramarine Scene
+Ruby,Gemstone,Ge,Chrome+Scorch,31:00:00,3%,3% (6%),5% (7%),5% (7%),Mogok Mania
+Peridot,Gemstone,Ge,Crystal+Cactus,31:00:00,3%,3% (6%),5% (7%),5% (7%),Olivine's Ordeal
+Sapphire,Gemstone,Ge,Rain+Mountain,30:00:00,3%,3% (6%),5% (7%),5% (7%),Yogo Gulch
+Jade,Gemstone,Ge,Plasma+Salamander,30:26:15,3%,3% (6%),5% (7%),5% (7%),Catacombs of Ulmek
+Garnet,Gemstone,Ge,Smoke+Obsidian,31:00:00,3%,3% (6%),5% (7%),5% (7%),Crimson Canyon
+Amethyst,Gemstone,Ge,Hail+Sonic,28:00:00,3%,3% (6%),5% (7%),5% (7%),Gerias Mines
+Aquamarine,Gemstone,Ge,Iceberg+River,31:00:00,3%,3% (6%),5% (7%),5% (7%),Tour de Cyan
+Jet,Gemstone,Ge,Ash+Frostfire,30:00:00,3%,3% (6%),5% (7%),5% (7%),Lignite Night
+Ghostly Fire,Rare,F,,0:05:00,0%,0% (?%),0% (?%),0% (?%),
+Ghostly Earth,Rare,E,,2:00:00,0%,0% (?%),0% (?%),0% (?%),
+Ghostly Lava,Rare,FE,Ghostly Earth+Ghostly Fire,11:00:00,3%,10% (15%),10% (30%),10% (30%),Morbid Molten Motive
+Ghostly Obsidian,Rare,FE,Ghostly Fire+Ghostly Earth,9:00:00,3%,10% (15%),10% (30%),10% (30%),The Haunting of Wrothmoore
+Ghostly Cold,Rare,C,,12:00:00,0%,0% (?%),0% (?%),0% (?%),
+Ghostly Glacier,Rare,EC,Ghostly Earth+Ghostly Cold,11:00:00,3%,10% (20%),10% (30%),10% (30%),The Floe Beyond
+Ghostly Mountain,Rare,EC,Ghostly Cold+Ghostly Earth,15:00:00,3%,10% (20%),10% (30%),10% (30%),Summit Scare
+Ghostly Bone,Rare,FE,Ghostly Earth+Ghostly Fire,10:00:00,3%,10% (20%),10% (30%),10% (30%),Macabre Marrow
+Ghostly Decay,Rare,FEC,Ghostly Obsidian+Ghostly Cold,24:00:00,3%,10% (20%),10% (30%),10% (30%),Land of the Unsweetened
+Ghostly Ghost,Rare,EC,Ghostly Cold+Ghostly Earth,15:30:00,3%,10% (20%),10% (30%),10% (30%),Apparent Apparition
+Ghostly Nosferatu,Rare,FEC,Ghostly Mountain+Ghostly Fire,13:00:00,3%,10% (20%),10% (30%),10% (30%),Whitbee's Visitation
+Ghostly Oni,Rare,FEC,Ghostly Lava+Ghostly Cold,12:00:00,3%,10% (20%),10% (30%),10% (30%),Home Sweet Horror
+Ghostly Spectre,Rare,EC,Ghostly Cold+Ghostly Earth,12:00:00,3%,10% (20%),10% (30%),10% (30%),A Telltale Return
+Ghostly Spirit,Rare,EC,Ghostly Ghost+Ghostly Spectre,15:00:00,3%,10% (20%),10% (30%),10% (30%),Visitation Manifestation
+Ghostly Evergreen,Rare,PC,Ghostly Plant+Ghostly Cold,12:00:00,3%,10% (20%),10% (30%),10% (30%),Poltergeist Pine
+Ghostly Flower,Rare,PF,Ghostly Fire+Ghostly Plant,1:00:00,3%,10% (20%),10% (30%),10% (30%),Audrey Two
+Ghostly Lichen,Rare,PC,Ghostly Plant+Ghostly Cold,8:00:00,3%,10% (20%),10% (30%),10% (30%),Likely a Lich
+Ghostly Moss,Rare,PE,Ghostly Plant+Ghostly Earth,12:00:00,3%,10% (20%),10% (30%),10% (30%),A Swamp Thing
+Ghostly Plant,Rare,P,,0:00:05,0%,0% (?%),0% (?%),0% (?%),
+Ghostly Poison,Rare,PF,Ghostly Plant+Ghostly Fire,0:30:00,3%,10% (20%),10% (30%),10% (30%),Rocky Horror Tincture Show
+Ghostly Tree,Rare,PE,Ghostly Plant+Ghostly Earth,14:00:00,3%,10% (20%),10% (30%),10% (30%),Spectral Spruce
+Ghostly Coal,Rare,FE,Ghostly Fire+Ghostly Earth,12:00:00,3%,10% (20%),10% (30%),10% (30%),Canary's Revenge
+Ghostly Gift,Rare,PFC,Ghostly Evergreen+Ghostly Fire,12:25:00,3%,10% (20%),10% (30%),10% (30%),Forever Wrapped
+Ghostly Krampus,Rare,FEC,Ghostly Coal+Ghostly Cold,25:00:00,3%,10% (20%),10% (30%),10% (30%),Worse Than Coal...
+Ghostly Kringle,Rare,PFEC,Ghostly Trinket+Ghostly Earth,25:00:00,3%,10% (20%),10% (30%),10% (30%),Ebenezer's Enemy
+Ghostly Trinket,Rare,PFC,Ghostly Poison+Ghostly Cold,12:00:00,3%,10% (20%),10% (30%),10% (30%),Pandora's Box
+Cumulus,Epic,Hi,Monolith 2+Rain,18:00:00,3%,1% (5%),5% (30%),5% (30%),Head in the Clouds
+Stoneshell,Epic,Hi,Monolith 3+Quake,24:00:00,3%,1% (5%),5% (30%),5% (30%),Standing Egg Rock
+Tansy,Epic,Hi,Monolith 4+Cactus,20:00:00,3%,1% (5%),5% (30%),5% (30%),Burcadian Hooray
+Tulip,Epic,Hi,Monolith 6+Flower,22:00:00,1%,1% (5%),5% (30%),5% (30%),Moonlit Garden
+Pond,Epic,Hi,Monolith 1+Lichen,12:00:00,2%,1% (5%),5% (30%),5% (30%),Philosopher's Dragon
+Plateau,Epic,Hi,Monolith 5+Moss,14:00:00,2%,1% (5%),5% (30%),5% (30%),Slow-Moving Summit
+Cumberpatch,Epic,Hi,Cactus+monolith,28:00:00,2%,0.5% (10%),5% (?%),2% (?%),Mammu's Bargain
+Bloatato,Epic,HiSe,,16:06:40,0%,0% (30%),0% (30%),0% (30%),Starchy Goodness
+Curlyleaf,Epic,HiSe,,17:21:40,0%,0% (30%),0% (30%),0% (30%),Go Green Every Day
+Karroot,Epic,HiSe,,14:35:00,0%,0% (30%),0% (30%),0% (30%),I Am Root!
+Vidalia,Epic,HiSe,,20:08:20,0%,0% (30%),0% (30%),0% (30%),Tears of Joy
+Aubergine,Epic,HiSe,,20:50:00,0%,0% (30%),0% (30%),0% (30%),Purple Royale
+Minchi,Epic,Hi,,30:00:00,0%,0% (15%),0% (30%),0% (30%),Tough Egg to Crack
+Apex,Epic,EIHi,hidden+earth+light,22:00:00,2%,1% (10%),5% (30%),5% (30%),At the Pinnacle
+Atramento,Epic,LDHi,hidden+dark+lightning,23:00:00,2%,1% (10%),5% (30%),5% (30%),Ink-redible Experience
+Coldcoil,Epic,CWHi,hidden+cold+water,19:00:00,3.5%,1% (10%),5% (30%),5% (30%),Chilly Shellebration
+Frons,Epic,PMHi,hidden+plant+metal,21:00:00,2%,1% (10%),5% (30%),5% (30%),Falling for You
+Ignis,Epic,FAHi,hidden+fire+air,20:00:00,3%,1% (10%),5% (30%),5% (30%),Ignite the Sky
+Scout,Epic,Hi,Valor+hidden,24:00:00,2%,1% (10%),5% (30%),5% (30%),Camping Trip
+Umbra,Epic,Hi,,30:00:00,0%,0% (20%),0% (30%),0% (30%),Enveloping Darkness
+Redbeard,Epic,Hi,Celtic+hidden,18:00:00,4%,10% (20%),1% (30%),1% (30%),Interesting Interest
+Morphimagus,Epic,HiMo,Stella+hidden,23:00:00,4%,1% (15%),5% (30%),5% (30%),Back in the Hat
+Diggy,Epic,Hi,Bloatato+Gourd,30:00:00,2.25%,1% (15%),5% (30%),5% (30%),Diggy Diggy Hole
+Igluit,Epic,CWAHi,Icebound+hidden,15:00:00,3.9%,1% (15%),5% (30%),5% (30%),Free Real Estate
+Crackle,Epic,Hi,Stoneshell+Minchi,23:00:00,3.1%,1.5% (15%),5% (30%),5% (30%),One Shell of a Dragon
+Ember,Hybrid,FI,fire+light,8:00:00,*%,10% (20%),1% (?%),1% (?%),Conflagration Course
+Glass,Hybrid,EI,light+earth,12:30:00,*%,10% (20%),1% (?%),1% (?%),Silica Valley
+Heat,Hybrid,FI,light+fire,12:00:00,*%,10% (20%),1% (?%),1% (?%),Thermodynamic Panic
+Light,Primary,I,,10:00:00,$%,0% (?%),0% (?%),0% (?%),
+Light Rift,Primary Rift,IR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),A Gift in the Rift
+Luminous,Hybrid,PI,light+plant,13:00:00,*%,10% (20%),1% (?%),1% (?%),Glowing Gulch
+Meadow,Hybrid,PI,plant+light,9:00:00,*%,10% (20%),1% (?%),1% (?%),Eliyse's Clearing
+Sand,Hybrid,EI,earth+light,6:30:00,*%,10% (20%),1% (?%),1% (?%),Sandara's Sojourn
+Flash,Hybrid,LI,lightning+light,6:00:00,*%,10% (20%),1% (?%),1% (?%),Scarlet Sprint
+Gamma,Hybrid,LI,light+lightning,19:00:00,*%,10% (20%),1% (?%),1% (?%),Ray of Rage
+Glare,Hybrid,CI,light+cold,9:30:00,*%,10% (20%),1% (?%),1% (?%),Caves of Ramora
+Phantom,Hybrid,CI,cold+light,8:30:00,*%,10% (20%),1% (?%),1% (?%),Fear & Figments
+Hypnotic,Hybrid,AI,light+air,21:30:00,*%,10% (20%),1% (?%),1% (?%),Mesmeric Mausoleum
+Lotus,Hybrid,WI,water+light,7:00:00,*%,10% (20%),1% (?%),1% (?%),Transcendent Traversal
+Shimmer,Hybrid,WI,light+water,11:00:00,*%,10% (15%),1% (?%),1% (?%),Caught in the Crimson Sea
+Wind,Hybrid,AI,air+light,5:00:00,*%,10% (20%),1% (?%),1% (?%),Zesty Zephyr
+Palladium,Hybrid,MI,light+metal,5:30:00,*%,10% (20%),1% (?%),1% (?%),Noble Peril
+Radiant,Hybrid,MI,light+metal,10:30:00,*%,10% (20%),1% (?%),1% (?%),Heat Wave Havoc
+Mirage,Rare,ID,dark+light,17:00:00,5%,4% (15%),1% (?%),1% (?%),Phantasm Chasm
+Shadow,Rare,ID,light+dark,18:00:00,5%,4% (15%),1% (?%),1% (?%),The Wall of Shades
+Nectar,Rare,WI,light+water,5:00:00,5%,4% (15%),1% (?%),1% (?%),Tower of Tantalia
+Mirror,Rare,MI,light+metal,14:00:00,5%,4% (15%),1% (?%),1% (?%),Rorrim Rock
+Halo,Rare,AI,air+light,12:00:00,3%,2% (15%),1% (?%),1% (?%),Paradise Palisade
+Plains,Rare,EI,earth+light,12:00:00,5%,4% (10%),1% (?%),1% (?%),Gargantuan Grasslands
+Lagoon,Rare,WI,water+light,12:00:00,5%,4% (10%),1% (?%),1% (?%),Highlands Havoc
+Candescent,Rare,CI,cold+light,9:00:00,5%,4% (15%),1% (?%),1% (?%),Glowing Descent
+Fluorescent,Rare,CI,light+cold,11:00:00,5%,4% (15%),1% (?%),1% (?%),Debunking Spelunking
+Iridescent,Rare,AI,light+air,13:00:00,5%,4% (15%),1% (?%),1% (?%),Chroma Chasm
+Shining,Rare,LI,light+lightning,19:00:00,5%,4% (15%),1% (30%),1% (30%),Setse Sighting
+Alpenglow,Rare,EIR,earth+light+rift+[lightning trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Lighting the Rift
+Infrared,Rare,FI,light+fire,10:00:00,5%,4% (15%),1% (30%),1% (30%),Concentrated Fire Magic
+Arid,Rare,EI,light+earth,12:30:00,5%,4% (15%),1% (?%),?% (?%),Desert Duds
+Antumbra,Rare,IDR,light+dark+rift+[rift align:earth],0:00:00,5%,0% (0%),0% (0%),1% (15%),Pincer Power
+Ghast,Rare,IDR,light+dark+rift+[fire trait],0:00:00,5%,0% (0%),0% (0%),1% (15%),Phantasm Adrift
+Lacuna,Rare,IDR,Mirage+Shadow+rift+[mirage water trait]+[shadow air trait],0:00:00,3%,0% (0%),0% (0%),1% (15%),Lake of the Abyss
+Sandscale,Rare,EIR,earth+light+rift+[rift align:light],0:00:00,4%,0% (0%),0% (0%),1% (20%),Dune Diving
+Silverline,Rare,ID,light+dark,18:00:00,2%,4% (15%),1% (30%),1% (30%),Holistic Hope
+Wick,Rare,FI,fire+light,20:00:00,5%,4% (15%),1% (30%),1% (30%),Wicked Sick
+Poshwing,Rare,PI,plant+light,10:00:00,2%,4% (15%),1% (30%),1% (30%),Posh and Glamorous
+Bellflower,Rare,PI,light+plant,16:00:00,3%,4% (15%),1% (30%),1% (30%),Flower Power
+Crystal,Hybrid,EL,lightning+earth,24:00:00,*%,10% (20%),1% (?%),1% (?%),Fractal Fever
+Firefly,Hybrid,FL,lightning+fire,3:00:00,*%,10% (20%),1% (?%),1% (?%),Cold Light Chase
+Lightning,Primary,L,,0:30:00,$%,0% (?%),0% (?%),0% (?%),
+Quake,Hybrid,EL,earth+lightning,6:00:00,*%,10% (20%),1% (?%),1% (?%),Seismic Trick
+Sonic,Hybrid,LA,lightning+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Green Hill Havoc
+Storm,Hybrid,CL,cold+lightning,5:00:00,*%,10% (20%),1% (?%),1% (?%),Squall Shoal
+Scorch,Hybrid,FL,fire+lightning,3:00:00,*%,10% (20%),1% (?%),1% (?%),Scalding Stretch
+Cactus,Hybrid,PL,plant+lightning,0:30:00,*%,10% (20%),1% (?%),1% (?%),Glochid Grounds
+Magnetic,Hybrid,LM,lightning+metal,4:00:00,*%,10% (20%),1% (?%),1% (?%),Charisma Chasm
+Plasma,Rare,WL,lightning+water,16:00:00,5%,4% (10%),1% (?%),1% (?%),Ionized Guise
+Current,Rare,WL,water+lightning,16:00:00,5%,4% (15%),1% (?%),1% (?%),Sparkflow Connection
+Copper,Hybrid,LM,lightning+metal,20:00:00,*%,10% (20%),1% (?%),1% (?%),Conductive Conundrum
+Ash,Hybrid,PL,plant+lightning,6:00:00,*%,10% (20%),1% (?%),1% (?%),Phoenix Edict
+Hail,Hybrid,CL,cold+lightning,8:00:00,*%,10% (20%),1% (?%),1% (?%),The Barragening
+Thunder,Hybrid,LA,lightning+air,8:30:00,*%,10% (20%),1% (?%),1% (?%),Plunder Strike
+Flash,Hybrid,LI,lightning+light,6:00:00,*%,10% (20%),1% (?%),1% (?%),Scarlet Sprint
+Gamma,Hybrid,LI,light+lightning,19:00:00,*%,10% (20%),1% (?%),1% (?%),Ray of Rage
+Spark,Hybrid,LD,lightning+dark,9:30:00,*%,10% (20%),1% (?%),1% (?%),Shock Rock
+Wraith,Hybrid,LD,dark+lightning,14:00:00,*%,10% (20%),1% (?%),1% (?%),Gaznul Gulch
+Wisp,Rare,LD,lightning+dark,2:00:00,5%,4% (10%),1% (10%),1% (10%),Brume Bluff
+Lodestone,Rare,LM,metal+lightning,25:30:00,5%,3% (15%),1% (?%),1% (?%),Magnet Junket
+Darkling,Rare,LD,dark+lightning,14:00:00,3%,2% (10%),1% (?%),1% (?%),The Bolts of Faridat
+Tempest,Rare,CL,lightning+cold,8:00:00,5%,4% (10%),1% (?%),1% (?%),Wiggleswand Way
+Ivy,Rare,PL,lightning+plant,14:00:00,5%,4% (15%),1% (?%),1% (?%),Hall of Hedera
+Thistle,Rare,PL,plant+lightning,3:00:00,5%,?% (10%),?% (30%),?% (30%),Whistling Woods
+Cyclone,Rare,LA,lightning+air,18:00:00,5%,4% (15%),1% (30%),1% (30%),Witchitoto Plains
+Shining,Rare,LI,light+lightning,19:00:00,5%,4% (15%),1% (30%),1% (30%),Setse Sighting
+Surge,Rare,WL,lightning+water,16:00:00,5%,4% (15%),1% (30%),1% (30%),Glow 'n' Go
+Voltaic,Rare,LDR,dark+lightning+rift+[dark trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Scaredy Cave
+Lightning Rift,Primary Rift,LR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Bounceback Bluff
+Zaffer,Rare,CLR,Blue Fire+Plasma+rift+[blue fire air trait]+[plasma metal trait],0:00:00,4%,0% (0%),0% (0%),1% (15%),Blues Chase
+Thunderbird,Rare,ELR,lightning+earth+rift+[fire trait],0:00:00,3%,0% (0%),0% (0%),1% (15%),Bolt Buffet
+Abraxas,Rare,LDR,lightning+dark+rift+[rift align:lightning],23:00:00,4%,0% (0%),0% (0%),1% (20%),Power Overwhelming
+Brilliant,Rare,FL,lightning+fire,15:00:00,3%,4% (15%),1% (30%),1% (30%),Intuitive Innovation
+Ignite,Rare,FL,fire+lightning,16:00:00,2.5%,4% (15%),1% (30%),1% (30%),The Uncertainty Antithesis
+Fulgurite,Rare,EL,earth+lightning,16:00:00,2.25%,4% (15%),1% (30%),1% (30%),Charged Assumptions
+Thrasher,Rare,LM,lightning+metal,19:00:00,2.35%,4% (15%),1% (30%),1% (30%),Time to Shred
+Bouldershock,Rare,EL,lightning+earth,15:00:00,2.5%,4% (15%),1% (30%),1% (30%),Shocked and Shaken
+Shockproof,Rare,CL,cold+lightning,12:00:00,5%,10% (20%),1% (30%),1% (30%),Shocked and Rattled
+Love,Rare,PFL,Flower+lightning,5:00:00,4%,3% (10%),1% (?%),1% (?%),Heartbreak Hold
+Rose,Rare,PFA,Flower+air,14:00:00,5%,3.5% (15%),1% (?%),1% (?%),Nadia's Nursery
+Bouquet,Rare,PFW,Flower+water,9:00:00,5%,3% (10%),1% (?%),1% (?%),Floral Flight
+Moonstruck,Epic,Mo,Love+Rose,11:54:00,4%,2% (5%),?% (?%),?% (?%),Dungeon of Distractions
+Ambrosia,Rare,PFEC,Flower+Delight,23:00:00,5%,4% (10%),1% (?%),1% (?%),The Sweetest Scent
+Cuddlewing,Rare,PFEL,Love+Tree,28:00:00,5%,4% (10%),1% (?%),1% (?%),The Snugglening
+Rosegold,Rare,PFAM,Rose+Gold,30:00:00,5%,4% (10%),1% (?%),1% (?%),Unencumbered Soar
+Stoneheart,Epic,Au,Love+Melancholy,24:00:00,3%,5% (15%),5% (?%),5% (?%),Mort's Moratorium
+Smitten,Epic,Au,plant+fire+cold,29:00:00,3%,1% (10%),5% (?%),5% (?%),Overly Attached
+Sweetheart,Epic,Au,Stoneheart+Love,29:00:00,2%,1.5% (10%),1% (?%),5% (?%),Bemine Spelunking
+Daffadowndilly,Epic,Au,fire+earth+water,15:00:00,3%,1% (5%),5% (30%),5% (30%),Trial of Denial
+Petunia,Epic,Au,fire+earth+cold+lightning,16:00:00,3%,1% (5%),5% (30%),5% (30%),Anger Wrangler
+Begonia,Epic,Au,water+fire+metal,17:00:00,2%,1% (5%),5% (30%),5% (30%),Brash Bargaining
+Cyclamen,Epic,Au,earth+fire+dark,18:00:00,3%,1% (5%),5% (30%),5% (30%),Depression Secession
+Amaryllis,Epic,Au,plant+air+light,19:00:00,3%,1% (5%),5% (30%),5% (30%),Archetypal Acceptance
+Canna,Rare,PWI,water+plant+light,20:00:00,3%,5% (10%),5% (30%),5% (30%),It Comes In Makeshift Boat
+Murano,Rare,PEAI,Glass+Amaryllis,20:00:00,3%,1.5% (5%),1% (30%),1% (30%),Stainless Stained Glass
+Scuttle,Rare,EWD,water+earth+dark,20:00:00,3%,1.5% (5%),1% (30%),1% (30%),Free Shell Estate
+Giddle,Rare,PEI,earth+plant+light,20:00:00,3%,1.5% (5%),1% (30%),5% (30%),The Perfect Gift
+Grace,Epic,Au,Cuddlewing+water+light,22:00:00,2.5%,4% (15%),1% (30%),1% (30%),Two Beautiful Heads
+Entwined,Epic,Au,Love+Sweetheart,26:00:00,2.5%,4% (15%),1% (30%),1% (30%),Partner In Crime
+Canvas,Epic,Au,Sumi+Iron Blossom,30:00:00,2%,4% (15%),1% (30%),1% (30%),A True Masterpiece
+Masque,Epic,Au,Moonstruck+Spritely,32:00:00,1.5%,4% (15%),1% (30%),1% (30%),Who Is Behind The Masque
+Buttercup,Rare,ECAI,Giddle+air+light,18:00:00,3%,10% (20%),1% (30%),1% (30%),Fluffy Jewel
+Lightmare,Epic,DrMo,Moon+Dream,24:00:00,3.5%,1% (15%),5% (30%),5% (30%),Dreamcatcher
+Lumineux,Epic,PFLIDr,Love+dream,24:00:00,3.8%,10% (20%),1% (30%),1% (30%),Group Hug
+Orlena,Rare,PFAM,Rosegold+fire,20:00:00,4.25%,10% (20%),1% (30%),1% (30%),Royal Presence
+Cupido,Epic,Au,Stoneheart+Sweetheart,26:00:00,4.1%,1% (15%),5% (30%),5% (30%),Lovestruck
+Astraline,Epic,Dr,Petunia+air+light,24:00:00,4%,1% (15%),5% (30%),5% (30%),Astral Projection
+Mesmer,Epic,Au,Masque+Scorn,30:00:00,3%,1% (15%),5% (30%),5% (30%),Snap Back to Reality
+Brutiful,Epic,Au,Thorn+Masque,16:00:00,2.45%,1% (15%),5% (30%),5% (30%),Duality
+Divi,Rare,PEAI,Buttercup+Rosebud,18:00:00,2.8%,10% (20%),1% (30%),1% (30%),Rosa Rubiginosa
+PrickleFluff,Rare,FCAI,fire+air+cold+light,15:00:00,3.5%,10% (20%),1% (30%),1% (30%),Pursuit of Love
+Lovesick,Rare,PFEL,Sweetheart+Cuddlewing,18:00:00,3.1%,10% (20%),1% (30%),1% (30%),Strongest of Potions
+Mesmerus,Epic,Au,,30:00:00,0%,0% (20%),0% (30%),0% (30%),Under Your Spell
+Nomnoter,Rare,PFCL,Love+Delight,19:00:00,3.5%,10% (20%),1% (30%),1% (30%),Lovely Cuisine
+Lovonone,Epic,Au,Cupido+Scorn,27:00:00,2.9%,1% (15%),5% (30%),5% (30%),True Unity
+Glassia,Epic,PAIAu,Murano+Rose,34:00:00,2.85%,1.5% (15%),5% (30%),5% (30%),Heart of Roses
+Heavy Metal,Epic,Me,Thrasher+Wrath,26:00:00,3.8%,1.5% (15%),5% (30%),5% (30%),Riff Master
+Punk,Epic,Me,Decay+Lycan,26:00:00,3.8%,1.5% (15%),5% (30%),5% (30%),Mosh Pit
+Techno,Epic,Me,Surge+Kwall,26:00:00,3.8%,1.5% (15%),5% (30%),5% (30%),Electric Shuffle
+Country,Epic,Me,Harvest Moon+Seed,26:00:00,3.8%,1.5% (15%),5% (30%),5% (30%),Howdy
+Chorister,Epic,Me,Harmony+Yule,20:00:00,3.8%,1.5% (15%),5% (30%),5% (30%),Achoired Taste
+Lullaby,Epic,DrMe,Serenity+dream,26:00:00,4.5%,1.5% (15%),5% (30%),5% (30%),Snoring
+Sea Shanty,Epic,WMe,Ruckus+Tidal,26:00:00,4.5%,1.5% (15%),5% (30%),5% (30%),Unbearable Tunes
+Classical,Epic,Me,Canvas+Rosegold,26:00:00,4.5%,1.5% (15%),5% (30%),5% (30%),The Composer
+Brass,Hybrid,FM,fire+metal,5:00:00,*%,10% (20%),1% (?%),1% (?%),Doubley Alloyed
+Chrome,Hybrid,AM,air+metal,5:00:00,*%,10% (20%),1% (?%),1% (?%),Ride Eternal
+Iron,Hybrid,EM,earth+metal,4:00:00,*%,10% (20%),1% (?%),1% (?%),Iron Will
+Magnetic,Hybrid,LM,lightning+metal,4:00:00,*%,10% (20%),1% (?%),1% (?%),Charisma Chasm
+Metal,Primary,M,,8:00:00,$%,0% (?%),0% (?%),0% (?%),
+Mine,Hybrid,CM,cold+metal,10:00:00,*%,10% (20%),1% (?%),1% (?%),Dramorian Delve
+Rust,Hybrid,WM,water+metal,6:00:00,*%,10% (20%),1% (?%),1% (?%),Corrosion Excursion
+Steel,Hybrid,CM,cold+metal,14:00:00,*%,10% (20%),1% (?%),1% (?%),Left Turn Lagoon
+Copper,Hybrid,LM,lightning+metal,20:00:00,*%,10% (20%),1% (?%),1% (?%),Conductive Conundrum
+Forge,Hybrid,FM,fire+metal,24:00:00,*%,10% (20%),1% (?%),1% (?%),Smithy Snafu
+Quicksilver,Hybrid,WM,water+metal,18:00:00,*%,10% (20%),1% (?%),1% (?%),Mercurial Madness
+Malachite,Rare,PM,metal+plant,12:00:00,5%,4% (15%),1% (?%),1% (?%),Smash Valley
+Scoria,Hybrid,EM,earth+metal,22:00:00,*%,10% (20%),1% (?%),1% (?%),Bessemer's Bounty
+Ironwood,Rare,PM,plant+metal,12:00:00,5%,4% (15%),1% (?%),1% (?%),Tessa's Trek
+Meteor,Hybrid,AM,air+metal,14:00:00,*%,10% (20%),1% (?%),1% (?%),Star Shower
+Acid,Hybrid,MD,dark+metal,15:30:00,*%,10% (20%),1% (?%),1% (?%),Corrosive Crater
+Palladium,Hybrid,MI,light+metal,5:30:00,*%,10% (20%),1% (?%),1% (?%),Noble Peril
+Promethium,Hybrid,MD,dark+metal,8:00:00,*%,10% (20%),1% (?%),1% (?%),Rift Fire Mire
+Radiant,Hybrid,MI,light+metal,10:30:00,*%,10% (20%),1% (?%),1% (?%),Heat Wave Havoc
+Sulfur,Rare,FM,fire+metal,15:00:00,5%,4% (15%),1% (?%),1% (?%),Putrid Plunge
+Mirror,Rare,MI,light+metal,14:00:00,5%,4% (15%),1% (?%),1% (?%),Rorrim Rock
+Lodestone,Rare,LM,metal+lightning,25:30:00,5%,3% (15%),1% (?%),1% (?%),Magnet Junket
+Thorn,Rare,PM,metal+plant,7:00:00,5%,4% (10%),1% (?%),1% (?%),Spiky Spire Brier
+Conch,Rare,WM,metal+water,6:00:00,5%,4% (10%),1% (?%),1% (?%),Mollusca Marina
+Molten,Rare,FM,metal+fire,12:00:00,5%,4% (10%),1% (?%),1% (?%),Shi Nee's Saga
+Verdigris,Rare,AM,air+metal,7:30:00,5%,?% (15%),?% (30%),?% (30%),Anti-Gravity Antics
+Coldforge,Rare,CM,cold+metal,20:00:00,5%,4% (15%),1% (30%),1% (30%),Wimbledrip's Woe
+Spore,Rare,PMR,plant+metal+rift+[plant trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Field of Shrooms
+Metal Rift,Primary Rift,MR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Tenacious Drop
+Bonescale,Rare,CM,metal+cold,22:00:00,2%,4% (15%),1% (30%),1% (30%),Calcified Crusade
+Chitin,Rare,MD,dark+metal,26:00:00,4%,4% (10%),1% (25%),1% (20%),Creepy Crawler
+Auroch,Rare,EM,metal+earth,22:00:00,4%,4% (10%),1% (?%),1% (?%),Bullish Tendencies
+Drifter,Rare,WM,water+metal,6:00:00,4%,4% (15%),1% (30%),1% (30%),Flowing Riffs
+Xanthium,Rare,EM,earth+metal,19:00:00,2.5%,4% (15%),1% (30%),1% (30%),A Prickly Pretense
+Thrasher,Rare,LM,lightning+metal,19:00:00,2.35%,4% (15%),1% (30%),1% (30%),Time to Shred
+Razortail,Rare,PM,plant+metal,12:00:00,5%,10% (20%),1% (30%),1% (30%),One Prickly Pear
+Monolith 1,Epic,Mh,monolith+monolith,2:30:00,20%,0% (0%),0% (0%),?% (0%),
+Monolith 2,Epic,Mh,monolith+monolith,2:30:00,20%,0% (0%),0% (0%),?% (0%),
+Monolith 3,Epic,Mh,monolith+monolith,25:00:00,5%,0% (0%),0% (0%),?% (0%),
+Monolith 4,Epic,Mh,monolith+monolith,25:00:00,5%,0% (0%),0% (0%),?% (0%),
+Monolith 5,Epic,Mh,monolith+monolith,40:00:00,1%,0% (0%),0% (0%),?% (0%),
+Monolith 6,Epic,Mh,monolith+monolith,24:00:00,1%,0% (0%),0% (0%),?% (0%),
+Glyph,Epic,Mh,,16:00:00,0%,0% (15%),0% (30%),0% (30%),Deep Slumber
+Hedera,Epic,Mh,,24:00:00,0%,0% (15%),0% (30%),0% (30%),Creeping Charlie
+Pixie,Epic,Mh,,18:00:00,0%,0% (15%),0% (30%),0% (30%),Spring bringer
+Moon,Epic,Mo,cold+lightning+[night],48:00:00,3%,2% (5%),?% (?%),?% (?%),Lunar Lunacy
+Blue Moon,Epic,Mo,cold+lightning,29:31:48,4% (3%),3% (5%),?% (?%),?% (?%),Lunar Blues
+Equinox,Epic,SuMo,Blazing+water,24:00:00,3% (2%),2% (5%),?% (?%),?% (?%),Hemisphere Mutineer
+Solar Eclipse,Epic,SuMo,earth+air+fire,48:00:00,3% (2%),1% (5%),?% (?%),?% (?%),Age of Alignment
+Lunar Eclipse,Epic,SuMo,air+cold+earth,48:00:00,3% (2%),1% (5%),?% (?%),?% (?%),Umbral Plunge
+Moonstruck,Epic,Mo,Love+Rose,11:54:00,4%,2% (5%),?% (?%),?% (?%),Dungeon of Distractions
+Dawn,Epic,SuMo,Moon+Sun+[day],20:00:00,1%,1% (5%),?% (?%),?% (?%),The Awakening
+Dusk,Epic,SuMo,Sun+Moon+[night],20:00:00,1%,1% (5%),?% (?%),?% (?%),Half-light Hunt
+Midnight,Epic,Mo,Moon+dark+[night],12:00:00,1%,1% (5%),?% (?%),?% (?%),The Witching Hour
+Omen,Epic,ApMo,Moon+Apocalypse,27:00:00,3%,2% (5%),?% (?%),?% (?%),Trial DCLVI
+Nightbloom,Epic,PDMo,plant+dark+moon,27:00:00,3% (1.5%),1% (5%),5% (30%),?% (30%),Night Flight
+Harvest Moon,Epic,PEWMo,Harvest+Moon,18:00:00,5%,1% (5%),5% (?%),5% (?%),Marigold Moon
+Sunscorch,Epic,WDMo,moon+water+dark,42:00:00,5%,1% (10%),1% (?%),1% (?%),Shaded Shelter
+Monte,Epic,AISuMo,moon+sun+air+light,12:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Juicy Joy
+Sailback,Epic,FWSuMo,moon+sun+water+fire,8:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Aquatic Anathema
+Toco,Epic,PASuMo,moon+sun+air+plant,8:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Big-billed Beats
+Vibe,Epic,PLSuMo,moon+sun+plant+lightning,12:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Scene Maker
+Elegant,Epic,PISuMo,moon+sun+plant+light,12:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Grand Entrance
+Ruckus,Epic,FISuMo,moon+sun+fire+light,10:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Bring It On!
+Dazzle,Epic,LDSuMo,moon+sun+lightning+dark,17:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),A Star is Bred
+Razzle,Epic,ADSuMo,moon+sun+air+dark,14:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Hysterical Hype
+Lunis,Galaxy,GaMo,Moon+galaxy,24:00:00,2%,5% (20%),0% (0%),0% (0%),A Lunar Tick
+Stella,Epic,Mo,Midnight+Starwing,15:00:00,3%,1% (5%),5% (30%),5% (30%),The Sky's Not the Limit
+Darkmatter,Epic,RbMo,Aurora+Nightbloom+[night],25:00:00,2%,1% (5%),5% (30%),5% (30%),You Matter
+Moriante,Epic,IMo,Blue Moon+light+[weather:fireflies],20:00:00,2%,1% (5%),5% (30%),5% (30%),Flip the Switch
+Prestige,Epic,PADMo,Psyche+Stella,30:00:00,3.75%,10% (20%),1% (30%),1% (30%),Plot Twist
+Wilderness,Epic,Mo,Nightbloom+Seraph,26:00:00,4.5%,1.5% (15%),5% (30%),5% (30%),Expert of the Wild
+Lightmare,Epic,DrMo,Moon+Dream,24:00:00,3.5%,1% (15%),5% (30%),5% (30%),Dreamcatcher
+Morphimagus,Epic,HiMo,Stella+hidden,23:00:00,4%,1% (15%),5% (30%),5% (30%),Back in the Hat
+Puffles,Epic,CAIMo,Fluffles+Nightbloom,18:00:00,4%,1% (15%),5% (30%),5% (30%),The Shear Size
+Prestina,Epic,AIDMo,Prestige+Outrider,28:00:00,4.25%,1% (15%),5% (30%),5% (30%),Partners in Magic
+Margento,Epic,Mo,Lunis+Prestige,29:00:00,3%,1.5% (15%),5% (30%),5% (30%),Magic Scales
+Bronze Olympus,Epic,Ol,earth+lightning+air,35:00:00,5%,4% (5%),?% (?%),?% (?%),Olympian Struggle
+Gold Olympus,Epic,Ol,earth+lightning+air,35:00:00,1.5%,1% (5%),?% (?%),?% (?%),Herculean Effort
+Silver Olympus,Epic,Ol,earth+lightning+air,35:00:00,3%,2% (5%),?% (?%),?% (?%),Silvery Peaks
+Cyclops,Epic,Ol,lightning+water+metal,33:00:00,3%,2% (5%),?% (?%),?% (?%),Sights Unseen
+Snowy Bronze,Epic,Ol,air+cold+fire,32:00:00,5%,4% (5%),?% (?%),?% (?%),Chione Chasm
+Snowy Gold,Epic,Ol,air+cold+fire,32:00:00,1.5%,1% (5%),?% (?%),?% (?%),Chione Peaks
+Snowy Silver,Epic,Ol,air+cold+fire,32:00:00,3%,2% (5%),?% (?%),?% (?%),Chione Climb
+Victory,Epic,Ol,air+cold+lightning,36:00:00,3%,1% (5%),?% (?%),?% (?%),Triumph Turlough
+Hydra,Epic,Ol,Quake+Current,34:00:00,3%,2% (5%),?% (?%),?% (?%),Leviathan Caverns
+Elysium,Epic,DrOl,Gold Olympus+Dream,48:00:00,6% (3%),2% (5%),?% (?%),?% (?%),West Wind Warning
+Muse,Epic,DrOl,Hydra+Daydream,36:00:00,6% (3%),?% (10%),?% (?%),?% (?%),Writer's Block Bluff
+Fates,Epic,Ol,plant+fire+water,20:00:00,1.5%,1% (5%),5% (30%),5% (30%),Triad Trench
+Herald,Epic,Ol,lightning+light+cold,34:00:00,3%,2% (5%),5% (30%),5% (30%),Extre Extre Endeavor
+Squall,Epic,Ol,water+plant+air,34:00:00,3%,2% (5%),5% (30%),5% (30%),Anchored Adventure
+Stygian,Epic,Ol,dark+fire+metal,34:00:00,3%,2% (5%),5% (30%),5% (30%),Runic River
+Thunderbolt,Epic,Ol,earth+lightning+air,34:00:00,3%,2% (5%),5% (30%),5% (30%),Cloud Striker
+Valor,Epic,Ol,plant+metal+air,34:00:00,3%,1% (5%),5% (30%),5% (30%),Brave New Vale
+Trimera,Epic,Ol,fire+plant+air,19:26:40,1.5%,1% (5%),5% (30%),5% (30%),Well of Madness
+Cerberus,Epic,Ol,Hydra+Obsidian,33:00:00,3%,2% (5%),5% (30%),5% (30%),Hall of Halitosis
+Dawnbringer,Epic,Ol,fire+dark+air,35:00:00,1.5%,2% (5%),5% (30%),5% (30%),Sun Salute
+Spritely,Epic,AuOl,aura+olympus,35:00:00,7% (4%),1% (10%),1% (?%),5% (?%),Painted Hills
+Ocular,Epic,FLMOl,Cyclops+Barbarous,23:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Insightful
+Sprout,Epic,Se,light+water+earth,36:00:00,3%,2% (5%),?% (?%),?% (?%),Budding Bayou
+Leaf,Epic,Se,plant+water+light,37:00:00,3%,2% (5%),?% (?%),?% (?%),Photosynthetic Folly
+Berry,Epic,Se,fire+water+light,16:00:00,3%,2% (5%),?% (?%),?% (?%),Fearsome Fruits
+Gourd,Rare,PFED,Pepper+Root,30:51:56,4%,3% (10%),1% (?%),1% (?%),Pumpkin Patch
+Seed,Epic,Se,cold+water+light,18:00:00,3%,1% (5%),?% (?%),?% (?%),Forage in the Great Forest
+Feast,Rare,PEI,plant+earth+light,24:00:00,5%,2% (10%),1% (?%),1% (?%),The Fattening
+Harvest,Rare,PEW,plant+earth+water,18:00:00,5%,2% (10%),1% (?%),1% (?%),Fruitful Feat
+Harvest Moon,Epic,PEWMo,Harvest+Moon,18:00:00,5%,1% (5%),5% (?%),5% (?%),Marigold Moon
+Bogberry,Epic,PWISe,Bog+Berry,16:00:00,3%,2% (10%),1% (?%),1% (?%),Six-Fingered Lake
+Bounteous,Rare,PFE,earth+plant+fire,14:00:00,5%,2% (10%),1% (?%),1% (?%),Bounding Around
+Teozinte,Rare,PEC,earth+plant+cold,22:00:00,5%,2% (10%),1% (?%),1% (?%),Corn Maze
+Plumpkin,Rare,PFE,plant+fire+earth,19:00:00,5%,2% (10%),1% (?%),1% (?%),Pumpermelon Imposter
+Cumberpatch,Epic,Hi,Cactus+monolith,28:00:00,2%,0.5% (10%),5% (?%),2% (?%),Mammu's Bargain
+Bloatato,Epic,HiSe,,16:06:40,0%,0% (30%),0% (30%),0% (30%),Starchy Goodness
+Curlyleaf,Epic,HiSe,,17:21:40,0%,0% (30%),0% (30%),0% (30%),Go Green Every Day
+Karroot,Epic,HiSe,,14:35:00,0%,0% (30%),0% (30%),0% (30%),I Am Root!
+Vidalia,Epic,HiSe,,20:08:20,0%,0% (30%),0% (30%),0% (30%),Tears of Joy
+Aubergine,Epic,HiSe,,20:50:00,0%,0% (30%),0% (30%),0% (30%),Purple Royale
+Sow,Rare,PECD,Teozinte+Gourd,18:00:00,4%,10% (20%),1% (30%),1% (30%),Crop Security
+Huddle,Rare,PEI,Harvest+Karroot,22:00:00,3.75%,10% (20%),1% (30%),1% (30%),Golden-brown Feathers
+Squish,Rare,PEI,Bogberry+Feast,17:00:00,3.5%,10% (20%),1% (30%),1% (30%),Squash
+Bushwhack,Rare,PFED,Bramble+earth+fire,27:00:00,2.75%,10% (20%),1% (30%),1% (30%),Whacky Mazes
+Fomhar,Epic,Se,Seasonal+Autumn,23:00:00,3.25%,10% (20%),1% (30%),1% (30%),Pillar of Autumn
+Maze,Rare,PWI,Leaf+plant,14:00:00,4%,10% (20%),1% (30%),1% (30%),Getting Lost
+Keyper,Rare,PMD,Razortail+Etch,18:00:00,3.5%,1% (15%),5% (30%),5% (30%),Master Key
+Standstone,Rare,ECLM,Gargoyle+Bonescale,28:00:00,2.6%,1% (15%),5% (30%),5% (30%),Staying Vigilant
+Diggy,Epic,Hi,Bloatato+Gourd,30:00:00,2.25%,1% (15%),5% (30%),5% (30%),Diggy Diggy Hole
+Dazzling,Epic,Or,ornamental+ornamental,55:00:00,0.5%,0.5% (5%),0.25% (5%),0.5% (?%),Fulgent Foray
+Lace,Epic,Or,Coal+plant,31:00:00,3%,1% (5%),?% (?%),?% (?%),Doily Dash
+Ornamental,Epic,Or,Reindeer+fire,18:00:00,6%,1% (5%),?% (30%),?% (30%),Sleigh Ride
+Flicker,Epic,Or,Gift+earth,25:00:00,4%,1% (5%),5% (?%),5% (?%),Glimmer Grotto
+Verglace,Epic,Or,Mistletoe+cold,25:00:00,5%,1% (5%),?% (?%),?% (?%),Lord of the Fjords
+Ribbon,Epic,Or,Regift+fire,19:00:00,4%,1% (5%),5% (30%),5% (30%),Streaming & Gleaming
+Tinsel,Epic,Or,Holly+cold,27:00:00,3%,1% (5%),5% (30%),5% (30%),Into the Bushes
+Twinkle,Epic,Or,Winter+air,55:00:00,0.5%,1% (5%),5% (25%),5% (25%),Cave of Caroling
+Starshine,Epic,Or,Twinkle+Dazzling,19:00:00,2%,1.5% (10%),1% (?%),1% (?%),Shine On
+Avarice,Epic,FECOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),Enrichment En Masse
+Burglehoo,Epic,FECOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),Not a Grump Nor a Heel
+Gulletail,Epic,FECOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),Quite the Appetite
+Libretto,Epic,PFCOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),Vocal Victory
+Nibwhip,Epic,PFCOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),An Unforgettable Mug
+Sugarplum,Epic,PFCOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),Fancy Feet
+Lokilure,Epic,FECOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),Tricksy Trickster
+Saccharine,Epic,PFCOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),No Salt Here
+Jadice,Epic,FECOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),Fiercely Frosted
+Trepak,Epic,PFCOr,,12:00:00,0%,0% (30%),0% (30%),0% (30%),Foot Drill
+Reminiscence,Epic,CWOr,Icy Torrent+ornamental,30:00:00,3%,1.5% (10%),1% (30%),1% (30%),Memories of Winter
+Venture,Epic,FAOr,Blazing Gale+ornamental,30:00:00,3%,1.5% (10%),1% (30%),1% (30%),Far-off Travels
+Harmony,Epic,PMOr,Iron Blossom+ornamental,30:00:00,3%,1.5% (10%),1% (30%),1% (30%),Down With Dissonance
+Yule,Epic,EIOr,Mountain Sun+ornamental,30:00:00,3%,1.5% (10%),1% (30%),1% (30%),Tides of Winter Tidings
+Spellmason,Epic,LDOr,Hidden Bolt+ornamental,30:00:00,3%,1.5% (10%),1% (30%),1% (30%),The Living Stone
+Snowball,Epic,COr,Snowpocalypse+Shiver,22:00:00,1.5%,4% (15%),1% (30%),1% (30%),Hiding Like Snowbody's Business
+Yanghis,Epic,Or,Starshine+Flicker,23:00:00,2%,4% (15%),1% (30%),1% (30%),Igniting the Fireworks
+Angler,Epic,CAOr,Venture+Gulletail,24:00:00,1.5%,4% (1.5%),1% (30%),1% (30%),Something Catchy
+Yeti,Epic,ECOr,Kringle+Krampus,26:00:00,1.5%,4% (15%),1% (30%),1% (30%),They Like To Throw Things
+Glitz,Epic,Or,Yanghis+Jadice,24:00:00,4.1%,1% (15%),5% (30%),5% (30%),Sparkle Startle
+Zero,Epic,ApOr,Permafrost+Snowpocalypse,28:00:00,3.9%,1% (15%),5% (30%),5% (30%),Below Zero
+Zumi,Epic,Or,Snowball+Ketu,19:00:00,4.25%,1% (15%),5% (30%),5% (30%),Best Friends Forever
+Greenge,Epic,FECIOr,Burglehoo+Yule,20:00:00,2%,1% (15%),5% (30%),5% (30%),Grumpy Wumpy
+Ovalith,Gemstone,Ge,Bloom+Panlong,30:00:00,1%,3% (6%),5% (7%),5% (7%),Shell Scheme
+Hakahaka,Rare,PFEI,fire+light+earth+plant,19:00:00,2%,1.5% (10%),1% (30%),1% (?%),Resolute Ritual
+Honuhonu,Rare,PW,Sunscorch+Tidepool,18:00:00,2%,1.5% (10%),1% (30%),1% (?%),Seaside Shellslide
+Humuhumu,Rare,WI,Party+Lagoon,16:00:00,2%,1.5% (10%),1% (30%),1% (?%),Reef Research
+Limulimu,Rare,PWI,plant+water+light,14:00:00,5%,4% (15%),1% (30%),1% (30%),Maritime Mission
+Manomano,Rare,CWD,water+cold+dark,20:30:00,2%,1.5% (10%),1% (30%),1% (?%),Riptide Rush
+Monte,Epic,AISuMo,moon+sun+air+light,12:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Juicy Joy
+Sailback,Epic,FWSuMo,moon+sun+water+fire,8:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Aquatic Anathema
+Toco,Epic,PASuMo,moon+sun+air+plant,8:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Big-billed Beats
+Vibe,Epic,PLSuMo,moon+sun+plant+lightning,12:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Scene Maker
+Elegant,Epic,PISuMo,moon+sun+plant+light,12:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Grand Entrance
+Ruckus,Epic,FISuMo,moon+sun+fire+light,10:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Bring It On!
+Dazzle,Epic,LDSuMo,moon+sun+lightning+dark,17:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),A Star is Bred
+Razzle,Epic,ADSuMo,moon+sun+air+dark,14:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Hysterical Hype
+Grove,Rare,PW,Honuhonu+Frond,17:00:00,3%,1% (5%),1% (30%),1% (30%),Slow Show
+Hanno,Rare,PW,plant+water,20:00:00,3%,5% (10%),5% (30%),5% (30%),The Life of the Party
+Oaris,Rare,PWI,Meadow+Limulimu,15:00:00,3%,5% (10%),5% (30%),5% (30%),Hearing Intensifies
+Delicia,Epic,ADr,Glimmerwing+dream,30:00:00,2%,1% (5%),1% (30%),1% (30%),D for Delici(ous)
+Exandrew,Rare,FEA,earth+fire+air,24:00:00,3%,5% (10%),5% (30%),5% (30%),Roll For Initiative
+Tebori,Epic,IDr,Hakahaka+dream,28:00:00,2.5%,1% (5%),1% (30%),1% (30%),Traditional Patterns
+Alffa,Epic,ADr,dream+air,32:00:00,2%,1% (5%),1% (30%),1% (30%),Alpha in Disguise
+Mylio,Rare,WID,water+dark+light,22:00:00,3%,4% (15%),1% (30%),1% (30%),Sea You Later
+Ahoy,Rare,FEWA,air+water+earth+fire,17:00:00,4.5%,10% (20%),1% (30%),1% (30%),Getaway Stick
+Ikatako,Rare,EWLD,Ooze+Tidal,16:00:00,4.5%,10% (20%),1% (30%),1% (30%),Tentacle Tickle
+Zilla,Rare,FCWD,Kaiju+cold+water,18:00:00,4.5%,10% (20%),1% (30%),1% (30%),King Of The Sea
+Gawk,Epic,ATr,Regal+Gold,22:00:00,4%,1.5% (15%),5% (30%),5% (30%),Bird of Paradise
+Lazuli,Epic,WTr,Scarab+Bronze,24:00:00,4%,1.5% (15%),5% (30%),5% (30%),Dolphins Of The Sky
+Trove,Epic,Tr,Misfortune+Electrum,26:00:00,4%,1.5% (15%),5% (30%),5% (30%),Gold Detector
+Alure,Epic,WTr,Djinni+Silver,28:00:00,4%,1.5% (15%),5% (30%),5% (30%),Song Of The Siren
+Enfis,Epic,Rb,[4 elements],29:00:00,3% (1%),3% (5%),5% (30%),5% (30%),Slippery Companion
+Yarr,Epic,WTr,Loot+Platinum,30:00:00,3.75%,1.5% (15%),5% (30%),5% (30%),Sail The High Seas
+Spinky,Rare,CW,Sailback+Aquacorn,15:00:00,3%,10% (20%),1% (30%),1% (30%),Rolling in the Waves
+Valeodon,Rare,FCWD,Kaiju+Zilla,18:00:00,3.1%,10% (20%),1% (30%),1% (30%),Serpent of the Sea
+Euryale,Rare,WID,Mylio+Ikatako,24:00:00,4%,1% (15%),5% (30%),5% (30%),Rock the Boat
+Corsair,Epic,WTr,Yarr+Djinni,31:00:00,4.15%,10% (20%),1% (30%),1% (30%),Seeking Thrills
+Curse,Epic,WTr,Misfortune+Alure,32:00:00,4.25%,1% (15%),5% (30%),5% (30%),Malediction
+Crawler,Rare,CWD,Manomano+water+dark,14:00:00,4.75%,10% (20%),1% (30%),1% (30%),Snap Back
+Kann,Epic,PWSu,Sun+Hanno,36:00:00,4.5%,1% (15%),5% (30%),5% (30%),Slither Hither
+Oasian,Rare,PWID,Honuhonu+Mylio,16:00:00,3.33%,10% (20%),1% (30%),1% (30%),Oasis To-Go
+Flower,Hybrid,PF,fire+plant,1:00:00,*%,10% (20%),1% (?%),1% (?%),Floral Quarrel
+Moss,Hybrid,PE,plant+earth,12:00:00,*%,10% (20%),1% (?%),1% (?%),Bryophyte Plight
+Plant,Primary,P,,0:00:05,$%,0% (?%),0% (?%),0% (?%),
+Poison,Hybrid,PF,plant+fire,0:30:00,*%,10% (20%),1% (?%),1% (?%),Toxic Trouble
+Seaweed,Hybrid,PW,plant+water,5:00:00,*%,10% (20%),1% (?%),1% (?%),Nori Cove
+Swamp,Hybrid,PW,plant+water,9:00:00,*%,10% (20%),1% (?%),1% (?%),Madcap Muskeg
+Tree,Hybrid,PE,plant+earth,14:00:00,*%,10% (20%),1% (?%),1% (?%),Rootmoot
+Willow,Hybrid,PA,plant+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Weeping Waterfall
+Cactus,Hybrid,PL,plant+lightning,0:30:00,*%,10% (20%),1% (?%),1% (?%),Glochid Grounds
+Lichen,Hybrid,PC,plant+cold,6:00:00,*%,10% (20%),1% (?%),1% (?%),Algae Analogy
+Evergreen,Hybrid,PC,plant+cold,10:00:00,*%,10% (20%),1% (?%),1% (?%),Neverblue Woods
+Pollen,Hybrid,PA,plant+air,7:00:00,*%,10% (20%),1% (?%),1% (?%),Fields of Achoo
+Malachite,Rare,PM,metal+plant,12:00:00,5%,4% (15%),1% (?%),1% (?%),Smash Valley
+Ironwood,Rare,PM,plant+metal,12:00:00,5%,4% (15%),1% (?%),1% (?%),Tessa's Trek
+Ash,Hybrid,PL,plant+lightning,6:00:00,*%,10% (20%),1% (?%),1% (?%),Phoenix Edict
+Pepper,Rare,PF,fire+plant,6:00:00,5%,4% (15%),1% (?%),1% (?%),Cheelei's Cove
+Forest,Rare,PE,plant+earth,4:00:00,5%,4% (15%),1% (?%),1% (?%),Copse Consternation
+Luminous,Hybrid,PI,light+plant,13:00:00,*%,10% (20%),1% (?%),1% (?%),Glowing Gulch
+Meadow,Hybrid,PI,plant+light,9:00:00,*%,10% (20%),1% (?%),1% (?%),Eliyse's Clearing
+Fungus,Hybrid,PD,plant+dark,13:00:00,*%,10% (20%),1% (?%),1% (?%),Blight Blockade
+Nightshade,Hybrid,PD,dark+plant,13:30:00,*%,10% (20%),1% (?%),1% (?%),Belladonna's Bastion
+Orchid,Rare,PA,plant+air,9:00:00,5%,3% (15%),1% (?%),1% (?%),Koo Hill Trek
+Thorn,Rare,PM,metal+plant,7:00:00,5%,4% (10%),1% (?%),1% (?%),Spiky Spire Brier
+Bramble,Rare,PD,dark+plant,18:00:00,5%,2% (10%),1% (?%),1% (?%),Razor Ramble
+Ivy,Rare,PL,lightning+plant,14:00:00,5%,4% (15%),1% (?%),1% (?%),Hall of Hedera
+Nightbloom,Epic,PDMo,plant+dark+moon,27:00:00,3% (1.5%),1% (5%),5% (30%),?% (30%),Night Flight
+Thistle,Rare,PL,plant+lightning,3:00:00,5%,?% (10%),?% (30%),?% (30%),Whistling Woods
+Conifer,Rare,PC,cold+plant,18:00:00,5%,4% (10%),1% (30%),1% (30%),Brow Mountain
+Frostflower,Rare,PC,plant+cold,10:00:00,5%,4% (15%),1% (30%),1% (30%),Just Right Gauntlet
+Plant Rift,Primary Rift,PR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Rift Innovations
+Spore,Rare,PMR,plant+metal+rift+[plant trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Field of Shrooms
+Snapper,Rare,PD,plant+dark,15:00:00,5%,4% (15%),1% (?%),1% (?%),Slow & Steady
+Viridian,Rare,PAR,Dodo+Malachite+rift+[dodo fire trait]+[malachite light trait],0:00:00,1%,0% (0%),0% (0%),1% (15%),Ardent Valley
+Dandelion,Rare,PA,air+plant,7:30:00,5%,4% (15%),1% (?%),1% (?%),Breeze Floating
+Tumblethorn,Rare,PER,plant+earth+rift+[earth trait],0:00:00,2%,0% (0%),0% (0%),1% (15%),Tumbling Along
+Tidepool,Rare,PW,water+plant,9:00:00,5%,4% (15%),1% (30%),1% (30%),Turning the Tides
+Smoulderbrush,Rare,PF,plant+fire,8:00:00,4%,4% (15%),1% (30%),1% (30%),Aroma Therapy
+Snootroot,Rare,PE,earth+plant,4:30:00,5%,4% (15%),1% (30%),1% (30%),Flaunting Flair
+Frond,Rare,PW,plant+water,14:00:00,5%,10% (20%),1% (30%),1% (30%),Righteous Relaxation
+Daylily,Rare,PFA,air+fire+plant,16:00:00,5%,3.5% (10%),1% (30%),1% (30%),Daily Lily
+Poshwing,Rare,PI,plant+light,10:00:00,2%,4% (15%),1% (30%),1% (30%),Posh and Glamorous
+Etch,Rare,PD,dark+plant,12:00:00,5%,10% (20%),1% (30%),1% (30%),Heart Of The Swamp
+Razortail,Rare,PM,plant+metal,12:00:00,5%,10% (20%),1% (30%),1% (30%),One Prickly Pear
+Bellflower,Rare,PI,light+plant,16:00:00,3%,4% (15%),1% (30%),1% (30%),Flower Power
+Rainbow,Epic,Rb,[4 elements],48:00:00,1%,1% (5%),0.5% (25%),0.5% (10%),Polyhue Palms
+Leap Year,Epic,Rb,[4 elements],14:30:00,4% (2%),1% (5%),?% (?%),?% (?%),Intercalary Anarchy
+Celtic,Epic,Rb,Storm+plant,17:00:00,3% (2%),1% (5%),?% (?%),?% (?%),Knots for Naught
+Double Rainbow,Epic,Rb,[4 elements],60:00:00,0.5%,0.5% (5%),0.25% (25%),0.25% (10%),Doublehue Ditch
+Prism,Epic,Rb,light+water,42:00:00,3%,1% (5%),?% (?%),?% (?%),Dark Side of the Moon
+Aurora,Epic,Rb,[4 elements],54:00:00,4% (1%),3% (5%),?% (?%),?% (?%),Boreal Brink
+Double Leap Year,Epic,Rb,[4 elements],29:00:00,3% (1%),1% (5%),?% (25%),?% (25%),Twice Leapt Valley
+Party,Epic,Rb,[4 elements],52:00:00,3% (1%),3% (5%),5% (?%),5% (?%),Celebratory Expedition
+Chromacorn,Epic,RRb,Rainbow+Double Rainbow+rift,48:00:00,0.5%,0% (0%),0% (0%),0.25% (10%),Chromatic Cave
+Corrupticorn,Epic,RRb,,48:00:00,0%,0% (0%),0% (0%),0% (15%),Beauty in Shadow
+Triple Leap Year,Epic,Rb,[4 elements],30:00:00,3% (1%),1% (5%),5% (30%),5% (30%),Third Leap Year
+Spectrapod,Epic,RRb,Chromacorn+Kampos+rift,48:00:00,0.5%,0% (0%),0% (0%),0.25% (10%),Sonoluminescence
+Lightmatter,Epic,RbSu,Pharaoh+Prism+[day],25:00:00,2%,1% (5%),5% (30%),5% (30%),Light Up
+Darkmatter,Epic,RbMo,Aurora+Nightbloom+[night],25:00:00,2%,1% (5%),5% (30%),5% (30%),You Matter
+Enfis,Epic,Rb,[4 elements],29:00:00,3% (1%),3% (5%),5% (30%),5% (30%),Slippery Companion
+Triple Rainbow,Epic,Rb,[4 elements],60:00:00,0.5%,0.5% (5%),2.5% (25%),2.5% (10%),Triple the Fun
+Light Rift,Primary Rift,IR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),A Gift in the Rift
+Dark Rift,Primary Rift,DR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Adrift in the Rift
+Alpenglow,Rare,EIR,earth+light+rift+[lightning trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Lighting the Rift
+Blightwing,Rare,FAR,fire+air+rift+[dark trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Timeless Tail
+Fire Rift,Primary Rift,FR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Chaotic Encounter
+Plant Rift,Primary Rift,PR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Rift Innovations
+Snowsquall,Rare,CWR,cold+water+rift+[cold trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Tentacle Terrace
+Spore,Rare,PMR,plant+metal+rift+[plant trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Field of Shrooms
+Voltaic,Rare,LDR,dark+lightning+rift+[dark trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Scaredy Cave
+Cold Rift,Primary Rift,CR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Freezey Chaos
+Earth Rift,Primary Rift,ER,,48:00:00,$%,0% (0%),0% (0%),1% (15%),A Rift Aground
+Lightning Rift,Primary Rift,LR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Bounceback Bluff
+Water Rift,Primary Rift,WR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Oceanic Portals
+Air Rift,Primary Rift,AR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Questionable Heights
+Metal Rift,Primary Rift,MR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Tenacious Drop
+Antumbra,Rare,IDR,light+dark+rift+[rift align:earth],0:00:00,5%,0% (0%),0% (0%),1% (15%),Pincer Power
+Ghast,Rare,IDR,light+dark+rift+[fire trait],0:00:00,5%,0% (0%),0% (0%),1% (15%),Phantasm Adrift
+Kampos,Rare,WAR,rift+[water trait],0:00:00,3% (1%),0% (0%),0% (0%),1% (15%),Ye Olde Rescue
+Plumewing,Rare,FAR,rift+[air trait],0:00:00,3% (1%),0% (0%),0% (0%),1% (15%),Shiny Start
+Viridian,Rare,PAR,Dodo+Malachite+rift+[dodo fire trait]+[malachite light trait],0:00:00,1%,0% (0%),0% (0%),1% (15%),Ardent Valley
+Zaffer,Rare,CLR,Blue Fire+Plasma+rift+[blue fire air trait]+[plasma metal trait],0:00:00,4%,0% (0%),0% (0%),1% (15%),Blues Chase
+Lacuna,Rare,IDR,Mirage+Shadow+rift+[mirage water trait]+[shadow air trait],0:00:00,3%,0% (0%),0% (0%),1% (15%),Lake of the Abyss
+Thunderbird,Rare,ELR,lightning+earth+rift+[fire trait],0:00:00,3%,0% (0%),0% (0%),1% (15%),Bolt Buffet
+Frostfluff,Rare,ECR,cold+earth+rift+[rift align:cold],0:00:00,3%,0% (0%),0% (0%),1% (15%),Fluff Bluff
+Nimbus,Rare,FWR,fire+water+rift+[light trait],0:00:00,2%,0% (0%),0% (0%),1% (15%),Nimble Narrows
+Tumblethorn,Rare,PER,plant+earth+rift+[earth trait],0:00:00,2%,0% (0%),0% (0%),1% (15%),Tumbling Along
+Yolkwing,Rare,FDR,rift+[fire trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Eggstraordinary Eggventure
+Sandscale,Rare,EIR,earth+light+rift+[rift align:light],0:00:00,4%,0% (0%),0% (0%),1% (20%),Dune Diving
+Abraxas,Rare,LDR,lightning+dark+rift+[rift align:lightning],23:00:00,4%,0% (0%),0% (0%),1% (20%),Power Overwhelming
+Chromacorn,Epic,RRb,Rainbow+Double Rainbow+rift,48:00:00,0.5%,0% (0%),0% (0%),0.25% (10%),Chromatic Cave
+Corrupticorn,Epic,RRb,,48:00:00,0%,0% (0%),0% (0%),0% (15%),Beauty in Shadow
+Rigel,Galaxy,RGa,galaxy+galaxy+rift+[own all galaxy],16:00:00,0.5%,0% (0%),0% (0%),0% (0%),A Glad Dose of Adventure
+Pearlescent,Epic,RCh,Prism+Starwing+rift+[prism light trait]+[starwing dark trait],0:00:00,0.5%,0% (0%),0% (0%),0.25% (10%),Pretty Power
+Spectrapod,Epic,RRb,Chromacorn+Kampos+rift,48:00:00,0.5%,0% (0%),0% (0%),0.25% (10%),Sonoluminescence
+Nox,Rare,IDR,Voltaic+Antumbra+rift,48:00:00,3%,0% (0%),0% (0%),0.25% (10%),From the Great Beyond
+Vaul,Rare,EMDR,earth+metal+rift+[dark trait],0:00:00,1%,0% (0%),0% (0%),1% (15%),Claws of Steel
+Seasonal,Epic,Se,air+fire+plant,48:00:00,2%,1% (5%),?% (?%),?% (?%),Hemisphere Pioneer
+Spring,Epic,Se,cold+lightning+fire,24:00:00,4%,3% (5%),?% (?%),?% (?%),Akitu's Assay
+Summer,Epic,Se,fire+lightning+water,24:00:00,4%,3% (5%),?% (?%),?% (?%),Sunshine Soirée
+Autumn,Epic,Se,fire+cold+air,24:00:00,4%,3% (5%),?% (?%),?% (?%),The Fall
+Winter,Epic,Se,cold+earth+air,24:00:00,4%,1% (5%),?% (?%),?% (?%),Stark Tundra
+Sprout,Epic,Se,light+water+earth,36:00:00,3%,2% (5%),?% (?%),?% (?%),Budding Bayou
+Leaf,Epic,Se,plant+water+light,37:00:00,3%,2% (5%),?% (?%),?% (?%),Photosynthetic Folly
+Berry,Epic,Se,fire+water+light,16:00:00,3%,2% (5%),?% (?%),?% (?%),Fearsome Fruits
+Seed,Epic,Se,cold+water+light,18:00:00,3%,1% (5%),?% (?%),?% (?%),Forage in the Great Forest
+Bogberry,Epic,PWISe,Bog+Berry,16:00:00,3%,2% (10%),1% (?%),1% (?%),Six-Fingered Lake
+Bloatato,Epic,HiSe,,16:06:40,0%,0% (30%),0% (30%),0% (30%),Starchy Goodness
+Curlyleaf,Epic,HiSe,,17:21:40,0%,0% (30%),0% (30%),0% (30%),Go Green Every Day
+Karroot,Epic,HiSe,,14:35:00,0%,0% (30%),0% (30%),0% (30%),I Am Root!
+Vidalia,Epic,HiSe,,20:08:20,0%,0% (30%),0% (30%),0% (30%),Tears of Joy
+Aubergine,Epic,HiSe,,20:50:00,0%,0% (30%),0% (30%),0% (30%),Purple Royale
+Pouke,Epic,WISe,fire+water+light,20:00:00,3%,1.5% (10%),1% (30%),1% (30%),Picnic Time
+Magnolia,Epic,Se,sun+plant,22:00:00,3%,3% (5%),5% (30%),5% (30%),Ancient Pink
+Fomhar,Epic,Se,Seasonal+Autumn,23:00:00,3.25%,10% (20%),1% (30%),1% (30%),Pillar of Autumn
+Bumi,Epic,Se,Pixie+Flowerhop,19:00:00,3.75%,1% (15%),5% (30%),5% (30%),Spring to Action
+Cherrie,Epic,PSe,Sakura+Sumi,28:00:00,3.75%,1.5% (15%),5% (30%),5% (30%),Merry Cherry
+Snowflake 1,Epic,Sn,snowflake+snowflake,2:30:00,20%,0% (0%),0% (0%),?% (0%),
+Snowflake 2,Epic,Sn,snowflake+snowflake,2:30:00,20%,0% (0%),0% (0%),?% (0%),
+Snowflake 3,Epic,Sn,snowflake+snowflake,25:00:00,5%,0% (0%),0% (0%),?% (0%),
+Snowflake 4,Epic,Sn,snowflake+snowflake,25:00:00,5%,0% (0%),0% (0%),?% (0%),
+Snowflake 5,Epic,Sn,snowflake+snowflake,40:00:00,1%,0% (0%),0% (0%),?% (0%),
+Snowflake 6,Epic,Sn,snowflake+snowflake,42:00:00,1%,0% (0%),0% (0%),0% (0%),
+Snowflake 7,Epic,Sn,snowflake+snowflake,44:00:00,1%,0% (0%),0% (0%),0% (0%),
+Bone,Rare,FE,earth+fire,10:00:00,5%,4% (10%),1% (?%),1% (?%),Skeletal Pedestal
+Ghost,Rare,EC,earth+cold,15:30:00,5%,4% (10%),1% (?%),1% (?%),Poltergeist Heist
+Zombie,Epic,Ap,Meteor+Pollen,20:00:00,3%,1% (5%),10% (?%),?% (?%),Plaaaaaaaaains
+Nosferatu,Rare,FEC,earth+cold+fire+[night],13:00:00,2%,1.5% (10%),7.5% (?%),7.5% (?%),Whitbee's Valley
+Lycan,Rare,PCL,plant+cold+lightning,24:00:00,4%,1.5% (10%),1% (?%),1% (?%),Howling Hunt
+Ortreat,Rare,PFE,plant+fire+earth,15:00:00,4%,1.5% (10%),1% (?%),1% (?%),Confabulated Confectionary
+Spectre,Rare,EC,cold+earth,12:00:00,4%,1.5% (10%),1% (?%),1% (?%),Nevermore Cavern
+Trick,Rare,PFE,plant+fire+earth,12:00:00,4%,1.5% (10%),1% (?%),1% (?%),Admiral Antics
+Pharaoh,Epic,Su,Sun+Crypt,30:00:00,9% (3%),1% (5%),?% (?%),?% (?%),Tomb of Kings
+Nether,Rare,FEM,fire+metal+earth,12:00:00,4%,1.5% (10%),1% (30%),1% (30%),Pancake Plunder
+Bog,Rare,PFW,water+plant+fire,24:00:00,4%,0% (10%),0% (30%),?% (30%),Log in the Fog
+Decay,Rare,FEC,fire+earth+cold,24:00:00,4%,0% (10%),0% (30%),?% (30%),Land Without Candy
+Garden,Rare,PE,plant+earth,12:00:00,4%,1.5% (10%),1% (?%),1% (?%),Gardenia's Grace
+Thicket,Rare,PEC,earth+plant+cold,15:00:00,4%,0% (10%),0% (30%),?% (30%),Divine Vine
+Nightbloom,Epic,PDMo,plant+dark+moon,27:00:00,3% (1.5%),1% (5%),5% (30%),?% (30%),Night Flight
+Dracabra,Rare,PFEL,Lycan+Decay,12:00:00,4%,1.5% (10%),1% (?%),1% (?%),Hanging In There
+Gargoyle,Rare,PEWL,Trick+monolith,15:00:00,4%,1.5% (10%),1% (?%),1% (?%),Gravel Gathering
+Oni,Rare,FEC,fire+earth+cold,12:00:00,4%,1.5% (10%),1% (?%),1% (?%),Den Development
+Spirit,Rare,EC,Ghost+Spectre,15:00:00,4%,1.5% (10%),1% (?%),1% (?%),Wayward Wandering
+Nesting,Rare,PFEC,fire+plant+earth+cold,24:00:00,2%,1.5% (10%),1% (?%),1% (?%),Infinite Regression
+Corrupticorn,Epic,RRb,,48:00:00,0%,0% (0%),0% (0%),0% (15%),Beauty in Shadow
+Chimneypuff,Rare,AD,dark+air,23:00:00,5%,4% (10%),1% (25%),1% (20%),Swift Sweeper
+Porcelain,Rare,FE,,10:00:00,0%,0% (30%),0% (30%),0% (30%),Enamel Upgrade
+Wrath,Rare,PFL,,5:00:00,0%,0% (30%),0% (30%),0% (30%),A Malcontent's Mutation
+Chitin,Rare,MD,dark+metal,26:00:00,4%,4% (10%),1% (25%),1% (20%),Creepy Crawler
+Auroch,Rare,EM,metal+earth,22:00:00,4%,4% (10%),1% (?%),1% (?%),Bullish Tendencies
+Eldritch,Rare,PFEC,fire+plant+earth+cold,24:00:00,0.2%,1.5% (10%),0.75% (30%),0.75% (30%),Shrouded in Mystery
+Charlatan,Epic,Ap,Apocalypse+Spirit,16:00:00,0.5% (1%),1.5% (10%),0.75% (30%),0.75% (30%),Composed Conquest
+Scourge,Epic,Ap,Decay+Misfortune,11:30:00,0.5% (1%),1.5% (10%),0.75% (30%),0.75% (30%),Feast or Famine
+Barbarous,Epic,Ap,Oni+Ragnarok,13:45:00,0.5% (1%),1.5% (10%),0.75% (30%),0.75% (30%),Ruins of War
+Macabre,Epic,Ap,Spectre+Zombie,16:39:36,0.5% (1%),1.5% (10%),0.75% (30%),0.75% (30%),Death Defying
+Gatren,Rare,FECD,Oni+Eldritch,19:00:00,3%,1.5% (15%),1% (30%),1% (30%),When Life Gives You Limestones
+Kwall,Rare,PWID,water+light+plant,19:00:00,3%,1.5% (5%),0.75% (30%),0.75% (30%),Let's See This Through
+Malefice,Rare,PEC,Spirit+Scourge,19:00:00,3%,1.5% (5%),0.75% (30%),0.75% (30%),Noisy Neighbour
+Maw,Rare,PFE,Trick+Ortreat,20:00:00,3%,1.5% (5%),0.75% (30%),0.75% (30%),Good Mawning
+Wendigo,Epic,FECAp,Macabre+Bone,22:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Zombie Juice Diet
+Ocular,Epic,FLMOl,Cyclops+Barbarous,23:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Insightful
+Iden,Epic,PADDr,Charlatan+Nightbloom,24:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Reaching For The Scarlet Moon
+Nox,Rare,IDR,Voltaic+Antumbra+rift,48:00:00,3%,0% (0%),0% (0%),0.25% (10%),From the Great Beyond
+Funis,Rare,PFWI,Wick+Bog,16:00:00,5%,10% (20%),1% (30%),1% (30%),Nope Rope
+Infernus,Rare,FCW,fire+water+cold,16:00:00,2%,10% (20%),1% (30%),1% (30%),Soothing Waters
+Umbra,Epic,Hi,,30:00:00,0%,0% (20%),0% (30%),0% (30%),Enveloping Darkness
+Dortal,Rare,PAID,Kwall+Iden,17:00:00,3.5%,10% (20%),1% (30%),1% (30%),Ribgate
+Grimoire,Rare,CAID,dark+light+air+cold,18:00:00,3.2%,10% (20%),1% (30%),1% (30%),Book of Evil
+Vampir,Rare,FECA,Nosferatu+Zombie,18:45:00,3.2%,10% (20%),1% (30%),1% (30%),Itsy Bitesy
+Brood,Rare,FELD,Dracabra+Gatren,14:00:00,3.1%,10% (20%),1% (30%),1% (30%),Family Time
+Rotblossom,Rare,PFEC,Thicket+Decay,15:00:00,3%,10% (20%),1% (30%),1% (30%),Daylight Deprivation
+Amalgamate,Rare,FED,Bone+earth+fire+dark,20:00:00,3.1%,10% (20%),1% (30%),1% (30%),Twin Rivalry
+Kage,Epic,Ap,Eldritch+Wrath,23:00:00,4%,1% (15%),5% (30%),5% (30%),Shadowy Visitor
+Hydnellum,Epic,Ap,Wendigo+apocalypse,24:00:00,4%,1% (15%),5% (30%),5% (30%),A Fungus
+Firefly,Hybrid,FL,lightning+fire,3:00:00,*%,10% (20%),1% (?%),1% (?%),Cold Light Chase
+Firework,Rare,FA,fire+air,6:00:00,4%,2.5% (10%),1% (?%),1% (?%),Explosions in the Sky
+Summer,Epic,Se,fire+lightning+water,24:00:00,4%,3% (5%),?% (?%),?% (?%),Sunshine Soirée
+Kite,Rare,LAM,metal+air+lightning,22:00:00,4%,3% (10%),1% (?%),1% (?%),The Skies of Faridat
+Leaf,Epic,Se,plant+water+light,37:00:00,3%,2% (5%),?% (?%),?% (?%),Photosynthetic Folly
+Tidal,Rare,EWLD,Quake+Abyss,30:00:00,2%,2% (10%),1% (?%),1% (?%),Kamgwa Karst
+Faire,Rare,PCLM,lightning+plant+cold+metal,54:00:00,0.5%,1% (10%),0.25% (?%),0.25% (?%),Fair is Fair
+Sunscorch,Epic,WDMo,moon+water+dark,42:00:00,5%,1% (10%),1% (?%),1% (?%),Shaded Shelter
+Sun,Epic,Su,cold+lightning+[day],48:00:00,3%,2% (5%),?% (?%),?% (?%),Solar Controller
+Solstice,Epic,Su,Blazing+earth,23:30:00,3% (2%),1% (5%),?% (?%),?% (?%),Stones of Surya
+Equinox,Epic,SuMo,Blazing+water,24:00:00,3% (2%),2% (5%),?% (?%),?% (?%),Hemisphere Mutineer
+Solar Eclipse,Epic,SuMo,earth+air+fire,48:00:00,3% (2%),1% (5%),?% (?%),?% (?%),Age of Alignment
+Lunar Eclipse,Epic,SuMo,air+cold+earth,48:00:00,3% (2%),1% (5%),?% (?%),?% (?%),Umbral Plunge
+Dawn,Epic,SuMo,Moon+Sun+[day],20:00:00,1%,1% (5%),?% (?%),?% (?%),The Awakening
+Dusk,Epic,SuMo,Sun+Moon+[night],20:00:00,1%,1% (5%),?% (?%),?% (?%),Half-light Hunt
+Sunstruck,Epic,Su,Mirage+Heat,32:00:00,4%,2% (5%),?% (?%),?% (?%),Sol Strike
+Midday,Epic,Su,Sun+Dusk+[day],16:00:00,3%,1% (5%),?% (?%),?% (?%),High Noon Rune
+Pharaoh,Epic,Su,Sun+Crypt,30:00:00,9% (3%),1% (5%),?% (?%),?% (?%),Tomb of Kings
+Solarflare,Galaxy,GaSu,galaxy+sun+[social cave],24:00:00,10%,1% (20%),0% (0%),0% (0%),Prowess Immeasurable
+Monte,Epic,AISuMo,moon+sun+air+light,12:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Juicy Joy
+Sailback,Epic,FWSuMo,moon+sun+water+fire,8:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Aquatic Anathema
+Toco,Epic,PASuMo,moon+sun+air+plant,8:00:00,2%,1.5% (10%),0.75% (30%),0.75% (30%),Big-billed Beats
+Vibe,Epic,PLSuMo,moon+sun+plant+lightning,12:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Scene Maker
+Elegant,Epic,PISuMo,moon+sun+plant+light,12:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Grand Entrance
+Ruckus,Epic,FISuMo,moon+sun+fire+light,10:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Bring It On!
+Dazzle,Epic,LDSuMo,moon+sun+lightning+dark,17:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),A Star is Bred
+Razzle,Epic,ADSuMo,moon+sun+air+dark,14:00:00,2%,1.5% (5%),0.75% (30%),0.75% (30%),Hysterical Hype
+Solis,Galaxy,GaSu,Sun+galaxy,24:00:00,2%,5% (20%),0% (0%),0% (0%),Stay Lit
+Lightmatter,Epic,RbSu,Pharaoh+Prism+[day],25:00:00,2%,1% (5%),5% (30%),5% (30%),Light Up
+Tranquil,Epic,Su,Serenity+sun+[weather:blossoms],16:00:00,3%,1% (5%),5% (30%),5% (30%),Tran-quill-ity
+Binky,Epic,DrSu,Nightmare+Tranquil,24:00:00,4.25%,10% (20%),1% (30%),1% (30%),Jungle Juggle
+Lageto,Epic,CASu,Midday+cold+air,24:00:00,2.5%,4% (15%),1% (30%),1% (30%),A Good Scoop
+Kann,Epic,PWSu,Sun+Hanno,36:00:00,4.5%,1% (15%),5% (30%),5% (30%),Slither Hither
+Alayzem,Epic,Su,Kann+Crawler,20:00:00,3.3%,1.5% (15%),5% (30%),5% (30%),Sandy Peaks
+Nubis,Epic,EASu,Sun+earth+air,20:00:00,3.1%,1.5% (15%),5% (30%),5% (30%),Solar Power
+Tutan,Epic,Su,Pharaoh+Sunstruck,23:00:00,4.2%,1.5% (15%),5% (30%),5% (30%),Under Orion
+Sumi,Epic,PFEASf,plant+fire+earth+air,19:00:00,2% (1%),1% (10%),1% (?%),1% (?%),Inky Heights
+Eve,Epic,Sf,cold+water+metal,23:00:00,1%,1.5% (10%),1% (25%),1% (25%),Silverfalls Gorge
+Kaiju,Epic,Sf,fire+water+dark,30:00:00,1.5%,1.5% (10%),1% (?%),1% (?%),Cancelling the Apocalypse
+Sprite,Epic,Sf,plant+air+light,26:00:00,1%,1.5% (10%),1% (25%),1% (25%),Rolling and Rollicking
+Oracle,Epic,Sf,earth+lightning+light,27:30:00,1.5%,1.5% (10%),1% (25%),1% (?%),Passage of Prophecy
+Totem,Epic,Sf,plant+earth+cold,24:30:00,1.5%,1.5% (10%),1% (25%),1% (?%),Wooden Way
+Festive,Epic,Sf,plant+earth+cold,25:00:00,1.5%,1.5% (10%),1% (20%),1% (20%),Jingle Jangle
+Knarr,Epic,Sf,earth+air+cold,28:00:00,1.5%,1.5% (10%),1% (20%),1% (1%),Starboard Bound
+Shiver,Epic,Sf,cold+air+light,27:00:00,1.5%,1.5% (10%),1% (20%),1% (20%),Escapades on Ice
+Tusk,Epic,Sf,cold+water+earth,22:00:00,1.5%,1.5% (10%),1% (20%),1% (20%),Sharp Insights
+Gold,Epic,Tr,fire+metal,48:00:00,2%,1% (5%),?% (?%),?% (?%),Carat Coulee
+Silver,Epic,Tr,cold+metal,47:00:00,3%,2% (5%),?% (?%),?% (?%),Rudna's Rollick
+Platinum,Epic,Tr,water+metal,49:00:00,1.5%,1% (5%),?% (?%),?% (?%),Sickengen's Den
+Electrum,Epic,Tr,lightning+metal,47:30:00,2.5%,2% (10%),?% (?%),?% (?%),Stater's Stash
+Bronze,Epic,Tr,earth+metal,46:00:00,3.5%,3% (10%),10% (?%),?% (?%),Lerner's Toyshop
+Loot,Epic,Tr,Gold+plant,35:00:00,1%,1% (5%),?% (?%),?% (?%),Plunder Thunder
+Misfortune,Epic,ApTr,treasure+apocalypse+[night],46:00:00,1.5% (0.5%),1% (5%),5% (?%),5% (?%),Misadventure Time
+Djinni,Epic,Tr,lightning+water+air+metal,48:00:00,0.5%,1% (5%),5% (?%),5% (?%),Cave of Wanderers
+Opulent,Epic,Tr,plant+fire+water+lightning,40:00:00,1%,1% (5%),5% (?%),5% (?%),Affluent Adventure
+Regal,Epic,Tr,plant+water+air+light,36:00:00,4% (2%),1% (5%),5% (?%),5% (?%),Trail of Regale
+Scarab,Epic,Tr,Gold+Loot,46:00:00,1.5% (0.5%),1% (5%),5% (?%),5% (?%),Glitter Glen
+Gawk,Epic,ATr,Regal+Gold,22:00:00,4%,1.5% (15%),5% (30%),5% (30%),Bird of Paradise
+Lazuli,Epic,WTr,Scarab+Bronze,24:00:00,4%,1.5% (15%),5% (30%),5% (30%),Dolphins Of The Sky
+Trove,Epic,Tr,Misfortune+Electrum,26:00:00,4%,1.5% (15%),5% (30%),5% (30%),Gold Detector
+Alure,Epic,WTr,Djinni+Silver,28:00:00,4%,1.5% (15%),5% (30%),5% (30%),Song Of The Siren
+Yarr,Epic,WTr,Loot+Platinum,30:00:00,3.75%,1.5% (15%),5% (30%),5% (30%),Sail The High Seas
+Luck,Epic,PETr,Misfortune+Clover,15:00:00,4%,10% (20%),1% (30%),1% (30%),Lucky Day
+Corsair,Epic,WTr,Yarr+Djinni,31:00:00,4.15%,10% (20%),1% (30%),1% (30%),Seeking Thrills
+Curse,Epic,WTr,Misfortune+Alure,32:00:00,4.25%,1% (15%),5% (30%),5% (30%),Malediction
+Jackpot,Epic,Tr,Loot+Gold,27:00:00,3.77%,1.5% (15%),5% (30%),5% (30%),Get Lucky
+Saharus,Epic,Tr,Scarab+Sand,23:00:00,4.05%,1.5% (15%),5% (30%),5% (30%),Coarse and Rough
+Efreet,Epic,Tr,Djinni+Misfortune,26:00:00,4.3%,1.5% (15%),5% (30%),5% (30%),Ominous Wishes
+Aurum,Epic,Tr,Gold+Gawk,30:00:00,4.55%,1.5% (15%),5% (30%),5% (30%),Oh Shiny
+Clover,Rare,PE,Moss+plant,7:00:00,4%,3% (5%),1% (?%),1% (?%),Misfortune Marsh
+Bloom,Rare,PCL,Storm+plant,13:00:00,4%,2% (10%),1% (?%),1% (?%),Efflorescent Expedition
+Sakura,Rare,PFE,Tree+Flower,10:00:00,5%,3% (10%),1% (?%),1% (?%),The Springening
+Butterfly,Rare,FLA,Firefly+air,12:00:00,5%,3% (10%),1% (?%),1% (?%),Sykie Meadows
+Rose,Rare,PFA,Flower+air,14:00:00,5%,3.5% (15%),1% (?%),1% (?%),Nadia's Nursery
+Spring,Epic,Se,cold+lightning+fire,24:00:00,4%,3% (5%),?% (?%),?% (?%),Akitu's Assay
+Motley,Rare,PF,[any 2 dragons],13:00:00,4% (1% [0.5%]),3% (10%),1% (?%),1% (?%),Wild Side
+Terradiem,Rare,PEWA,earth+air+water+plant,24:00:00,4%,3% (5%),1% (30%),1% (30%),Globe Trot
+Bouquet,Rare,PFW,Flower+water,9:00:00,5%,3% (10%),1% (?%),1% (?%),Floral Flight
+Arbor,Rare,PE,Tree+Forest,10:00:00,4%,3% (5%),1% (?%),1% (?%),Garden Warden
+Sprout,Epic,Se,light+water+earth,36:00:00,3%,2% (5%),?% (?%),?% (?%),Budding Bayou
+Thorn,Rare,PM,metal+plant,7:00:00,5%,4% (10%),1% (?%),1% (?%),Spiky Spire Brier
+Sumi,Epic,PFEASf,plant+fire+earth+air,19:00:00,2% (1%),1% (10%),1% (?%),1% (?%),Inky Heights
+Rosebud,Rare,PFEA,Rose+earth,18:00:00,1%,2% (10%),5% (?%),5% (?%),Cadberry Wells
+Hooded,Rare,PFLM,lightning+plant+fire+metal,12:00:00,1.5%,2% (10%),1% (?%),1% (?%),Sssensational Sojourn
+Daylily,Rare,PFA,air+fire+plant,16:00:00,5%,3.5% (10%),1% (30%),1% (30%),Daily Lily
+Clairvoyant,Rare,CID,cold+dark+light,12:00:00,5%,1% (5%),5% (30%),5% (30%),Do You See What Icy
+Woodvine,Rare,PEA,Willow+earth+air,14:00:00,5%,1% (5%),5% (30%),5% (30%),Run Through the Vines
+Swiftgrace,Rare,LID,lightning+dark+light,32:00:00,2%,1.5% (10%),1% (30%),1% (30%),Beauty and Grace
+Vipera,Rare,PFLI,Wick+Hooded,25:00:00,2.5%,10% (20%),1% (30%),1% (30%),Clinch Location
+Flowerhop,Rare,PEAI,air+light+earth+plant,22:00:00,3%,10% (20%),1% (30%),1% (30%),Treehop Time
+Peoni,Rare,PECL,Sakura+Bloom,22:00:00,4%,1.5% (5%),1% (30%),1% (30%),Heavy Petal
+Wolper,Rare,PFEI,Bilby+Cocoahollow,22:00:00,4%,1.5% (5%),1% (30%),1% (30%),Hip and Hop
+Narcis,Epic,MDAp,Ouroboros+dark+metal,28:00:00,4.5%,10% (20%),1% (30%),1% (30%),Daffadowndilly's Cousin
+Kroki,Rare,PFEA,Daylily+plant+earth,28:00:00,4.5%,10% (20%),1% (30%),1% (30%),Bug-eyed Bloom
+Florea,Rare,PFEA,Rosebud+Woodvine,28:00:00,4.5%,10% (20%),1% (30%),1% (30%),The Perfect Caregiver
+Fushi,Rare,PEAI,Flowerhop+plant+air,28:00:00,4.5%,10% (20%),1% (30%),1% (30%),An Experimental Surprise
+Arcrider,Rare,PEAI,Wolper+Florea,24:00:00,3.75%,1% (15%),5% (30%),5% (30%),Colourful Ride
+Quaa,Rare,PFEA,Woodvine+Kroki,26:00:00,3.5%,1% (15%),5% (30%),5% (30%),Loud and Unclear
+Fae,Epic,Dr,Glasswing+Snooz,26:00:00,4%,1% (15%),5% (30%),5% (30%),A Magical Puff
+Niamh,Rare,PEAI,Meadow+earth+air,30:00:00,1.5%,1% (15%),5% (30%),5% (30%),Whiff of Spring
+Ancestor,Rare,PECA,Panlong+Redbeard,20:00:00,3.5%,10% (20%),1% (30%),1% (30%),Blessing of Wisdom
+Ichigo,Rare,PEWI,Berry+plant+earth,17:00:00,3.1%,10% (20%),1% (30%),1% (30%),Strawberry Nice
+Chikipea,Rare,PEAI,plant+earth+light+air,19:00:00,2.6%,10% (20%),1% (30%),1% (30%),Yellow Eyed Peas
+Somnig,Rare,WAID,Snooz+Fae,26:00:00,2.95%,10% (20%),1% (30%),1% (30%),Afternoon Nap
+Panlong,Rare,FEWA,water+air+earth+fire,36:00:00,3%,1% (5%),0.5% (?%),0.5% (?%),Year of the Dragon
+Leap Year,Epic,Rb,[4 elements],14:30:00,4% (2%),1% (5%),?% (?%),?% (?%),Intercalary Anarchy
+Blue Moon,Epic,Mo,cold+lightning,29:31:48,4% (3%),3% (5%),?% (?%),?% (?%),Lunar Blues
+Apocalypse,Epic,Ap,plant+cold+metal+lightning,20:12:00,3%,1% (5%),?% (?%),?% (?%),Prophetic Pursuit
+Century,Rare,ECW,earth+water+cold,10:00:00,3%,1% (5%),0.5% (30%),0.5% (30%),Five Score Frenzy
+Bicentennial,Rare,FLA,lightning+fire+air,20:00:00,2%,1% (5%),0.5% (?%),0.5% (?%),Ten Score Trench
+Double Leap Year,Epic,Rb,[4 elements],29:00:00,3% (1%),1% (5%),?% (25%),?% (25%),Twice Leapt Valley
+Fates,Epic,Ol,plant+fire+water,20:00:00,1.5%,1% (5%),5% (30%),5% (30%),Triad Trench
+Seraph,Rare,FAI,light+air+fire,40:00:00,2%,2% (10%),1% (?%),1% (?%),Soaring Heights
+Quintessence,Rare,PFEWM,metal+plant+fire+earth+water,50:00:00,2%,1.5% (10%),1% (30%),1% (30%),A Guardian's Guide
+Triple Leap Year,Epic,Rb,[4 elements],30:00:00,3% (1%),1% (5%),5% (30%),5% (30%),Third Leap Year
+Combustion,Rare,FAMD,metal+fire+air+dark,60:00:00,2%,1.5% (10%),1% (30%),1% (30%),Come-bust-out Some Moves
+Hyperion,Epic,Ap,Fury+Narcis,70:00:00,2%,1.5% (10%),1% (30%),1% (30%),Powerful Presence
+Ice,Hybrid,CW,cold+water,8:00:00,*%,10% (20%),1% (?%),1% (?%),Flash Freeze
+Mud,Hybrid,EW,earth+water,6:00:00,*%,10% (20%),1% (?%),1% (?%),Luck in the Muck
+Seaweed,Hybrid,PW,plant+water,5:00:00,*%,10% (20%),1% (?%),1% (?%),Nori Cove
+Swamp,Hybrid,PW,plant+water,9:00:00,*%,10% (20%),1% (?%),1% (?%),Madcap Muskeg
+Water,Primary,W,,4:00:00,$%,0% (?%),0% (?%),0% (?%),
+Fog,Hybrid,WA,water+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Miasma Menace
+Iceberg,Hybrid,CW,cold+water,8:00:00,*%,10% (20%),1% (?%),1% (?%),Broken Ice Shelf
+Rust,Hybrid,WM,water+metal,6:00:00,*%,10% (20%),1% (?%),1% (?%),Corrosion Excursion
+Plasma,Rare,WL,lightning+water,16:00:00,5%,4% (10%),1% (?%),1% (?%),Ionized Guise
+Current,Rare,WL,water+lightning,16:00:00,5%,4% (15%),1% (?%),1% (?%),Sparkflow Connection
+Quicksilver,Hybrid,WM,water+metal,18:00:00,*%,10% (20%),1% (?%),1% (?%),Mercurial Madness
+Rain,Hybrid,WA,water+air,8:00:00,*%,10% (20%),1% (?%),1% (?%),Torrential Tribulation
+River,Hybrid,EW,earth+water,13:00:00,*%,10% (20%),1% (?%),1% (?%),Ami'Lya's Adventure
+Coral,Hybrid,FW,fire+water,11:30:00,*%,10% (20%),1% (?%),1% (?%),Kelpy Corrale
+Salamander,Hybrid,FW,fire+water,9:30:00,*%,10% (20%),1% (?%),1% (?%),Amphibian Meridian
+Lotus,Hybrid,WI,water+light,7:00:00,*%,10% (20%),1% (?%),1% (?%),Transcendent Traversal
+Shimmer,Hybrid,WI,light+water,11:00:00,*%,10% (15%),1% (?%),1% (?%),Caught in the Crimson Sea
+Abyss,Hybrid,WD,water+dark,7:30:00,*%,10% (20%),1% (?%),1% (?%),Lantern Deeps
+Ooze,Hybrid,WD,dark+water,18:30:00,*%,10% (20%),1% (?%),1% (?%),Ancient Madness
+Nectar,Rare,WI,light+water,5:00:00,5%,4% (15%),1% (?%),1% (?%),Tower of Tantalia
+Geode,Rare,EW,earth+water,23:00:00,5%,4% (15%),1% (?%),1% (?%),Sediment Impediment
+Vortex,Rare,WA,water+air,14:00:00,5%,4% (10%),1% (?%),1% (?%),Spiraling Storm
+Bubble,Rare,WA,air+water,10:00:00,5%,4% (10%),1% (?%),1% (?%),Sudsy Shores
+Conch,Rare,WM,metal+water,6:00:00,5%,4% (10%),1% (?%),1% (?%),Mollusca Marina
+Lagoon,Rare,WI,water+light,12:00:00,5%,4% (10%),1% (?%),1% (?%),Highlands Havoc
+Quicksand,Rare,EW,water+earth,15:00:00,5%,4% (10%),1% (?%),1% (?%),Sandy Canyon
+Trench,Rare,WD,water+dark,7:30:00,5%,4% (10%),1% (?%),1% (?%),Anayrahm Dive
+Surge,Rare,WL,lightning+water,16:00:00,5%,4% (15%),1% (30%),1% (30%),Glow 'n' Go
+Steam,Rare,FW,water+fire,12:00:00,5%,4% (15%),1% (?%),1% (?%),Ephemeral Spire
+Snowsquall,Rare,CWR,cold+water+rift+[cold trait],0:00:00,2.5%,0% (0%),0% (0%),1% (15%),Tentacle Terrace
+Water Rift,Primary Rift,WR,,48:00:00,$%,0% (0%),0% (0%),1% (15%),Oceanic Portals
+Kampos,Rare,WAR,rift+[water trait],0:00:00,3% (1%),0% (0%),0% (0%),1% (15%),Ye Olde Rescue
+Nimbus,Rare,FWR,fire+water+rift+[light trait],0:00:00,2%,0% (0%),0% (0%),1% (15%),Nimble Narrows
+Tidepool,Rare,PW,water+plant,9:00:00,5%,4% (15%),1% (30%),1% (30%),Turning the Tides
+Drifter,Rare,WM,water+metal,6:00:00,4%,4% (15%),1% (30%),1% (30%),Flowing Riffs
+Frond,Rare,PW,plant+water,14:00:00,5%,10% (20%),1% (30%),1% (30%),Righteous Relaxation
+Aquacorn,Rare,CW,water+cold,12:00:00,5%,10% (10%),1% (30%),1% (30%),Wet and Magical
+Aperture,Rare,CW,cold+water,12:00:00,5%,10% (20%),1% (30%),1% (30%),Port Enthusiast
+Dapplethorn,Rare,WD,dark+water,18:00:00,3%,10% (20%),1% (30%),1% (30%),A Thorn in the Side
+Ignaqtus,Rare,FW,fire+water,18:00:00,3%,10% (20%),1% (30%),1% (30%),Firewater
+Reindeer,Rare,PC,plant+cold,5:00:00,7%,5% (10%),1% (?%),1% (?%),Sandakloz's Surprise
+Gift,Rare,PFC,plant+fire+cold,12:25:00,7%,5% (10%),1% (?%),1% (?%),Giving Gulch
+Mistletoe,Rare,PEC,Tree+Lichen,8:00:00,3%,10% (10%),1% (?%),1% (?%),Thistlethumb Dig
+Winter,Epic,Se,cold+earth+air,24:00:00,4%,1% (5%),?% (?%),?% (?%),Stark Tundra
+Snowflake 1,Epic,Sn,snowflake+snowflake,2:30:00,20%,0% (0%),0% (0%),?% (0%),
+Snowflake 2,Epic,Sn,snowflake+snowflake,2:30:00,20%,0% (0%),0% (0%),?% (0%),
+Snowflake 3,Epic,Sn,snowflake+snowflake,25:00:00,5%,0% (0%),0% (0%),?% (0%),
+Snowflake 4,Epic,Sn,snowflake+snowflake,25:00:00,5%,0% (0%),0% (0%),?% (0%),
+Coal,Rare,FE,fire+earth,12:00:00,7%,5% (10%),1% (?%),1% (?%),Forgotten Fuels
+Seed,Epic,Se,cold+water+light,18:00:00,3%,1% (5%),?% (?%),?% (?%),Forage in the Great Forest
+Snowflake 5,Epic,Sn,snowflake+snowflake,40:00:00,1%,0% (0%),0% (0%),?% (0%),
+Dazzling,Epic,Or,ornamental+ornamental,55:00:00,0.5%,0.5% (5%),0.25% (5%),0.5% (?%),Fulgent Foray
+Lace,Epic,Or,Coal+plant,31:00:00,3%,1% (5%),?% (?%),?% (?%),Doily Dash
+Ornamental,Epic,Or,Reindeer+fire,18:00:00,6%,1% (5%),?% (30%),?% (30%),Sleigh Ride
+Holly,Rare,PEC,Mistletoe+Evergreen,24:00:00,12% (3%),2.5% (10%),1% (?%),1% (?%),Wreaths Wrath
+Flicker,Epic,Or,Gift+earth,25:00:00,4%,1% (5%),5% (?%),5% (?%),Glimmer Grotto
+Verglace,Epic,Or,Mistletoe+cold,25:00:00,5%,1% (5%),?% (?%),?% (?%),Lord of the Fjords
+Regift,Rare,PFC,plant+fire+cold,12:00:00,7%,5% (10%),1% (?%),1% (?%),Nor'easter Beaster
+Ribbon,Epic,Or,Regift+fire,19:00:00,4%,1% (5%),5% (30%),5% (30%),Streaming & Gleaming
+Tinsel,Epic,Or,Holly+cold,27:00:00,3%,1% (5%),5% (30%),5% (30%),Into the Bushes
+Twinkle,Epic,Or,Winter+air,55:00:00,0.5%,1% (5%),5% (25%),5% (25%),Cave of Caroling
+Trinket,Rare,PFC,plant+fire+cold,12:00:00,7%,5% (10%),5% (?%),5% (?%),Keepsake Cavern
+Snowpocalypse,Epic,Ap,Winter+Apocalypse,20:00:00,3%,1% (5%),5% (30%),5% (30%),Clouds of Garita
+Icebound,Rare,CWA,cold+water+air,19:00:00,5%,1.5% (10%),1% (30%),1% (30%),Icy Encounters
+Candlecrown,Rare,PFEC,Holly+fire,18:00:00,2%,1.5% (10%),1% (?%),1% (?%),The Warmth of Cheer
+Krampus,Rare,FEC,Coal+cold,25:00:00,2%,1.5% (10%),1% (?%),1% (?%),Iceberry Gobbling
+Kringle,Rare,PFEC,Trinket+earth,25:00:00,2%,1.5% (10%),1% (?%),1% (?%),Checking it Twice
+Woolen,Rare,PFEC,Gift+earth,18:00:00,2%,1.5% (10%),1% (?%),1% (?%),Always in Style
+Sleighbell,Rare,PFEC,Reindeer+fire+earth,15:00:00,4%,1.5% (10%),1% (?%),1% (?%),Gone Caroling
+Starshine,Epic,Or,Twinkle+Dazzling,19:00:00,2%,1.5% (10%),1% (?%),1% (?%),Shine On
+Jingle,Rare,PFEC,Mistletoe+fire,15:00:00,2.5%,1.5% (10%),1% (?%),1% (?%),Ringing Wrangle
+Snowflake 6,Epic,Sn,snowflake+snowflake,42:00:00,1%,0% (0%),0% (0%),0% (0%),
+Longcicle,Rare,CWA,cold+water+air,16:00:00,3%,5% (10%),5% (30%),5% (30%),As Long as Winter Itself
+Lyuba,Rare,ECWA,Icebound+cold+earth,14:00:00,3.5%,1.5% (5%),1% (30%),1% (30%),Preserved In Time
+Neyvee,Rare,PFECW,Woolen+water+earth,15:00:00,3.5%,1.5% (5%),1% (30%),1% (30%),Swimming in the Ocean
+Ketu,Rare,CAD,cold+dark+air,20:00:00,3%,4% (15%),1% (30%),1% (30%),Hares Everywhere
+Chaiko,Rare,CWA,Longcicle+Starshine,15:00:00,3%,10% (20%),1% (30%),1% (30%),Lever Physics
+Jamjam,Rare,PFEC,Regift+Jingle,15:00:00,3%,10% (20%),1% (30%),1% (30%),Raining Presents
+Snowflake 7,Epic,Sn,snowflake+snowflake,44:00:00,1%,0% (0%),0% (0%),0% (0%),
+Weaver,Rare,PECD,Woolen+Cave,18:00:00,4%,10% (20%),1% (30%),1% (30%),Tangled Web
+Everfrost,Rare,PFEC,Starshine+Dazzling,16:00:00,3.95%,10% (20%),1% (30%),1% (30%),Stay Frosty
+Igluit,Epic,CWAHi,Icebound+hidden,15:00:00,3.9%,1% (15%),5% (30%),5% (30%),Free Real Estate
+Sugarmitten,Rare,PFEC,Sugarplum+Woolen,18:00:00,4%,10% (20%),1% (30%),1% (30%),Nice and Cozy
+Aisa,Rare,ECAD,Verglace+Zumi,24:00:00,3.2%,10% (20%),1% (30%),1% (30%),Triple Axel
+Elkar,Rare,PEC,Reindeer+Snowflake 7,26:00:00,3%,10% (20%),1% (30%),1% (30%),Let It Snow
+Kotun,Rare,ECAD,Lokilure+Ketu,32:00:00,3.4%,10% (20%),1% (30%),1% (30%),Tales of Icebrand
+Nature,Rare,CWA,Reminiscence+cold+air,23:00:00,2.2%,10% (20%),1% (30%),1% (30%),Ice Change
+Greenge,Epic,FECIOr,Burglehoo+Yule,20:00:00,2%,1% (15%),5% (30%),5% (30%),Grumpy Wumpy
+Ariesian,Epic,FZo,Solarflare+fire,27:00:00,4%,10% (15%),5% (30%),5% (30%),Fire Hazard
+Cansian,Epic,WZo,Moon+water,28:00:00,4%,10% (15%),5% (30%),5% (30%),Clamps
+Pisceian,Epic,WZo,Omen+water,24:00:00,3.5%,4% (15%),5% (30%),5% (30%),Centrifuge
+Geminian,Epic,AZo,Sunstruck+air,23:00:00,3.4%,4% (15%),5% (30%),5% (30%),Synergy
+Aquarian,Epic,AZo,Midnight+air,29:00:00,3.3%,4% (15%),5% (30%),5% (30%),Splish Splash
+Taurian,Epic,EZo,Midday+earth,24:00:00,3.2%,4% (15%),5% (30%),5% (30%),The Bulls
+Capricornian,Epic,EZo,Chimmit+earth,24:00:00,3.5%,10% (15%),5% (30%),5% (30%),Headstrong
+Leonian,Epic,FZo,Bicentennial+fire,27:00:00,4%,10% (15%),5% (30%),5% (30%),Mighty Roar
+Scorpionian,Epic,WZo,Squall+water,28:00:00,4%,10% (15%),5% (30%),5% (30%),Terrorize
+Sagittarian,Epic,FZo,Seraph+fire,23:00:00,3.3%,4% (15%),5% (30%),5% (30%),Hawk's Eye
+Virgonian,Epic,EZo,Aperture+earth,29:00:00,3.3%,4% (15%),5% (30%),5% (30%),Flowy and Glowy
+Librian,Epic,AZo,Stygian+air,24:00:00,3.2%,4% (15%),5% (30%),5% (30%),
