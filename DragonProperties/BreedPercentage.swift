@@ -1,5 +1,5 @@
-enum BreedPercentage {
-    case fixed(percent: Float)
+enum BreedPercentage : Hashable {
+    case fixed(_ percent: Float)
     case hybrid
     case unknown
     case unbreedable
@@ -17,7 +17,7 @@ enum BreedPercentage {
         }
         let percentageString = percentageString(value)
         if let breedPercentage = Float(percentageString) {
-            self = .fixed(percent: breedPercentage)
+            self = .fixed(breedPercentage)
         } else {
             switch percentageString {
             case "*" : self = .hybrid
@@ -36,6 +36,18 @@ extension BreedPercentage : CustomStringConvertible {
         case .hybrid : return "*%"
         case .unknown : return "?%"
         case .unbreedable : return "$%"
+        }
+    }
+}
+extension BreedPercentage : Equatable {
+    static func ==(lhs: BreedPercentage, rhs: BreedPercentage) -> Bool {
+        switch (lhs, rhs) {
+        case (.fixed(let leftPercent), .fixed(let rightPercent)):
+            return leftPercent == rightPercent
+        case (.hybrid, .hybrid), (.unknown, .unknown), (.unbreedable, .unbreedable):
+            return true
+        default:
+            return false
         }
     }
 }

@@ -1,4 +1,4 @@
-enum PrimaryElement : Hashable {
+enum PrimaryElement : Hashable, CaseIterable {
     case plant
     case fire
     case earth
@@ -13,16 +13,16 @@ enum PrimaryElement : Hashable {
 extension PrimaryElement : CustomStringConvertible {
     var description: String {
         switch self {
-        case .plant : return "Plant"
-        case .fire : return "Fire"
-        case .earth : return "Earth"
-        case .cold : return "Cold"
-        case .lightning : return "Lightning"
-        case .water : return "Water"
-        case .air : return "Air"
-        case .metal : return "Metal"
-        case .light : return "Light"
-        case .dark : return "Dark"
+        case .plant : return "plant"
+        case .fire : return "fire"
+        case .earth : return "earth"
+        case .cold : return "cold"
+        case .lightning : return "lightning"
+        case .water : return "water"
+        case .air : return "air"
+        case .metal : return "metal"
+        case .light : return "light"
+        case .dark : return "dark"
         }
     }
 }
@@ -35,5 +35,10 @@ extension PrimaryElement : Equatable {
         default:
             return false
         }
+    }
+}
+extension PrimaryElement : Comparable {
+    static func <(lhs: PrimaryElement, rhs: PrimaryElement) -> Bool {
+        return "\(lhs)" < "\(rhs)"
     }
 }

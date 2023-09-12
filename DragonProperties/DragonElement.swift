@@ -1,6 +1,6 @@
 enum DragonElement : Hashable {
     case primary(_ primaryElement: PrimaryElement)
-    case epic(_ epicElement: EpicElement)        
+    case epic(_ epicElement: EpicElement)    
 
     init?(_ value: String) {
         switch value {            
@@ -90,4 +90,22 @@ extension DragonElement : Equatable {
             return false
         }
     }    
+}
+extension DragonElement : CaseIterable {
+    static var allCases: [DragonElement] {
+        var allCases = [DragonElement]()
+        for primaryElement in PrimaryElement.allCases {
+            allCases.append(.primary(primaryElement))
+        }
+        for epicElement in EpicElement.allCases {
+            allCases.append(.epic(epicElement))
+        }
+        return allCases
+    }
+}
+
+extension DragonElement : Comparable {
+    static func <(lhs: DragonElement, rhs: DragonElement) -> Bool {
+        return "\(lhs)" < "\(rhs)"
+    }
 }

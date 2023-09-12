@@ -1,4 +1,4 @@
-enum Rarity {
+enum Rarity : Hashable {
     case primary
     case riftPrimary
     case hybrid
@@ -27,12 +27,23 @@ extension Rarity : CustomStringConvertible {
     var description: String {        
         switch self {
         case .primary : return "Primary"
-        case .riftPrimary : return "Rift Primary"
+        case .riftPrimary : return "Primary Rift"
         case .hybrid : return "Hybrid"
         case .rare : return "Rare"
         case .epic : return "Epic"
         case .galaxy : return "Galaxy"
         case .gemstone : return "Gemstone"
+        }
+    }
+}
+
+extension Rarity : Equatable {
+    static func == (lhs: Rarity, rhs: Rarity) -> Bool {
+        switch (lhs, rhs) {
+        case (.primary, .primary), (.riftPrimary, .riftPrimary), (.hybrid, .hybrid), (.rare, .rare), (.epic, .epic), (.galaxy, .galaxy), (.gemstone, .gemstone):
+            return true
+        default:
+            return false
         }
     }
 }

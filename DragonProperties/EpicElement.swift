@@ -1,4 +1,4 @@
-enum EpicElement : Hashable {
+enum EpicElement : Hashable, CaseIterable {
     case rift
     case apocalypse
     case aura
@@ -24,27 +24,27 @@ enum EpicElement : Hashable {
 extension EpicElement : CustomStringConvertible {
     var description: String {
         switch self {
-        case .rift : return "Rift"
-        case .apocalypse : return "Apocalypse"
-        case .aura : return "Aura"
-        case .chrysalis : return "Chrysalis"
-        case .crystalline : return "Crystalline"
-        case .dream : return "Dream"
-        case .galaxy : return "Galaxy"
-        case .gemstone : return "Gemstone"
-        case .hidden : return "Hidden"
-        case .melody : return "Melody"
-        case .monolith : return "Monolith"
-        case .moon : return "Moon"
-        case .olympus : return "Olympus"
-        case .ornamental : return "Ornamental"
-        case .rainbow : return "Rainbow"
-        case .seasonal : return "Seasonal"
-        case .snowflake : return "Snowflake"
-        case .sun : return "Sun"
-        case .surface : return "Surface"
-        case .treasure : return "Treasure"
-        case .zodiac : return "Zodiac"
+        case .rift : return "rift"
+        case .apocalypse : return "apocalypse"
+        case .aura : return "aura"
+        case .chrysalis : return "chrysalis"
+        case .crystalline : return "crystalline"
+        case .dream : return "dream"
+        case .galaxy : return "galaxy"
+        case .gemstone : return "gemstone"
+        case .hidden : return "hidden"
+        case .melody : return "melody"
+        case .monolith : return "monolith"
+        case .moon : return "moon"
+        case .olympus : return "olympus"
+        case .ornamental : return "ornamental"
+        case .rainbow : return "rainbow"
+        case .seasonal : return "seasonal"
+        case .snowflake : return "snowflake"
+        case .sun : return "sun"
+        case .surface : return "surface"
+        case .treasure : return "treasure"
+        case .zodiac : return "zodiac"
         }
     }
 }
@@ -59,5 +59,10 @@ extension EpicElement : Equatable {
         default:
             return false
         }
+    }
+}
+extension EpicElement : Comparable {
+    static func <(lhs: EpicElement, rhs: EpicElement) -> Bool {
+        return "\(lhs)" < "\(rhs)"
     }
 }

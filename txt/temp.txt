@@ -1,0 +1,70 @@
+good idea to combine ["Atramento"] with Nimbus
+[water, fire, rift, hidden, dark, lightning, [light trait]]
+good idea to combine ["Atramento", "Nimbus"] with Bicentennial
+[fire, water, [light trait], air, rift, dark, hidden, lightning]
+good idea to combine ["Atramento", "Nimbus", "Bicentennial"] with Atramento
+[water, air, fire, rift, hidden, dark, lightning, [light trait]]
+good idea to combine ["Atramento", "Nimbus", "Bicentennial"] with Summer
+[fire, water, [light trait], air, rift, dark, hidden, lightning]
+good idea to combine ["Atramento", "Nimbus", "Summer", "Bicentennial"] with Voltaic
+[water, [dark trait], air, fire, rift, hidden, dark, lightning, [light trait]]
+Igluit,U,Epic,ACHiW,Icebound+hidden,15:00:00,3.9%,1.0%,5.0%,5.0%,Free Real Estate
+Jade,U,Gemstone,FGeLW,Plasma+Salamander,30:26:15,3.0%,3.0%,5.0%,5.0%,Catacombs of Ulmek
+Ikatako,U,Rare,DELW,Tidal+Ooze,16:00:00,4.5%,10.0%,1.0%,1.0%,Tentacle Tickle
+Ruby,U,Gemstone,AFGeLM,Scorch+Chrome,31:00:00,3.0%,3.0%,5.0%,5.0%,Mogok Mania
+Riptide,U,Rare,ADW,dark+water+air,24:30:00,2.0%,1.5%,0.75%,0.75%,Amorphous Porpoise
+Nightmare,U,Epic,ADDrW,Abyss+Howl,36:28:33,4.0%,2.0%,?%,?%,Gelndun Gutter
+Dawnbringer,U,Epic,ADFOl,air+fire+dark,35:00:00,1.5%,2.0%,5.0%,5.0%,Sun Salute
+Ahoy,U,Rare,AEFW,earth+water+fire+air,17:00:00,4.5%,10.0%,1.0%,1.0%,Getaway Stick
+Panlong,U,Rare,AEFW,earth+water+fire+air,36:00:00,3.0%,1.0%,0.5%,0.5%,Year of the Dragon
+Summer,A,Epic,FLSeW,fire+water+lightning,24:00:00,4.0%,3.0%,?%,?%,Sunshine Soirée
+Nimbus,C,Rare,FRW,water+fire+rift+[light trait],0:00:00,2.0%,0.0%,0.0%,1.0%,Nimble Narrows
+Plateau,A,Epic,AEHiPW,Monolith 5+Moss,14:00:00,2.0%,1.0%,5.0%,5.0%,Slow-Moving Summit
+Geminian,A,Epic,ADFIZo,Sunstruck+air,23:00:00,3.4%,4.0%,5.0%,5.0%,Synergy
+Invento,U,Rare,AILW,Davinese+light+air,14:50:50,4.5%,10.0%,1.0%,1.0%,Deep Dive
+Ignis,A,Epic,AFHi,fire+air+hidden,20:00:00,3.0%,1.0%,5.0%,5.0%,Ignite the Sky
+Tansy,A,Epic,EHiLPW,Cactus+Monolith 4,20:00:00,3.0%,1.0%,5.0%,5.0%,Burcadian Hooray
+Moonstruck,U,Epic,AFLMoP,Love+Rose,11:54:00,4.0%,2.0%,?%,?%,Dungeon of Distractions
+Fae,U,Epic,ADDrIW,Glasswing+Snooz,26:00:00,4.0%,1.0%,5.0%,5.0%,A Magical Puff
+Gravity,C,Galaxy,ADEGaW,Gravity+[social cave],20:00:00,0.0%,10.0%,0.0%,0.0%,Gravity Falls
+Minchi,U,Epic,EHiLW,,30:00:00,0.0%,0.0%,0.0%,0.0%,Tough Egg to Crack
+Cumberpatch,U,Epic,EHiLPW,monolith+Cactus,28:00:00,2.0%,0.5%,5.0%,2.0%,Mammu's Bargain
+Opulent,U,Epic,FLPTrW,water+lightning+plant+fire,40:00:00,1.0%,1.0%,5.0%,5.0%,Affluent Adventure
+Stoneshell,U,Epic,CEHiLW,Quake+Monolith 3,24:00:00,3.0%,1.0%,5.0%,5.0%,Standing Egg Rock
+Abraxas,C,Rare,DLR,dark+lightning+rift+[rift align:lightning],23:00:00,4.0%,0.0%,0.0%,1.0%,Power Overwhelming
+Sea Shanty,U,Epic,DFIMeW,Tidal+Ruckus,26:00:00,4.5%,1.5%,5.0%,5.0%,Unbearable Tunes
+Equinox,U,Epic,AFMoSuW,water+Blazing,24:00:00,3.0%,2.0%,?%,?%,Hemisphere Mutineer
+Plumewing,C,Rare,AFR,[air trait]+rift,0:00:00,3.0%,0.0%,0.0%,1.0%,Shiny Start
+Somnig,U,Rare,ADIW,Snooz+Fae,26:00:00,2.95%,10.0%,1.0%,1.0%,Afternoon Nap
+Yolkwing,C,Rare,DFR,rift+[fire trait],0:00:00,2.5%,0.0%,0.0%,1.0%,Eggstraordinary Eggventure
+Aquarian,A,Epic,ACDLZo,Midnight+air,29:00:00,3.3%,4.0%,5.0%,5.0%,Splish Splash
+Chimmit,A,Rare,DILW,lightning+dark+light+water,15:00:00,3.0%,10.0%,1.0%,1.0%,Experienced Piscator
+Voltaic,C,Rare,DLR,lightning+rift+[dark trait]+dark,0:00:00,2.5%,0.0%,0.0%,1.0%,Scaredy Cave
+Kampos,C,Rare,ARW,rift+[water trait],0:00:00,3.0%,0.0%,0.0%,1.0%,Ye Olde Rescue
+Brood,U,Rare,DEFL,Dracabra+Gatren,14:00:00,3.1%,10.0%,1.0%,1.0%,Family Time
+Librian,U,Epic,ADFMZo,air+Stygian,24:00:00,3.2%,4.0%,5.0%,5.0%,
+Cumulus,A,Epic,AEFHiW,Monolith 2+Rain,18:00:00,3.0%,1.0%,5.0%,5.0%,Head in the Clouds
+Tulip,A,Epic,FHiMPW,Monolith 6+Flower,22:00:00,1.0%,1.0%,5.0%,5.0%,Moonlit Garden
+Singularity,C,Galaxy,DFGaLM,Singularity+[social cave],18:00:00,0.0%,1.0%,0.0%,0.0%,Event Horizon
+Kaiju,U,Epic,DFSfW,dark+fire+water,30:00:00,1.5%,1.5%,1.0%,1.0%,Cancelling the Apocalypse
+Nova,C,Galaxy,DFGaLM,[social cave]+Nova,18:00:00,0.0%,7.5%,0.0%,0.0%,Divine Starshine
+Tidal,U,Rare,DELW,Quake+Abyss,30:00:00,2.0%,2.0%,1.0%,1.0%,Kamgwa Karst
+Narcis,U,Epic,ApDLMW,metal+Ouroboros+dark,28:00:00,4.5%,10.0%,1.0%,1.0%,Daffadowndilly's Cousin
+Combustion,A,Rare,ADFM,dark+air+metal+fire,60:00:00,2.0%,1.5%,1.0%,1.0%,Come-bust-out Some Moves
+Davinese,U,Rare,ALW,Vortex+Cyclone,14:50:50,4.5%,10.0%,1.0%,1.0%,Flying The Friendly Skies
+Leonian,U,Epic,AFLZo,fire+Bicentennial,27:00:00,4.0%,10.0%,5.0%,5.0%,Mighty Roar
+Butterfly,U,Rare,AFL,Firefly+air,12:00:00,5.0%,3.0%,1.0%,1.0%,Sykie Meadows
+Arcturian,C,Galaxy,ADEFGa,Arcturian+[social cave],6:00:00,0.0%,10.0%,0.0%,0.0%,Pan Galactic Gargle
+Rayleian,C,Galaxy,AFGaIW,Rayleian+[social cave],22:00:00,0.0%,10.0%,0.0%,0.0%,Megastellar Mission
+Djinni,U,Epic,ALMTrW,lightning+water+air+metal,48:00:00,0.5%,1.0%,5.0%,5.0%,Cave of Wanderers
+Atramento,A,Epic,DHiL,lightning+dark+hidden,23:00:00,2.0%,1.0%,5.0%,5.0%,Ink-redible Experience
+Cerberus,U,Epic,EFLOlW,Hydra+Obsidian,33:00:00,3.0%,2.0%,5.0%,5.0%,Hall of Halitosis
+Bizurian,C,Galaxy,ACDGaL,Bizurian+[social cave],8:00:00,0.0%,5.0%,0.0%,0.0%,Paired Pulsars
+Jumpiplop,U,Rare,ADPW,Psyche+Riptide,24:00:00,3.5%,10.0%,1.0%,1.0%,Splash Zone
+Valeodon,U,Rare,CDFW,Zilla+Kaiju,18:00:00,3.1%,10.0%,1.0%,1.0%,Serpent of the Sea
+Zilla,U,Rare,CDFW,water+cold+Kaiju,18:00:00,4.5%,10.0%,1.0%,1.0%,King Of The Sea
+Blightwing,C,Rare,AFR,air+fire+rift+[dark trait],0:00:00,2.5%,0.0%,0.0%,1.0%,Timeless Tail
+Crackle,U,Epic,CEHiLW,Minchi+Stoneshell,23:00:00,3.1%,1.5%,5.0%,5.0%,One Shell of a Dragon
+PonkiPong,U,Rare,ADFI,Undau+air+fire,15:00:00,3.5%,10.0%,1.0%,1.0%,Bouncy
+Bicentennial,A,Rare,AFL,air+lightning+fire,20:00:00,2.0%,1.0%,0.5%,0.5%,Ten Score Trench
+5
