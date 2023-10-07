@@ -48,7 +48,7 @@ class CSVManager: Writable {
         return data
     }
     
-    func createDragonsFromCSVData(from data: [[String]], parameters: [String]) -> [Dragon]? {
+    func createDragonariumFromCSVData(from data: [[String]], parameters: [String]) -> Dragonarium? {
 
         func parseElements(_ value: String) -> Set<DragonElement> {
             let characterArray = Array(value)
@@ -74,13 +74,17 @@ class CSVManager: Writable {
             return elements
         }        
         
-        var dragons = [Dragon]()
-        // There must be 32 parameters to initialize a Dragon
-        let dragonParametersCount = 40
-        guard parameters.count == dragonParametersCount else {
+        // There must be 32 parameters to initialize a Dragonarium
+        let dragonariumParametersCount = 92
+        guard parameters.count == dragonariumParametersCount else {
         print("Cannot create dragons from unexpected parameter count of \(parameters.count)")
                 return nil
     }
+        var dragons = [Dragon]()
+        var collectionsDragons: [[String]] = [[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                              [],[],[],[],[],[],[],[],[],[],[],[],[],
+                                              [],[],[],[],[],[],[],[],[],[],[],[],[],
+                                              [],[],[],[],[],[],[],[],[],[],[],[],[]]
         
         for lineIndex in 0 ..< data.count {
             // Each line must have all parameters included
@@ -177,20 +181,81 @@ class CSVManager: Writable {
                                   earnGold: earnGold, earnEtherium: earnEtherium, earnGem: earnGem,
                                   magicCost: magicCost, eventSection: eventSection,
                                   quest: quest))
-        }        
-        return dragons
+            for fieldIndex in 40 ... 91 {
+                if data[lineIndex][fieldIndex] != "" {
+                    collectionsDragons[fieldIndex - 40].append(name)
+                }
+            }
+        }
+        let collections: [DragonariumCollection] = [
+          DragonariumCollection(name: "Air", dragons: collectionsDragons[0], category: .elemental),
+          DragonariumCollection(name: "Anniversary", dragons: collectionsDragons[1], category: .special),
+          DragonariumCollection(name: "Apocalypse", dragons: collectionsDragons[2], category: .epic),
+          DragonariumCollection(name: "Aura", dragons: collectionsDragons[3], category: .epic),
+          DragonariumCollection(name: "Autumn", dragons: collectionsDragons[4], category: .special),
+          DragonariumCollection(name: "Camping", dragons: collectionsDragons[5], category: .special),
+          DragonariumCollection(name: "Celebration", dragons: collectionsDragons[6], category: .special),
+          DragonariumCollection(name: "Chrysalis", dragons: collectionsDragons[7], category: .epic),
+          DragonariumCollection(name: "Cold", dragons: collectionsDragons[8], category: .elemental),
+          DragonariumCollection(name: "Crystalline", dragons: collectionsDragons[9], category: .epic),
+          DragonariumCollection(name: "Dark", dragons: collectionsDragons[10], category: .elemental),
+          DragonariumCollection(name: "Dream", dragons: collectionsDragons[11], category: .epic),
+          DragonariumCollection(name: "Earth", dragons: collectionsDragons[12], category: .elemental),
+          DragonariumCollection(name: "Enhanced", dragons: collectionsDragons[13], category: .special),
+          DragonariumCollection(name: "Fire", dragons: collectionsDragons[14], category: .elemental),
+          DragonariumCollection(name: "Galactic", dragons: collectionsDragons[15], category: .epic),
+          DragonariumCollection(name: "Gemstone All", dragons: collectionsDragons[16], category: .special),
+          DragonariumCollection(name: "Gemstone Autumn", dragons: collectionsDragons[17], category: .special),
+          DragonariumCollection(name: "Gemstone Spring", dragons: collectionsDragons[18], category: .special),
+          DragonariumCollection(name: "Gemstone Summer", dragons: collectionsDragons[19], category: .special),
+          DragonariumCollection(name: "Gemstone Winter", dragons: collectionsDragons[20], category: .special),
+          DragonariumCollection(name: "Ghostly", dragons: collectionsDragons[21], category: .special),
+          DragonariumCollection(name: "Hidden", dragons: collectionsDragons[22], category: .epic),
+          DragonariumCollection(name: "Legendary", dragons: collectionsDragons[23], category: .special),
+          DragonariumCollection(name: "Light", dragons: collectionsDragons[24], category: .elemental),
+          DragonariumCollection(name: "Lightning", dragons: collectionsDragons[25], category: .elemental),
+          DragonariumCollection(name: "Love", dragons: collectionsDragons[26], category: .special),
+          DragonariumCollection(name: "Melody", dragons: collectionsDragons[27], category: .epic),
+          DragonariumCollection(name: "Metal", dragons: collectionsDragons[28], category: .elemental),
+          DragonariumCollection(name: "Monolith", dragons: collectionsDragons[29], category: .epic),
+          DragonariumCollection(name: "Moon", dragons: collectionsDragons[30], category: .epic),
+          DragonariumCollection(name: "Mythic", dragons: collectionsDragons[31], category: .special),
+          DragonariumCollection(name: "Olympus", dragons: collectionsDragons[32], category: .epic),
+          DragonariumCollection(name: "Om of Noms", dragons: collectionsDragons[33], category: .special),
+          DragonariumCollection(name: "Ornamental", dragons: collectionsDragons[34], category: .epic),
+          DragonariumCollection(name: "Ovalith", dragons: collectionsDragons[35], category: .special),
+          DragonariumCollection(name: "Paradise", dragons: collectionsDragons[36], category: .special),
+          DragonariumCollection(name: "Plant", dragons: collectionsDragons[37], category: .elemental),
+          DragonariumCollection(name: "Rainbow", dragons: collectionsDragons[38], category: .epic),
+          DragonariumCollection(name: "Rift", dragons: collectionsDragons[39], category: .special),
+          DragonariumCollection(name: "Seasonal", dragons: collectionsDragons[40], category: .epic),
+          DragonariumCollection(name: "Snowflake", dragons: collectionsDragons[41], category: .epic),
+          DragonariumCollection(name: "Spooky", dragons: collectionsDragons[42], category: .special),
+          DragonariumCollection(name: "Summer", dragons: collectionsDragons[43], category: .special),
+          DragonariumCollection(name: "Sun", dragons: collectionsDragons[44], category: .epic),
+          DragonariumCollection(name: "Surface", dragons: collectionsDragons[45], category: .epic),
+          DragonariumCollection(name: "Treasure", dragons: collectionsDragons[46], category: .epic),
+          DragonariumCollection(name: "Vernal", dragons: collectionsDragons[47], category: .special),
+          DragonariumCollection(name: "Vintage", dragons: collectionsDragons[48], category: .special),
+          DragonariumCollection(name: "Water", dragons: collectionsDragons[49], category: .elemental),
+          DragonariumCollection(name: "Winter", dragons: collectionsDragons[50], category: .special),
+          DragonariumCollection(name: "Zodiac", dragons: collectionsDragons[51], category: .epic),
+          DragonariumCollection(name: "All", dragons: dragons.map{$0.name}, category: .all)
+        ]
+
+        return Dragonarium(dragons: dragons, collections: collections)
     }
 
-    func initializeDragons(path: String) -> [Dragon]? {
-        if let dragonsCSV = readCSV(path: path),
-           let dragonsCSVData = decodeCSV(file: dragonsCSV) {        
-            return createDragonsFromCSVData(from: dragonsCSVData, parameters: dragonsCSV.parameters)
+    func initializeDragonarium(path: String) -> Dragonarium? {
+        if let dragonariumCSV = readCSV(path: path),
+           let dragonariumCSVData = decodeCSV(file: dragonariumCSV) {        
+            return createDragonariumFromCSVData(from: dragonariumCSVData, parameters: dragonariumCSV.parameters)
         }
         return nil
     }
-    func initializeDragons(csvFile: CSVFile) -> [Dragon]? {
-         if let dragonsCSVData = decodeCSV(file: csvFile) {        
-            return createDragonsFromCSVData(from: dragonsCSVData, parameters: csvFile.parameters)
+    func initializeDragonarium(csvFile: CSVFile) -> Dragonarium? {
+         if let dragonariumCSVData = decodeCSV(file: csvFile) {        
+            return createDragonariumFromCSVData(from: dragonariumCSVData, parameters: csvFile.parameters)
         }
         return nil
     }

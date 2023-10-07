@@ -4,7 +4,7 @@ struct DragonariumCollection: Codable {
     let category: DragonariumCategory
 
     enum DragonariumCategory: String, Codable {
-        case elemental, epic, special
+        case elemental, epic, special, all
     }
 
     init(name: String, dragons: [String], category: DragonariumCategory) {

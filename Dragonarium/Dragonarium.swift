@@ -1,4 +1,4 @@
-class Dragonarium {
+class Dragonarium: Codable {
     let dragons: Set<Dragon>
     let collections: [DragonariumCollection]
 
