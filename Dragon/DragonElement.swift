@@ -107,14 +107,12 @@ extension DragonElement : Equatable {
     }    
 }
 
-extension DragonElement: Encodable {
+extension DragonElement: Codable {
     func encode(to encoder: Encoder) throws {
         var container = encoder.singleValueContainer()
         try container.encode(self.description)
     }
-}
-
-extension DragonElement: Decodable {
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer()
         let stringValue = try container.decode(String.self)

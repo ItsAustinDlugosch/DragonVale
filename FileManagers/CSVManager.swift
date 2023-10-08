@@ -133,7 +133,7 @@ class CSVManager: Writable {
         }
             let breedTime = Time(totalSeconds: totalSeconds)
             let elements = parseElements(data[lineIndex][19])
-            let baseBreedPercentage = Float(data[lineIndex][20])
+            let ownZeroBreedPercentage = Float(data[lineIndex][20])
             let ownOneBreedPercentage = Float(data[lineIndex][21])
             let ownTwoBreedPercentage = Float(data[lineIndex][22])
             let normalSingleClonePercentage = Float(data[lineIndex][23])
@@ -142,11 +142,13 @@ class CSVManager: Writable {
             let socialDoubleClonePercentage = Float(data[lineIndex][26])
             let riftSingleClonePercentage = Float(data[lineIndex][27])
             let riftDoubleClonePercentage = Float(data[lineIndex][28])
-            let breedInformation = BreedInformation(breedAvailability: breedAvailability,
+            let breedInformation: BreedInformation?
+            if let breedAvailability = breedAvailability {
+                breedInformation = BreedInformation(breedAvailability: breedAvailability,
                                                     breedRequirements: breedRequirements,
                                                     breedTime: breedTime,
                                                     elements: elements,
-                                                    baseBreedPercentage: baseBreedPercentage,
+                                                    ownZeroBreedPercentage: ownZeroBreedPercentage,
                                                     ownOneBreedPercentage: ownOneBreedPercentage,
                                                     ownTwoBreedPercentage: ownTwoBreedPercentage,
                                                     normalSingleClonePercentage: normalSingleClonePercentage,
@@ -154,7 +156,11 @@ class CSVManager: Writable {
                                                     socialSingleClonePercentage: socialSingleClonePercentage,
                                                     socialDoubleClonePercentage: socialDoubleClonePercentage,
                                                     riftSingleClonePercentage: riftSingleClonePercentage,
-                                                    riftDoubleClonePercentage: riftDoubleClonePercentage)
+                                                    riftDoubleClonePercentage: riftDoubleClonePercentage) 
+            } else {
+                print("no availability for \(name)")
+                breedInformation = nil
+            }
             let visibleElements = parseElements(data[lineIndex][29])
             let evolutionDragonName = data[lineIndex][30] != "" ? data[lineIndex][30] : nil
             guard let riftable = Bool(data[lineIndex][31]) else {
@@ -246,7 +252,7 @@ class CSVManager: Writable {
         return Dragonarium(dragons: dragons, collections: collections)
     }
 
-    func initializeDragonarium(path: String) -> Dragonarium? {
+    func initializeDragonarium(from path: String) -> Dragonarium? {
         if let dragonariumCSV = readCSV(path: path),
            let dragonariumCSVData = decodeCSV(file: dragonariumCSV) {        
             return createDragonariumFromCSVData(from: dragonariumCSVData, parameters: dragonariumCSV.parameters)

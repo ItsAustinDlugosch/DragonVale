@@ -8,14 +8,14 @@ enum BreedAvailability {
     case available
     case unavailable
     case permanent
-    case unbreedable
+    case cloneable
 
     // Dictionary that maps a string to a BreedAvailability
     private static let breedAvailabilityMap : [String: BreedAvailability] = [
       "avilable": .available,
       "unavailable": .unavailable,
       "permanent": .permanent,
-      "unbreedable": .unbreedable
+      "cloneable": .cloneable
     ]
    
     
