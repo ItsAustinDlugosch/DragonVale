@@ -34,6 +34,10 @@ struct BreedInformation: Equatable, Hashable {
         self.riftDoubleClonePercentage = riftDoubleClonePercentage
     }
 
+    func isSatisfiedBy(breedComponents: BreedComponents) -> Bool {
+        return breedComponents.satisfies(breedRequirements: breedRequirements)
+    }
+
     public static func == (lhs: BreedInformation, rhs: BreedInformation) -> Bool {
         return lhs.breedAvailability == rhs.breedAvailability &&
           lhs.breedRequirements == rhs.breedRequirements &&
@@ -68,8 +72,21 @@ struct BreedInformation: Equatable, Hashable {
 }
 extension BreedInformation: Codable {
     private enum CodingKeys: String, CodingKey {
-        case breedAvailability, breedRequirements, breedTime, elements, ownZeroBreedPercentage, ownOneBreedPercentage, ownTwoBreedPercentage, normalSingleClonePercentage, normalDoubleClonePercentage, socialSingleClonePercentage, socialDoubleClonePercentage, riftSingleClonePercentage, riftDoubleClonePercentage
+        case breedAvailability = "breed_availability"
+        case breedRequirements = "breed_requirements"
+        case breedTime = "breed_time"
+        case elements
+        case ownZeroBreedPercentage = "own_zero_breed_percentage"
+        case ownOneBreedPercentage = "own_one_breed_percentage"
+        case ownTwoBreedPercentage = "own_two_breed_percentage"
+        case normalSingleClonePercentage = "normal_single_clone_percentage"
+        case normalDoubleClonePercentage = "normal_double_clone_percentage"
+        case socialSingleClonePercentage = "social_single_clone_percentage"
+        case socialDoubleClonePercentage = "social_double_clone_percentage"
+        case riftSingleClonePercentage = "rift_single_clone_percentage"
+        case riftDoubleClonePercentage = "rift_double_clone_percentage"
     }
+
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
       

@@ -11,6 +11,10 @@ class Dragonarium: Codable, Equatable {
         return lhs.dragons == rhs.dragons &&
           lhs.collections == rhs.collections
     }
+
+    func dragon(_ name: String) -> Dragon? {
+        return dragons.first { $0.name == name }
+    }
 }
 
 extension Dragonarium: Hashable {

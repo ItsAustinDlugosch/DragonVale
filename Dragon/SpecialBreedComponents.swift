@@ -126,8 +126,15 @@ struct SpecialBreedComponents {
 
 extension SpecialBreedComponents: Codable {
     private enum CodingKeys: String, CodingKey {
-        case riftAlignment, riftTraits, restrictiveElements, minElementCount, time, weather, cave
+        case riftAlignment = "rift_alignment"
+        case riftTraits = "rift_traits"
+        case restrictiveElements = "restrictive_elements"
+        case minElementCount = "min_element_count"
+        case time
+        case weather
+        case cave
     }
+
 
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)

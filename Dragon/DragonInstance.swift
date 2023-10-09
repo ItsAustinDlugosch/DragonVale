@@ -18,7 +18,7 @@ struct DragonInstance : Codable, Equatable, Hashable {
 
     private enum CodingKeys: String, CodingKey {
         case dragonName = "name"
-        case riftTrait
+        case riftTrait = "rift_trait"
     }
 
     func encode(to encoder: Encoder) throws {

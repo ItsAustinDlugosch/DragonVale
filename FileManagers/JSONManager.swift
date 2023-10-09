@@ -21,6 +21,7 @@ class JSONManager: Writable {
         encoder.outputFormatting = .prettyPrinted
         encoder.dateEncodingStrategy = .iso8601
         encoder.keyEncodingStrategy = .convertToSnakeCase
+        
         do {
             let jsonData = try encoder.encode(data)
             if let jsonString = String(data: jsonData, encoding: .utf8) {

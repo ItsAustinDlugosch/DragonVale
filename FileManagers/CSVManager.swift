@@ -50,10 +50,10 @@ class CSVManager: Writable {
     
     func createDragonariumFromCSVData(from data: [[String]], parameters: [String]) -> Dragonarium? {
 
-        func parseElements(_ value: String) -> Set<DragonElement> {
+        func parseElements(_ value: String) -> Set<DragonElement>? {
             let characterArray = Array(value)
             guard characterArray.count > 0 else {
-                return []
+                return nil
             }
             var elements = Set<DragonElement>()
             var possibleElement : String = String(characterArray[0])
@@ -110,8 +110,8 @@ class CSVManager: Writable {
                                            DragonElement(data[lineIndex][5]),
                                            DragonElement(data[lineIndex][6]),
                                            DragonElement(data[lineIndex][7])].compactMap {$0}
-            let breedComponentsDragons = [DragonInstance(data[lineIndex][8], PrimaryElement(data[lineIndex][9])),
-                                          DragonInstance(data[lineIndex][10], PrimaryElement(data[lineIndex][11]))].compactMap {$0}
+            let breedComponentsDragons = Set<DragonInstance>([DragonInstance(data[lineIndex][8], PrimaryElement(data[lineIndex][9])),
+                                                              DragonInstance(data[lineIndex][10], PrimaryElement(data[lineIndex][11]))].compactMap {$0})
             let specialComponentsTime = data[lineIndex][15] != "" ? data[lineIndex][15] : nil
             let specialComponentsWeather = data[lineIndex][16] != "" ? data[lineIndex][16] : nil
             let specialComponentsCave = data[lineIndex][17] != "" ? data[lineIndex][17] : nil
@@ -143,7 +143,8 @@ class CSVManager: Writable {
             let riftSingleClonePercentage = Float(data[lineIndex][27])
             let riftDoubleClonePercentage = Float(data[lineIndex][28])
             let breedInformation: BreedInformation?
-            if let breedAvailability = breedAvailability {
+            if let breedAvailability = breedAvailability,
+               let elements = elements {
                 breedInformation = BreedInformation(breedAvailability: breedAvailability,
                                                     breedRequirements: breedRequirements,
                                                     breedTime: breedTime,
@@ -158,17 +159,16 @@ class CSVManager: Writable {
                                                     riftSingleClonePercentage: riftSingleClonePercentage,
                                                     riftDoubleClonePercentage: riftDoubleClonePercentage) 
             } else {
-                print("no availability for \(name)")
                 breedInformation = nil
             }
             let visibleElements = parseElements(data[lineIndex][29])
             let evolutionDragonName = data[lineIndex][30] != "" ? data[lineIndex][30] : nil
-            guard let riftable = Bool(data[lineIndex][31]) else {
-            print("Unexpected riftable of \(data[lineIndex][31]) on line \(lineIndex + 2)")
+            guard let isRiftable = Bool(data[lineIndex][31]) else {
+            print("Unexpected isRiftable of \(data[lineIndex][31]) on line \(lineIndex + 2)")
             return nil
         }
-            guard let elderable = Bool(data[lineIndex][32]) else {
-            print("Unexpected elderable of \(data[lineIndex][32]) on line \(lineIndex + 2)")
+            guard let isElderable = Bool(data[lineIndex][32]) else {
+            print("Unexpected isElderable of \(data[lineIndex][32]) on line \(lineIndex + 2)")
             return nil
         }
             let earnGold = Float(data[lineIndex][33])
@@ -183,7 +183,7 @@ class CSVManager: Writable {
                                   visibleElements: visibleElements, requiredTrait: requiredTrait,
                                   breedInformation: breedInformation,
                                   evolutionDragonName: evolutionDragonName,
-                                  riftable: riftable, elderable: elderable,
+                                  isRiftable: isRiftable, isElderable: isElderable,
                                   earnGold: earnGold, earnEtherium: earnEtherium, earnGem: earnGem,
                                   magicCost: magicCost, eventSection: eventSection,
                                   quest: quest))

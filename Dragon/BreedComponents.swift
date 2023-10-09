@@ -5,23 +5,32 @@
 
 struct BreedComponents: Equatable, Hashable {
     let elements : [DragonElement]
-    let dragons: [DragonInstance]
+    let dragons: Set<DragonInstance>
     let specialRequirements : SpecialBreedComponents
     
-    init(elements: [DragonElement], dragons: [DragonInstance], specialRequirements: SpecialBreedComponents = SpecialBreedComponents()) {        
+    init(elements: [DragonElement], dragons: Set<DragonInstance>, specialRequirements: SpecialBreedComponents = SpecialBreedComponents()) {        
         self.elements = elements
         self.dragons = dragons
         self.specialRequirements = specialRequirements
     }    
 
     public static func + (lhs: BreedComponents, rhs: BreedComponents) -> BreedComponents? {
-        // Combine required elements and dragons
-        
-        // Only return valid BreedRequirements if the SpecialRequirements are able to be combined, otherwise return nil
+        // Combine required elements using custom Quasi-Set implementation        
+        let combinedElements = lhs.elements + rhs.elements
+        // Only return valid BreedComponentsn if there are no more than 2 dragons, otherwise return nil
+        let combinedDragons = lhs.dragons + rhs.dragons
+        if combinedDragons.count > 2 {
+            return nil
+        }
+        // Only return valid BreedComponents if the SpecialRequirements are able to be combined, otherwise return nil
         if let combinedSpecialBreedComponents = lhs.specialRequirements + rhs.specialRequirements {
-            return BreedComponents(elements: lhs.elements, dragons: lhs.dragons, specialRequirements: combinedSpecialBreedComponents)
+            return BreedComponents(elements: combinedElements, dragons: combinedDragons, specialRequirements: combinedSpecialBreedComponents)
         }
         return nil
+    }
+
+    func satisfies(breedRequirements: BreedComponents) -> Bool {
+        return false
     }
 
     public static func == (lhs: BreedComponents, rhs: BreedComponents) -> Bool {
@@ -39,8 +48,11 @@ struct BreedComponents: Equatable, Hashable {
 
 extension BreedComponents: Codable {
     private enum CodingKeys: String, CodingKey {
-        case elements, dragons, specialRequirements
+        case elements
+        case dragons
+        case specialRequirements = "special_requirements"
     }
+
 
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
@@ -60,7 +72,7 @@ extension BreedComponents: Codable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
 
         elements = try container.decodeIfPresent([DragonElement].self, forKey: .elements) ?? []
-        dragons = try container.decodeIfPresent([DragonInstance].self, forKey: .dragons) ?? []
+        dragons = try container.decodeIfPresent(Set<DragonInstance>.self, forKey: .dragons) ?? []
         specialRequirements = try container.decodeIfPresent(SpecialBreedComponents.self, forKey: .specialRequirements) ?? SpecialBreedComponents()
     }
 }
