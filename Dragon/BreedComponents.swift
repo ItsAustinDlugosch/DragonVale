@@ -12,26 +12,55 @@ struct BreedComponents: Equatable, Hashable {
         self.elements = elements
         self.dragons = dragons
         self.specialRequirements = specialRequirements
-    }    
+    }
 
-    public static func + (lhs: BreedComponents, rhs: BreedComponents) -> BreedComponents? {
+    func combineRequirements(other: BreedComponents) -> BreedComponents? {
         // Combine required elements using custom Quasi-Set implementation        
-        let combinedElements = lhs.elements + rhs.elements
+        let combinedElements = self.elements + other.elements
         // Only return valid BreedComponentsn if there are no more than 2 dragons, otherwise return nil
-        let combinedDragons = lhs.dragons + rhs.dragons
+        let combinedDragons = self.dragons + other.dragons
         if combinedDragons.count > 2 {
             return nil
         }
         // Only return valid BreedComponents if the SpecialRequirements are able to be combined, otherwise return nil
-        if let combinedSpecialBreedComponents = lhs.specialRequirements + rhs.specialRequirements {
+        if let combinedSpecialBreedComponents = self.specialRequirements + other.specialRequirements {
             return BreedComponents(elements: combinedElements, dragons: combinedDragons, specialRequirements: combinedSpecialBreedComponents)
         }
         return nil
     }
 
-    func satisfies(breedRequirements: BreedComponents) -> Bool {
-        return false
+    func satisfies(other: BreedComponents) -> Bool {
+        // Check that all elements from other are included in elements
+        for element in other.elements {
+            if self.elements.filter({ $0 == element }).count < other.elements.filter({ $0 == element }).count {
+                return false
+            }
+        }
+
+        // Check that all dragons from other are included in dragons
+        for dragonInstance in other.dragons {
+            // If the dragonInstance in other has a specific rift trait
+            if let requiredRiftTrait = dragonInstance.riftTrait {
+                // Check if there's a matching dragonInstance in the current BreedComponents with the same rift trait
+                if !self.dragons.contains(where: { $0.dragonName == dragonInstance.dragonName && $0.riftTrait == requiredRiftTrait }) {
+                    return false
+                }
+            } else {
+                // Any rift trait (or none) is acceptable
+                if !self.dragons.contains(where: { $0.dragonName == dragonInstance.dragonName }) {
+                    return false
+                }
+            }
+        }
+
+        // Check that all specialRequirements from other are included in specialRequirements
+        if !self.specialRequirements.satisfies(other: other.specialRequirements) {
+            return false
+        }
+
+        return true
     }
+
 
     public static func == (lhs: BreedComponents, rhs: BreedComponents) -> Bool {
         return lhs.elements == rhs.elements &&

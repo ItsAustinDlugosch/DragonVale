@@ -35,7 +35,7 @@ struct BreedInformation: Equatable, Hashable {
     }
 
     func isSatisfiedBy(breedComponents: BreedComponents) -> Bool {
-        return breedComponents.satisfies(breedRequirements: breedRequirements)
+        return breedComponents.satisfies(other: breedRequirements)
     }
 
     public static func == (lhs: BreedInformation, rhs: BreedInformation) -> Bool {

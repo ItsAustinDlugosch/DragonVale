@@ -27,6 +27,20 @@ enum PrimaryElement: String, Hashable, CaseIterable, Comparable, CustomStringCon
       "dark": .dark
     ]
 
+    // Dictionary that maps PrimaryElement to its opposite PrimaryElement
+    static let oppositeElementMap: [PrimaryElement: PrimaryElement] = [
+      .plant: .metal,
+      .fire: .cold,
+      .earth: .air,
+      .cold: .fire,
+      .lightning: .water,
+      .water: .lightning,
+      .air: .earth,
+      .metal: .plant,
+      .light: .dark,
+      .dark: .light
+    ]
+
     init?(_ value: String) {
         if let primaryElement = PrimaryElement.primaryElementMap[value] {
             self = primaryElement

@@ -32,25 +32,9 @@ struct Dragon: Equatable {
         self.quest = quest
     }
 
-    var isBreedable: Bool {
-        return breedInformation != nil
-    }
-
     var isEvolvable: Bool {
         return evolutionDragonName != nil
-    }
-
-    var isBreeder: Bool {
-        return rarity != .gemstone && rarity != .legendary && rarity != .mythic
-    }
-
-    func isSatisfiedBy(breedComponents: BreedComponents) -> Bool {
-        guard isBreedable == true else {
-        print("Dragon must be breedable to be satisfied by BreedComponents, error handling \(name) Dragon")
-        fatalError()
-    }
-        return breedInformation!.isSatisfiedBy(breedComponents: breedComponents)
-    }
+    }    
 
     public static func == (lhs: Dragon, rhs: Dragon) -> Bool {
         return lhs.name == rhs.name &&
