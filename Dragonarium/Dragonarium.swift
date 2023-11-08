@@ -5,6 +5,12 @@ class Dragonarium: Codable, Equatable {
     var breedableDragons: Set<BreedableDragon> {
         return  Set<BreedableDragon>(dragons.compactMap { BreedableDragon(from: $0) })
     }
+    var fixedDragons: Set<BreedableDragon> {
+        return breedableDragons.filter { $0.breedInformation.isFixed() }
+    }
+    var fluctuatingDragons: Set<BreedableDragon> {
+        return breedableDragons.filter { $0.breedInformation.isFluctuating() }
+    }
 
     init(dragons: [Dragon], collections: [DragonariumCollection]) {
         self.dragons = Set<Dragon>(dragons)

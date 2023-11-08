@@ -8,14 +8,12 @@ enum BreedAvailability {
     case available
     case unavailable
     case permanent
-    case cloneable
 
     // Dictionary that maps a string to a BreedAvailability
     private static let breedAvailabilityMap : [String: BreedAvailability] = [
-      "avilable": .available,
+      "available": .available,
       "unavailable": .unavailable,
-      "permanent": .permanent,
-      "cloneable": .cloneable
+      "permanent": .permanent
     ]
    
     
@@ -33,14 +31,11 @@ extension BreedAvailability: CustomStringConvertible {
     }
 }
 
-extension BreedAvailability : Encodable {
+extension BreedAvailability : Codable {
     func encode(to encoder: Encoder) throws {
         var container = encoder.singleValueContainer()
         try container.encode(self.description)
     }
-}
-
-extension BreedAvailability : Decodable {
     init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer()
         let stringValue = try container.decode(String.self)

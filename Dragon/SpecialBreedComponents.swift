@@ -8,17 +8,15 @@
 struct SpecialBreedComponents {
     let riftAlignment : PrimaryElement?
     let riftTraits : Set<PrimaryElement>?
-    let oppositeElements : Set<PrimaryElement>?
     let minElementCount : Int?
-    let time : String?
-    let weather : String?
-    let cave : String?
+    let time : CaveTime?
+    let weather : CaveWeather?
+    let cave : Cave?
 
-    init(riftAlignment: PrimaryElement? = nil, riftTraits: Set<PrimaryElement>? = nil, oppositeElements: Set<PrimaryElement>? = nil,
-         minElementCount: Int? = nil, time: String? = nil, weather: String? = nil, cave: String? = nil) {
+    init(riftAlignment: PrimaryElement? = nil, riftTraits: Set<PrimaryElement>? = nil,
+         minElementCount: Int? = nil, time: CaveTime? = nil, weather: CaveWeather? = nil, cave: Cave? = nil) {
         self.riftAlignment = riftAlignment
         self.riftTraits = riftTraits
-        self.oppositeElements = oppositeElements
         self.minElementCount = minElementCount
         self.time = time
         self.weather = weather
@@ -125,11 +123,6 @@ struct SpecialBreedComponents {
             return false
         }
         
-        // Check oppositeElements
-        if let requiredRestrictiveElements = other.oppositeElements, !requiredRestrictiveElements.isSubset(of: self.oppositeElements ?? []) {
-            return false
-        }
-        
         // Check minElementCount
         if let requiredMinElementCount = other.minElementCount, (self.minElementCount ?? 0) < requiredMinElementCount {
             return false
@@ -148,7 +141,6 @@ struct SpecialBreedComponents {
     var isEmpty: Bool {
         return riftAlignment == nil &&
           riftTraits == nil &&
-          oppositeElements == nil &&
           minElementCount == nil &&
           time == nil &&
           weather == nil &&
@@ -160,7 +152,6 @@ extension SpecialBreedComponents: Codable {
     private enum CodingKeys: String, CodingKey {
         case riftAlignment = "rift_alignment"
         case riftTraits = "rift_traits"
-        case oppositeElements = "opposite_elements"
         case minElementCount = "min_element_count"
         case time
         case weather
@@ -176,9 +167,6 @@ extension SpecialBreedComponents: Codable {
         }
         if let riftTraits = riftTraits {
             try container.encode(riftTraits, forKey: .riftTraits)
-        }
-        if let oppositeElements = oppositeElements {
-            try container.encode(oppositeElements, forKey: .oppositeElements)
         }
         if let minElementCount = minElementCount {
             try container.encode(minElementCount, forKey: .minElementCount)
@@ -199,11 +187,10 @@ extension SpecialBreedComponents: Codable {
 
         riftAlignment = try container.decodeIfPresent(PrimaryElement.self, forKey: .riftAlignment)
         riftTraits = try container.decodeIfPresent(Set<PrimaryElement>.self, forKey: .riftTraits)
-        oppositeElements = try container.decodeIfPresent(Set<PrimaryElement>.self, forKey: .oppositeElements)
         minElementCount = try container.decodeIfPresent(Int.self, forKey: .minElementCount)
-        time = try container.decodeIfPresent(String.self, forKey: .time)
-        weather = try container.decodeIfPresent(String.self, forKey: .weather)
-        cave = try container.decodeIfPresent(String.self, forKey: .cave)        
+        time = try container.decodeIfPresent(CaveTime.self, forKey: .time)
+        weather = try container.decodeIfPresent(CaveWeather.self, forKey: .weather)
+        cave = try container.decodeIfPresent(Cave.self, forKey: .cave)        
     }
 }
 
@@ -211,7 +198,6 @@ extension SpecialBreedComponents: Equatable {
     static func == (lhs: SpecialBreedComponents, rhs: SpecialBreedComponents) -> Bool {
         return lhs.riftAlignment == rhs.riftAlignment &&
           lhs.riftTraits == rhs.riftTraits &&
-          lhs.oppositeElements == rhs.oppositeElements &&
           lhs.minElementCount == rhs.minElementCount &&          
           lhs.time == rhs.time &&
           lhs.weather == rhs.weather &&
@@ -227,9 +213,6 @@ extension SpecialBreedComponents: CustomStringConvertible {
         }
         if let riftTraits = riftTraits {
             parts.append("riftTraits: \(riftTraits)")
-        }
-        if let oppositeElements = oppositeElements {
-            parts.append("oppositeElements: \(oppositeElements)")
         }
         if let minElementCount = minElementCount {
             parts.append("elementCount: \(minElementCount)")
@@ -251,7 +234,6 @@ extension SpecialBreedComponents: Hashable {
     func hash(into hasher: inout Hasher) {
         hasher.combine(riftAlignment)
         hasher.combine(riftTraits)
-        hasher.combine(oppositeElements)
         hasher.combine(minElementCount)
         hasher.combine(time)
         hasher.combine(weather)

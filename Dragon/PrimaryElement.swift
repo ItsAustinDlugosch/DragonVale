@@ -70,19 +70,16 @@ enum PrimaryElement: String, Hashable, CaseIterable, Comparable, CustomStringCon
     }
 
     // Defines the less-than operation for comparing `PrimaryElement`s based on their `order`.
-    static func <(lhs: PrimaryElement, rhs: PrimaryElement) -> Bool {
+    static func < (lhs: PrimaryElement, rhs: PrimaryElement) -> Bool {
         return lhs.order < rhs.order
     }
 }
 
-extension PrimaryElement: Encodable {
+extension PrimaryElement: Codable {
     func encode(to encoder: Encoder) throws {
         var container = encoder.singleValueContainer()
         try container.encode(self.description)
     }
-}
-
-extension PrimaryElement: Decodable {
     init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer()
         let stringValue = try container.decode(String.self)

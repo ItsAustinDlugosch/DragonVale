@@ -7,6 +7,23 @@ struct BreedComponents: Equatable, Hashable {
     let elements : [DragonElement]
     let dragons: Set<DragonInstance>
     let specialRequirements : SpecialBreedComponents
+
+    var primaryElements: [PrimaryElement] {
+        return elements.compactMap {
+            if case .primary(let primaryElement) = $0 {
+                return primaryElement
+            }
+            return nil
+        }
+    }
+    var epicElements: [EpicElement] {
+        return elements.compactMap {
+            if case .epic(let epicElement) = $0 {
+                return epicElement
+            }
+            return nil
+        }
+    }
     
     init(elements: [DragonElement], dragons: Set<DragonInstance>, specialRequirements: SpecialBreedComponents = SpecialBreedComponents()) {        
         self.elements = elements
@@ -16,12 +33,12 @@ struct BreedComponents: Equatable, Hashable {
 
     func combineRequirements(other: BreedComponents) -> BreedComponents? {
         // Combine required elements using custom Quasi-Set implementation        
-        let combinedElements = self.elements + other.elements
+        let combinedElements = self.elements.maxCountOfElements(with: other.elements)
         // Only return valid BreedComponentsn if there are no more than 2 dragons, otherwise return nil
         let combinedDragons = self.dragons + other.dragons
         if combinedDragons.count > 2 {
             return nil
-        }
+        }        
         // Only return valid BreedComponents if the SpecialRequirements are able to be combined, otherwise return nil
         if let combinedSpecialBreedComponents = self.specialRequirements + other.specialRequirements {
             return BreedComponents(elements: combinedElements, dragons: combinedDragons, specialRequirements: combinedSpecialBreedComponents)
@@ -63,13 +80,13 @@ struct BreedComponents: Equatable, Hashable {
 
 
     public static func == (lhs: BreedComponents, rhs: BreedComponents) -> Bool {
-        return lhs.elements == rhs.elements &&
+        return lhs.elements.sorted() == rhs.elements.sorted() &&
           lhs.dragons == rhs.dragons &&
           lhs.specialRequirements == rhs.specialRequirements
     }
 
     func hash(into hasher: inout Hasher) {
-        hasher.combine(elements)
+        hasher.combine(elements.sorted())
         hasher.combine(dragons)
         hasher.combine(specialRequirements)
     }

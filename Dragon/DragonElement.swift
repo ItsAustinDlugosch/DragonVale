@@ -1,7 +1,7 @@
 // Represents the an element of a dragon.
 // - `primary`: Primary Element
 // - `epic`: Epic Element
-enum DragonElement : Hashable {
+enum DragonElement : Hashable, Comparable {
     case primary(_ primaryElement: PrimaryElement)
     case epic(_ epicElement: EpicElement)
     
@@ -82,6 +82,17 @@ enum DragonElement : Hashable {
         } else {
             return nil
         }
+    }
+
+    var order: Int {
+        switch self {
+        case .primary(let primary): return primary.order
+        case .epic(let epic): return epic.order + 10 // Account for primary order
+        }
+    }
+
+    static func < (lhs: DragonElement, rhs: DragonElement) -> Bool {
+        return lhs.order < rhs.order
     }
 }
 extension DragonElement : CustomStringConvertible {

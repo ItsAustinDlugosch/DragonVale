@@ -1,0 +1,22 @@
+enum BreedType: CustomStringConvertible {
+    case fixed
+    case fluctuating
+    case fixedAndFluctuating
+
+    private static let breedTypeMap : [String: BreedType] = [
+      "fixed": .fixed,
+      "fluctuating": .fluctuating,
+      "fixedAndFluctuating": .fixedAndFluctuating
+    ]
+
+    init?(_ value: String) {
+        guard let breedType = BreedType.breedTypeMap[value] else {
+        return nil
+    }
+        self = breedType
+    }
+
+    var description: String {
+        return BreedType.breedTypeMap.first { $0.value == self}?.key ?? ""
+    }
+}

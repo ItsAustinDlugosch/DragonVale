@@ -87,7 +87,7 @@ class CSVManager: Writable {
             return !primaryElements.isEmpty ? primaryElements : nil
         }
         
-        // There must be 93 parameters to initialize a Dragonarium
+        // There must be 93 parameters per Dragon to initialize a Dragonarium
         let dragonariumParametersCount = 93
         guard parameters.count == dragonariumParametersCount else {
         print("Cannot create dragons from unexpected parameter count of \(parameters.count)")
@@ -118,31 +118,30 @@ class CSVManager: Writable {
         }
 
             let breedAvailability = BreedAvailability(data[lineIndex][2])
-            let breedComponentsElements = [DragonElement(data[lineIndex][3]),
-                                           DragonElement(data[lineIndex][4]),
+            let breedType = BreedType(data[lineIndex][3])
+            let breedComponentsElements = [DragonElement(data[lineIndex][4]),
                                            DragonElement(data[lineIndex][5]),
                                            DragonElement(data[lineIndex][6]),
-                                           DragonElement(data[lineIndex][7])].compactMap {$0}
-            let breedComponentsDragons = Set<DragonInstance>([DragonInstance(data[lineIndex][8], PrimaryElement(data[lineIndex][9])),
-                                                              DragonInstance(data[lineIndex][10], PrimaryElement(data[lineIndex][11]))].compactMap {$0})
-            let specialComponentsTime = data[lineIndex][16] != "" ? data[lineIndex][15] : nil
-            let specialComponentsWeather = data[lineIndex][17] != "" ? data[lineIndex][16] : nil
-            let specialComponentsCave = data[lineIndex][18] != "" ? data[lineIndex][17] : nil
-            let specialComponentRiftTrait = PrimaryElement(data[lineIndex][13])
+                                           DragonElement(data[lineIndex][7]),
+                                           DragonElement(data[lineIndex][8])].compactMap {$0}
+            let breedComponentsDragons = Set<DragonInstance>([DragonInstance(data[lineIndex][9], PrimaryElement(data[lineIndex][10])),
+                                                              DragonInstance(data[lineIndex][11], PrimaryElement(data[lineIndex][12]))].compactMap {$0})
+            let specialComponentsTime = CaveTime(rawValue: data[lineIndex][16])
+            let specialComponentsWeather = CaveWeather(rawValue: data[lineIndex][17])
+            let specialComponentsCave = Cave(rawValue: data[lineIndex][18])
+            let specialComponentRiftTrait = PrimaryElement(data[lineIndex][14])
             let specialComponentsRiftTraits = specialComponentRiftTrait != nil ? Set<PrimaryElement>([specialComponentRiftTrait!]) : nil
-            let specialComponentsOppositeElements: Set<PrimaryElement>? = dragonElementsToPrimaryElements(parseDragonElements(data[lineIndex][14]))
-            let breedComponentsSpecialComponents = SpecialBreedComponents(riftAlignment: PrimaryElement(data[lineIndex][12]),
-                                                                          riftTraits: specialComponentsRiftTraits,
-                                                                          oppositeElements: specialComponentsOppositeElements,
+            let breedComponentsSpecialComponents = SpecialBreedComponents(riftAlignment: PrimaryElement(data[lineIndex][13]),
+                                                                          riftTraits: specialComponentsRiftTraits,                             
                                                                           minElementCount: Int(data[lineIndex][15]),
                                                                           time: specialComponentsTime,
                                                                           weather: specialComponentsWeather,
                                                                           cave: specialComponentsCave)
             let breedRequirements = BreedComponents(elements: breedComponentsElements,
-                                                  dragons: breedComponentsDragons,
-                                                  specialRequirements: breedComponentsSpecialComponents)
+                                                    dragons: breedComponentsDragons,
+                                                    specialRequirements: breedComponentsSpecialComponents)
             // Dragons must have a breedTime
-            guard let totalSeconds = Int(data[lineIndex][19]) else {            
+            guard let totalSeconds = Int(data[lineIndex][19]) else {
             print("Unexpected time of \(data[lineIndex][19]); line \(lineIndex + 2)")
             return nil
         }
@@ -151,20 +150,21 @@ class CSVManager: Writable {
             let ownZeroBreedPercentage = Float(data[lineIndex][21])
             let ownOneBreedPercentage = Float(data[lineIndex][22])
             let ownTwoBreedPercentage = Float(data[lineIndex][23])
-            let normalSingleClonePercentage = Float(data[lineIndex][24])
-            let normalDoubleClonePercentage = Float(data[lineIndex][25])
-            let socialSingleClonePercentage = Float(data[lineIndex][26])
-            let socialDoubleClonePercentage = Float(data[lineIndex][27])
-            let riftSingleClonePercentage = Float(data[lineIndex][28])
-            let riftDoubleClonePercentage = Float(data[lineIndex][29])
+            let normalSingleClonePercentage = Float(data[lineIndex][24]) ?? 0.1
+            let normalDoubleClonePercentage = Float(data[lineIndex][25]) ?? 0.3
+            let socialSingleClonePercentage = Float(data[lineIndex][26]) ?? 0.1
+            let socialDoubleClonePercentage = Float(data[lineIndex][27]) ?? 0.3
+            let riftSingleClonePercentage = Float(data[lineIndex][28]) ?? 0.1
+            let riftDoubleClonePercentage = Float(data[lineIndex][29]) ?? 0.3
             let breedInformation: BreedInformation?
             if let breedAvailability = breedAvailability,
+               let breedType = breedType,
                let elements = elements {
                 breedInformation = BreedInformation(breedAvailability: breedAvailability,
+                                                    breedType: breedType,
                                                     breedRequirements: breedRequirements,
                                                     breedTime: breedTime,
-                                                    elements: elements,
-                                                    ownZeroBreedPercentage: ownZeroBreedPercentage,
+                                                    elements: elements,                                                                                                                                                                                                                                                                                                                                                                     ownZeroBreedPercentage: ownZeroBreedPercentage,
                                                     ownOneBreedPercentage: ownOneBreedPercentage,
                                                     ownTwoBreedPercentage: ownTwoBreedPercentage,
                                                     normalSingleClonePercentage: normalSingleClonePercentage,
@@ -172,27 +172,28 @@ class CSVManager: Writable {
                                                     socialSingleClonePercentage: socialSingleClonePercentage,
                                                     socialDoubleClonePercentage: socialDoubleClonePercentage,
                                                     riftSingleClonePercentage: riftSingleClonePercentage,
-                                                    riftDoubleClonePercentage: riftDoubleClonePercentage) 
+                                                    riftDoubleClonePercentage: riftDoubleClonePercentage)
             } else {
                 breedInformation = nil
             }
             let visibleElements = parseDragonElements(data[lineIndex][30])
             let evolutionDragonName = data[lineIndex][31] != "" ? data[lineIndex][30] : nil
             guard let isRiftable = Bool(data[lineIndex][32]) else {
-            print("Unexpected isRiftable of \(data[lineIndex][32]) on line \(lineIndex + 2)")
-            return nil
-        }
+                print("Unexpected isRiftable of \(data[lineIndex][32]) on line \(lineIndex + 2)")
+                return nil
+            }
             guard let isElderable = Bool(data[lineIndex][33]) else {
-            print("Unexpected isElderable of \(data[lineIndex][33]) on line \(lineIndex + 2)")
-            return nil
-        }
+                print("Unexpected isElderable of \(data[lineIndex][33]) on line \(lineIndex + 2)")
+                return nil
+            }
             let earnGold = Float(data[lineIndex][34])
             let earnEtherium = Int(data[lineIndex][35])
             let earnGem = Int(data[lineIndex][36])
             let magicCost = Int(data[lineIndex][37])
-            let eventSection = Int(data[lineIndex][38])           
+            let eventSection = Int(data[lineIndex][38])
             let requiredTrait = PrimaryElement(data[lineIndex][39])
             let quest = data[lineIndex][40] != "" ? data[lineIndex][40] : nil
+
 
             dragons.append(Dragon(name: name, rarity: rarity,
                                   visibleElements: visibleElements, requiredTrait: requiredTrait,

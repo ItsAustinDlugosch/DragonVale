@@ -9,16 +9,16 @@ extension Array where Element == DragonElement {
         return counts
     }
     
-    static func + (lhs: Array<DragonElement>, rhs: Array<DragonElement>) -> Array<DragonElement> {
-        let lhsCounts = lhs.countOccurrences()
-        let rhsCounts = rhs.countOccurrences()
+    func maxCountOfElements(with other: Array<DragonElement>) -> Array<DragonElement> {
+        let selfCounts = self.countOccurrences()
+        let otherCounts = other.countOccurrences()
         
         // Union of all unique elements from both arrays
-        let allKeys = Set<DragonElement>(lhsCounts.keys).union(rhsCounts.keys)
+        let allKeys = Set<DragonElement>(selfCounts.keys).union(otherCounts.keys)
         
         var combined: [DragonElement] = []
         for key in allKeys {
-            let maxCount = Swift.max(lhsCounts[key] ?? 0, rhsCounts[key] ?? 0)
+            let maxCount = Swift.max(selfCounts[key] ?? 0, otherCounts[key] ?? 0)
             combined.append(contentsOf: Array(repeating: key, count: maxCount))
         }
         
